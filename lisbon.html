@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+   <title>RECOMB 2010</title>
+   <script src="http://www.google.com/jsapi?key=ABQIAAAA3Mb3buLF_NHBWQzevVJV2BTOd5Vsqkfq_MPuRWBSq1vAwZeVhRQoD_OUGVfFOSCPn_UHK5J91clW1w" type="text/javascript"></script>
+   <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+   
+   <script language="javascript" src="jquery.tweet.js" type="text/javascript"></script> 
+   <script type='text/javascript'>
+
+		$(document).ready(function(){
+		
+    		$("#dim").css("height", $(document).height());
+    		
+    		$(".close").click(function(){
+    			$("#dim").fadeOut();
+    			return false;
+			});
+			
+		
+		});
+		
+		$(window).bind("resize", function(){
+		 	$("#dim").css("height", $(window).height());
+		});
+
+		$(window).load(function () {
+		var isloaded=0
+		if (document.cookie.indexOf("isloaded")==-1){
+		// run code
+		$("#dim").fadeIn();
+		document.cookie="isloaded=1"
+		return false;
+		}
+		});
+
+     
+   $(document).ready(function(){
+       $(".tweet").tweet({
+	 username: "recomb2010",
+	     join_text: "auto",
+	     avatar_size: 32,
+	     count: 2,
+	     loading_text: "loading tweets..."
+	     });
+     });
+</script> 
+
+<script type = "text/javascript" src = "jquery.cyclic-fade.js"></script>
+<script type = "text/javascript" >
+	
+
+	$(document).ready(function() {
+
+		// default behavior
+		<!-- $(".blink").cyclicFade(); -->
+		$(".blink").cyclicFade({
+			repeat: 0,
+			params: [
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:2000, opin:1.0},
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:300, opin:0.75},
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:300, opin:1.0}
+			]
+		});
+	});
+	
+	</script>
+
+<link href="jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
+   <link rel="stylesheet" type="text/css" href="style.css" media="all">
+   </head>
+   <body leftmargin="0" topmargin="0" bgcolor="#bbbbbb" marginheight="0" marginwidth="0">
+   <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="800">
+   <tbody>
+   <tr>
+   <td width="600"><a name="top" id="top"><img src="logo.jpg" usemap="#logomap" alt="RECOMB 2010 Logo" border="0" height="250" width="800"></a></td>
+   <map id="logomap" name="logomap">
+
+   <area shape="rect" 
+   coords="79,219,119,229" 
+   alt="Home"
+   href="home.html">
+   <area shape="rect" 
+   coords="139,219,197,229" 
+   alt="Program"
+   href="program.html">
+
+   <area shape="rect" 
+   coords="218,219,261,229" 
+   alt="Travel"
+   href="travel_information.html">
+   <area shape="rect" 
+   coords="280,219,332,229" 
+   alt="Authors"
+   href="authors.html">
+   <area shape="rect" 
+   coords="352,219,433,229" 
+   alt="Registration"
+   href="http://www.esviagens.com/dmc/cong/recomb2010/registration-form_GB.html">
+   <area shape="rect" 
+   coords="453,219,534,229" 
+   alt="Committees"
+   href="committees.html">
+   <area shape="rect" 
+   coords="554,219,606,229" 
+   alt="Contact"
+   href="contact.html">
+   <area shape="rect" 
+   coords="627,219,736,229" 
+   alt="Accommodation"
+   href="http://www.esviagens.com/dmc/cong/recomb2010/index.html">
+   </map>
+   </tr>
+
+
+   <!-- <div id="dim"> -->
+   <!--   <div class="msgbox"> -->
+   <!--     <a class="close" href="#" ><img src="close.jpg"/></a> -->
+   <!--     <div class="regulartext">	     -->
+   <!-- 	 <h3>Conference rescheduling notice</h3> -->
+   <!-- 	 <p>Tuesday, April 20<span class="super">th</span>, 11:59PM</p>				     -->
+   <!-- 	 <p>The date of the RECOMB-2010 conference was moved to <b>August 12-15<span class="super">th</span></b>.</p> -->
+   <!-- 	 <p>Even though Lisbon airport remains open, many people will be facing significant difficulties -->
+   <!-- 	 to travel here, because of connections in central Europe. Many more will probably -->
+   <!-- 	 decide to cancel the trip, independently of the airport situation, because of all the -->
+   <!-- 	 uncertainty this phenomenon is causing. We do firmly believe that the conditions to -->
+   <!-- 	 organize a successful RECOMB meeting are not in place.</p> -->
+   <!-- 	 <p>The organizing committees have therefore decided that the RECOMB-2010 conference -->
+   <!-- 	 will be rescheduled to the dates of August 12-15<span class="super">th</span>, in Lisbon. All the invited -->
+   <!-- 	 speakers and panelists have agreed to the change, and we expect that all attendees -->
+   <!-- 	 will be able to make the necessary changes in travel arrangements. -->
+   <!-- 	 </p> -->
+   <!-- 	 <p>Your registration fee will, off course, be valid to the changed venue. -->
+   <!-- 	 The organizing committee will take all steps to minimize the inconvenience that -->
+   <!-- 	 results from this change, including the re-booking of the hotels and other reservations -->
+   <!-- 	 you may have made with us.  As you will understand, these are difficult times, and this -->
+   <!-- 	 was a very difficult decision. -->
+   <!-- 	 </p> -->
+   <!-- 	 <p>All requests for cancellation of registration and rebooking or cancellation -->
+   <!-- 	 of the hotels should be sent directly to <a href="mailto:lisboa.congress@topatlantico.pt">lisboa.congress@topatlantico.pt</a>. -->
+   <!-- 	 </p> -->
+	 
+   <!--     </div> -->
+   <!--   </div> -->
+   <!-- </div> --><tr height="600" valign="top">
+  <?php include("./menu_left.php"); ?>
+  <td height="100%" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr>
+      <td width="100%"><table border="0" cellpadding="5" cellspacing="0">
+	<tbody><tr>
+	  <td><img src="transp.gif" height="5" width="1"></td>
+	</tr>
+	<tr>
+	  <td class="menusubtopicheaderfont">About Lisbon</td>
+	</tr>
+	<tr>
+	  <td><div class="regulartext">
+
+	    <p>
+	      RECOMB 2010 will be held in <a href="http://en.wikipedia.org/wiki/Lisbon"><b>Lisbon</b></a>, <a href="http://en.wikipedia.org/wiki/Portugal"><b>Portugal</b></a>, at
+	      the FIL Meeting Centre, located in Parque das Nações,
+	      just by the riverside of the city.  Conference participants will have ample opportunities to take in the beautiful surroundings.
+	    </p>
+	    <img src="lisboa.jpg"  alt="Lisboa" width="100%">
+	    <p>
+	      Situated in the west coast of the country, where the Tagus river meets the Atlantic Ocean, Lisbon is the westernmost capital in mainland
+	      Europe. It is known as the white city, thanks to its unique luminosity. The light, the atmosphere and the climate offer marvelous walks
+	      all over the city. Lisbon is an extremely lively city, with a wealth of cultural events happening every day, and a vibrant nightlife. A huge
+	      selection of restaurants is available, featuring Portuguese and international cuisine. In April the weather is pleasant, mostly with sunny
+	      days and warm temperatures. The city's public transportation system is far-reaching and reliable, and has the Metro (subway) as its
+	      main backbone. Lisbon can be easily reached by daily direct flights from major international cities.
+	    </p>
+	  </div>
+	</td>
+      </tr>
+    </tbody></table>
+    </td>
+    <td><img src="transp.gif" height="1" width="15"></td>
+  </tr>
+</tbody></table></td>
+</tr>
+</tbody></table></td>
+</tr>
+<tr>
+  <td bgcolor="white"><img src="transp.gif" height="4" width="15">
+  </td>
+</tr>
+<tr>
+  <td bgcolor="black"><img src="transp.gif" height="2" width="15">
+  </td>
+</tr>
+</tbody></table>
+</body></html>

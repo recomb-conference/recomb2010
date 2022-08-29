@@ -1,0 +1,55 @@
+
+.menufont { font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-style: normal; font-weight: bold; color:#000000; background:#e2f0f1; }
+.menutopicfont { font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-style: normal; font-weight: bold; color:#ffffff; background:#2250a2; }
+.menusubtopicfont { font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color:#000000; background:#e2f0f1}
+/* .menufont { font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-style: normal; font-weight: bold; color: rgb(255, 255, 255); } */
+/* .menutopicfont { font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-style: normal; font-weight: bold; color: rgb(255, 255, 255); } */
+/* .menusubtopicfont { font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-style: normal; font-weight: normal; color: rgb(0, 0, 0); } */
+.largeregulartext { font-family: Arial,Helvetica,sans-serif; font-size: 15px; font-style: normal; font-weight: normal; color: rgb(0, 0, 0); }
+.regulartext { font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-style: normal; font-weight: normal; color: rgb(0, 0, 0); }
+.regulartextWhite { font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-style: normal; font-weight: normal; color: rgb(255, 255, 255); }
+.regulartextBOLD { font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-style: normal; font-weight: bold; color: rgb(0, 0, 0); }
+.regulartextBOLDBlue { font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-style: normal; font-weight: bold; color: rgb(0, 0, 255); }
+.regulartextBOLDWhite { font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-style: normal; font-weight: bold; color: rgb(255, 255, 255); }
+.redtext { font-family: Arial,Helvetica,sans-serif; font-size: 13px; font-style: normal; font-weight: bold; color: rgb(255, 0, 0); }
+.bigtextblue { font-family: Arial,Helvetica,sans-serif; font-size: 16px; font-style: normal; font-weight: bold; color: rgb(0, 0, 255); }
+.smallregulartext { font-family: Arial,Helvetica,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: rgb(0, 0, 0); }
+.smallregulartextWhite { font-family: Arial,Helvetica,sans-serif; font-size: 11px; font-style: normal; font-weight: normal; color: rgb(255, 255, 255); }
+.smallregulartextBOLD { font-family: Arial,Helvetica,sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: rgb(0, 0, 0); }
+.smallregulartextBOLDWhite { font-family: Arial,Helvetica,sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: rgb(255, 255, 255); }
+.smallregulartextBOLDBlue { font-family: Arial,Helvetica,sans-serif; font-size: 11px; font-style: normal; font-weight: bold; color: rgb(0, 0, 255); }
+.menusubtopicheaderfont { font-family: Arial,Helvetica,sans-serif; font-size: 18px; font-style: normal; font-weight: bold; color:#ffffff; background:#2250a2; }
+.headerfont { font-family: Arial,Helvetica,sans-serif; font-size: 18px; font-style: normal; font-weight: bold; color: rgb(0, 0, 0); }
+.headerfontbig { font-family: Arial,Helvetica,sans-serif; font-size: 36px; font-style: normal; font-weight: bold; color: rgb(0, 0, 0); }
+
+/* ::::: null ::::: */
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.tallpar { line-height: 1.5 }
+
+.super {
+	position: relative;
+	bottom: 0.5em;
+	font-size: 0.8em;
+}
+
+.msg_head {
+
+}
+.msg_body {
+
+}
+
+/* p { line-height: 1.1 } */
+
+#dim{ position:absolute; top:0; left:0; width:100%; z-index:100; background: url('dim.png'); display:none; text-align:left; }
+.msgbox{ position:fixed; width:400px; height:480px; z-index:200; border:5px solid #222; background: #FFF; top: 20px; left: 480px; padding:5px;
+}
+.msgbox img {border:none; margin:5px;}
+.close{ top:0px; float:right; }
+	    
+.location { color:#ee1c5d; }

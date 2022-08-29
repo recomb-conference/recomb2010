@@ -1,0 +1,420 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+   <title>RECOMB 2010</title>
+   <script src="http://www.google.com/jsapi?key=ABQIAAAA3Mb3buLF_NHBWQzevVJV2BTOd5Vsqkfq_MPuRWBSq1vAwZeVhRQoD_OUGVfFOSCPn_UHK5J91clW1w" type="text/javascript"></script>
+   <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+   
+   <script language="javascript" src="jquery.tweet.js" type="text/javascript"></script> 
+   <script type='text/javascript'>
+
+		$(document).ready(function(){
+		
+    		$("#dim").css("height", $(document).height());
+    		
+    		$(".close").click(function(){
+    			$("#dim").fadeOut();
+    			return false;
+			});
+			
+		
+		});
+		
+		$(window).bind("resize", function(){
+		 	$("#dim").css("height", $(window).height());
+		});
+
+		$(window).load(function () {
+		var isloaded=0
+		if (document.cookie.indexOf("isloaded")==-1){
+		// run code
+		$("#dim").fadeIn();
+		document.cookie="isloaded=1"
+		return false;
+		}
+		});
+
+     
+   $(document).ready(function(){
+       $(".tweet").tweet({
+	 username: "recomb2010",
+	     join_text: "auto",
+	     avatar_size: 32,
+	     count: 2,
+	     loading_text: "loading tweets..."
+	     });
+     });
+</script> 
+
+<script type = "text/javascript" src = "jquery.cyclic-fade.js"></script>
+<script type = "text/javascript" >
+	
+
+	$(document).ready(function() {
+
+		// default behavior
+		<!-- $(".blink").cyclicFade(); -->
+		$(".blink").cyclicFade({
+			repeat: 0,
+			params: [
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:2000, opin:1.0},
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:300, opin:0.75},
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:300, opin:1.0}
+			]
+		});
+	});
+	
+	</script>
+
+<link href="jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
+   <link rel="stylesheet" type="text/css" href="style.css" media="all">
+   </head>
+   <body leftmargin="0" topmargin="0" bgcolor="#bbbbbb" marginheight="0" marginwidth="0">
+   <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="800">
+   <tbody>
+   <tr>
+   <td width="600"><a name="top" id="top"><img src="logo.jpg" usemap="#logomap" alt="RECOMB 2010 Logo" border="0" height="250" width="800"></a></td>
+   <map id="logomap" name="logomap">
+
+   <area shape="rect" 
+   coords="79,219,119,229" 
+   alt="Home"
+   href="home.html">
+   <area shape="rect" 
+   coords="139,219,197,229" 
+   alt="Program"
+   href="program.html">
+
+   <area shape="rect" 
+   coords="218,219,261,229" 
+   alt="Travel"
+   href="travel_information.html">
+   <area shape="rect" 
+   coords="280,219,332,229" 
+   alt="Authors"
+   href="authors.html">
+   <area shape="rect" 
+   coords="352,219,433,229" 
+   alt="Registration"
+   href="http://www.esviagens.com/dmc/cong/recomb2010/registration-form_GB.html">
+   <area shape="rect" 
+   coords="453,219,534,229" 
+   alt="Committees"
+   href="committees.html">
+   <area shape="rect" 
+   coords="554,219,606,229" 
+   alt="Contact"
+   href="contact.html">
+   <area shape="rect" 
+   coords="627,219,736,229" 
+   alt="Accommodation"
+   href="http://www.esviagens.com/dmc/cong/recomb2010/index.html">
+   </map>
+   </tr>
+
+
+   <!-- <div id="dim"> -->
+   <!--   <div class="msgbox"> -->
+   <!--     <a class="close" href="#" ><img src="close.jpg"/></a> -->
+   <!--     <div class="regulartext">	     -->
+   <!-- 	 <h3>Conference rescheduling notice</h3> -->
+   <!-- 	 <p>Tuesday, April 20<span class="super">th</span>, 11:59PM</p>				     -->
+   <!-- 	 <p>The date of the RECOMB-2010 conference was moved to <b>August 12-15<span class="super">th</span></b>.</p> -->
+   <!-- 	 <p>Even though Lisbon airport remains open, many people will be facing significant difficulties -->
+   <!-- 	 to travel here, because of connections in central Europe. Many more will probably -->
+   <!-- 	 decide to cancel the trip, independently of the airport situation, because of all the -->
+   <!-- 	 uncertainty this phenomenon is causing. We do firmly believe that the conditions to -->
+   <!-- 	 organize a successful RECOMB meeting are not in place.</p> -->
+   <!-- 	 <p>The organizing committees have therefore decided that the RECOMB-2010 conference -->
+   <!-- 	 will be rescheduled to the dates of August 12-15<span class="super">th</span>, in Lisbon. All the invited -->
+   <!-- 	 speakers and panelists have agreed to the change, and we expect that all attendees -->
+   <!-- 	 will be able to make the necessary changes in travel arrangements. -->
+   <!-- 	 </p> -->
+   <!-- 	 <p>Your registration fee will, off course, be valid to the changed venue. -->
+   <!-- 	 The organizing committee will take all steps to minimize the inconvenience that -->
+   <!-- 	 results from this change, including the re-booking of the hotels and other reservations -->
+   <!-- 	 you may have made with us.  As you will understand, these are difficult times, and this -->
+   <!-- 	 was a very difficult decision. -->
+   <!-- 	 </p> -->
+   <!-- 	 <p>All requests for cancellation of registration and rebooking or cancellation -->
+   <!-- 	 of the hotels should be sent directly to <a href="mailto:lisboa.congress@topatlantico.pt">lisboa.congress@topatlantico.pt</a>. -->
+   <!-- 	 </p> -->
+	 
+   <!--     </div> -->
+   <!--   </div> -->
+   <!-- </div> --><script type="text/javascript">
+    $(document).ready(function(){
+	//hide the all of the element with class msg_body
+	$(".msg_body").hide();
+	//toggle the componenet with class msg_body
+	$(".msg_head").click(function(){
+	    $(this).next(".msg_body").slideToggle(600);
+	});
+    });
+</script>
+<tr height="600" valign="top">
+    <td><table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tbody><tr>
+    <td valign="top"><table border="0" cellpadding="15" cellspacing="0" width="100%">
+      <tbody>
+
+
+
+	<tr>
+	  <td><table border="0" cellpadding="5" cellspacing="0" width="150">
+	    <tbody><tr>
+	      <td class="menutopicfont" nowrap="nowrap" width="77"><img src="transp.gif" height="1" width="5">Highlights<img src="transp.gif" height="1" width="5"></td>
+	    </tr>
+
+	    <tr>
+	      <td class="menusubtopicfont" nowrap="nowrap" width="100%"><img src="transp.gif" alt="" height="1" width="7">· <a indepth="true" href="keynote.html" class="menusubtopicfont">Keynote Speakers</a><img src="transp.gif" border="0" height="1" width="7"></td> </tr>
+	      <tr>
+		<td class="menusubtopicfont" nowrap="nowrap" width="100%"><img src="transp.gif" alt="" height="1" width="7">· <a indepth="true" href="accepted_papers.html" class="menusubtopicfont">Accepted Papers</a><img src="transp.gif" border="0" height="1" width="7"></td> </tr>
+	      	<tr>
+	      	<td class="menusubtopicfont" nowrap="nowrap" width="100%"><img src="transp.gif" alt="" height="1" width="7">· <a indepth="true" href="accepted_posters.html" class="menusubtopicfont">Accepted Posters</a>: <br><img src="transp.gif" alt="" height="1" width="7"> ·<i><a href="accepted_posters#sessionA">Session A </a><br><img src="transp.gif" alt="" height="1" width="7"> ·<a href="accepted_posters#sessionB">Session B</a></i><img src="transp.gif" border="0" height="1" width="7"></td>
+	      </tr>
+
+	      </tbody></table>
+	    </td>
+	  </tr>
+
+
+
+	  <tr>
+	    <td><table border="0" cellpadding="5" cellspacing="0" width="150">
+	      <tbody><tr>
+		<td class="menutopicfont" nowrap="nowrap" width="77"><img src="transp.gif" height="1" width="5">Program<img src="transp.gif" height="1" width="5"></td>
+	      </tr>
+	      <!-- <tr> -->
+	      <!--                 <td class="menusubtopicfont" nowrap="nowrap" width="100%"><img src="transp.gif" alt="" height="1" width="7">· <a indepth="true" href="program.html" class="menusubtopicfont">Full Program<img src="transp.gif" border="0" height="1" width="7"></a></td> </tr> -->
+
+	      <!-- <tr> -->
+	      <!-- 	<td class="menusubtopicfont" nowrap="nowrap" width="100%"><img src="transp.gif" alt="" height="1" width="7">· <a indepth="true" href="program#saturday" class="menusubtopicfont">Thursday August 12<img src="transp.gif" border="0" height="1" width="7"></a></td> </tr> -->
+		<tr>
+		  <td class="menusubtopicfont" nowrap="nowrap" width="100%"><img src="transp.gif" alt="" height="1" width="7">· <a indepth="true" href="program#thursday" class="menusubtopicfont">Thursday August 12<img src="transp.gif" border="0" height="1" width="7"></a></td> </tr>
+		  <tr>
+		    <td class="menusubtopicfont" nowrap="nowrap" width="100%"><img src="transp.gif" alt="" height="1" width="7">· <a indepth="true" href="program#friday" class="menusubtopicfont">Friday August 13<img src="transp.gif" border="0" height="1" width="7"></a></td> </tr>
+		    <tr>
+		      <td class="menusubtopicfont" nowrap="nowrap" width="100%"><img src="transp.gif" alt="" height="1" width="7">· <a indepth="true" href="program#saturday" class="menusubtopicfont">Saturday August 14<img src="transp.gif" border="0" height="1" width="7"></a></td> </tr>
+		      <tr>
+			<td class="menusubtopicfont" nowrap="nowrap" width="100%"><img src="transp.gif" alt="" height="1" width="7">· <a indepth="true" href="program#sunday" class="menusubtopicfont">Sunday August 15<img src="transp.gif" border="0" height="1" width="7"></a></td> </tr>
+
+			<tr>
+			  <td class="menusubtopicfont" nowrap="nowrap" width="100%"><img src="transp.gif" alt="" height="1" width="7">· <a href="recomb2010_program.pdf">PDF version</a></td>
+			</tr>
+			<tr>
+			  <td class="menusubtopicfont" nowrap="nowrap" width="100%"><img src="transp.gif" alt="" height="1" width="7">· <a href="calendar.html">Google Calendar</a></td>
+			</tr>
+
+
+
+		      </tbody></table></td>
+		    </tr>
+
+
+		  </tbody></table></td>
+  
+      <td height="100%" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr>
+	  <td width="100%"><table border="0" cellpadding="5" cellspacing="0" width="100%">
+	    <tbody><tr>
+	      <td><img src="transp.gif" height="5" width="1"></td>
+	    </tr>
+	    <tr>
+	      <td class="menusubtopicheaderfont"><img src="transp.gif" border="0" height="1" width="7">Keynote Speakers</td>
+	    </tr>
+
+	    <tr>
+	      <td><div id="cecilia_arraiano" class="regulartext"><br>
+
+		<table border="0" cellpadding="0" cellspacing="0">
+		  <tr>
+		    <td>
+		      <img src="cecilia_arraiano_scaled.jpeg" width="70" /><img 
+		      src="transp.gif" width="10" height="1" border="0" />
+		    </td>
+		    <td valign="top"><div class="largeregulartext">
+		      <b>Post-Transcriptional Control of Gene Expression: RNA Dictates the Rules!</b><br>Cecília Arraiano, Instituto de Tecnologia Química e Biológica, Universidade Nova de Lisboa, Portugal</div>
+		    </td>
+
+		  </tr>
+		</table>
+		<p class="msg_head"><b>&raquo; Abstract (click to toggle view)</b></p>
+		<div class="msg_body"><p>Many biological processes can not be fully understood without detailed knowledge of RNA metabolism. RNA does more than simply serve an intermediary function and many RNA molecules are the principal actors in largely unexplored networks of gene regulation. RNA is full of surprises and in 2006 two Nobel prizes were attributed in the field of RNA. Unknown classes of noncoding RNAs have been discovered. MicroRNAs (miRNA) and small interfering RNAs (siRNA) have been shown to bind and control their target mRNAs. Chemically synthesized siRNA are showing to be a ground-breaking tool for analysis of gene function and gene therapy.</p>
+		<p>RNA stability is very important for differential gene expression. RNAs differ in their susceptibility to degradation by ribonucleases, due in part to their different sequence and structure. Moreover, there are surveillance mechanisms that degrade aberrant RNAs. Mutants deficient in one or more ribonucleases have played a primordial role in the study of the decay processes. The rates of decay can be altered in response to stress and physiological signals. RNA metabolism shows greater similarities between prokaryotic and eukaryotic systems than was generally believed. For instance, in both systems poly(A) tails of mRNAs play major roles in the control of mRNA decay. It is important to study RNA metabolism in different systems, to allow universally conserved features to be recognized.</p>
+		<p>The maturation, turnover and quality control of RNA is performed by many different classes of ribonucleases. Ribonuclease II (RNase II) intervenes in all of these fundamental processes, degrading single-stranded RNA from its 3' end and releasing ribonucleoside 5'-monophosphates. This exoribonuclease can act independently or as a component of the exosome, an essential RNA-degrading multiprotein complex. RNase II-like enzymes are found in all three domains of life. RNase II is often essential for growth, can be developmentally regulated, and mutations in its gene have been linked with abnormal chloroplast biogenesis, mitotic control and cancer.</p>
+		<p>We have participated in the resolution of the structures of both the ligand-free and RNA-bound forms of <em>Escherichia coli</em> RNase II. The structural and biochemical analysis has helped explaining the activity of these enzymes. The 3D model proposed showed the dynamics of the RNase II-mediated RNA degradation and opened an exciting new chapter in the comprehension of RNA metabolism. We have constructed mutants of RNase II protein and RNase II-hybrid proteins with domains from other exoribonucleases. We have confirmed the role of specific aminoacids, we have identified the residue responsible for setting the end product, and we have constructed a “super-enzyme”. Computational analysis has given interesting data regarding the evolution of the RNase II family of enzymes. In particular we are focusing our studies in the enzymes that have been crucial in defining the properties of the exosome (namely the Rrp44 /Dis3 yeast and human homologues), in enzymes that we have already been studying (namely <em>E. coli</em> RNase R and <em>Drosophila</em> Tazman), and enzymes that can be important in pathogenesis (RNase II from <em>Salmonella thyphimurium</em> and <em>Streptococcus pneumoniae</em>). We have also constructed mutants to study the role of RNase II in the degradation of mRNAs and small noncoding RNAs. We also want to understand its role in the surveillance mechanisms that degrade aberrant RNAs for RNA quality control. The biological significance of the RNase II family of enzymes will be discussed.</p></div>
+		<p><b>Cecília Arraiano</b> is a Principal Investigator at Instituto de Tecnologia Química e Biológica, after having had appointments at the Universities of Maryland and Naples. She received her B.Sc. in Biology from the University of Lisbon and a PhD in Genetics from the University of Georgia. She was a Fulbright-Hays Scholar and was recently elected to serve as an EMBO member.</p>
+	      </div></td>
+	    </tr>
+
+	    <tr>
+	      <td><div id="david_bartel" class="regulartext"><br>
+
+		<table border="0" cellpadding="0" cellspacing="0">
+		  <tr>
+		    <td>
+		      <img src="bartel_scaled.jpg" width="70" /><img 
+		      src="transp.gif" width="10" height="1" border="0" />
+		    </td>
+		    <td valign="top"><div class="largeregulartext">
+		      <b>MicroRNAs and other small regulatory RNAs</b><br>David Bartel, Whitehead Institute / Howard Hughes Medical Institute / MIT, USA</div>
+		    </td>
+
+		  </tr>
+		</table>
+		<p class="msg_head"><b>&raquo; Abstract (click to toggle view)</b></p>
+		<div class="msg_body"><p>We have been using molecular and computational approaches to find small regulatory
+		RNAs, identify the messages that they repress, and then investigate functions and
+		mechanisms of these regulatory interactions during development, oncogenesis, and other
+		biological processes. Much of our focus has been on microRNAs, which are small
+		endogenous RNAs that pair to sites in mRNAs, usually in mRNA 3'UTRs, to directed
+		posttranscriptional repression of these targets. Metazoan miRNAs dampen the expression
+		of many mRNA targets to optimize expression, reinforce cell identity, and sharpen
+		developmental transitions. Indeed, most human mRNAs are conserved targets of
+		microRNAs.</p>
+		<p>One of the major limitations in assigning miRNAs to their regulatory targets has been that
+		mRNA 3'UTRs often are not annotated or they are incorrectly annotated, with little
+		information on alternative UTR isoforms. To address this limitation, we have developed a
+		high-throughput method to specifically sequence the genomically templated 3' ends of
+		polyadenylated RNAs. Applying this method, called 3P-Seq, to C. elegans mRNAs
+		provided new or corrected annotations for most of the C. elegans 3'UTRs. This information
+		enabled a fresh look at miRNA targeting in nematodes, which revealed important
+		differences between target recognition in nematodes compared to that of flies and
+		vertebrates. Analysis of our 3P-Seq results also provided many insights into mRNA 3'-end
+		formation in nematodes and how it appears to have facilitated genome compaction. We
+		expect that 3P-Seq will also be useful for studies in other species. For example, in human
+		cells the ability to reliably identify alternative UTR isoforms will shed light on why
+		microRNAs (and other posttranscriptional processes) regulate mRNAs of certain genes in
+		some cell types but not in others, a phenomenon recently associated with cell proliferation
+		and oncogenic transformation.</p>
+		</div>
+		<p><b>David Bartel</b> is an HHMI investigator and is also Professor of Biology at the Massachusetts Institute of Technology, Member of the Whitehead Institute, and Molecular Biologist at Massachusetts General Hospital, Boston. He received his B.A. in Biology from Goshen College, and a PhD in Virology from Harvard University. He is the recipient of the AAAS Newcomb Cleveland Prize, the Institut de France Grand Prix Scientifique de la Fondation Louis D. and the National Academy of Sciences Award in Molecular Biology.</p>
+	      </div></td>
+	    </tr>
+
+
+	    <tr>
+	      <td><div id="isaac_kohane" class="regulartext"><br>
+
+		<table border="0" cellpadding="0" cellspacing="0">
+		  <tr>
+		    <td>
+		      <img src="kohane_scaled.jpg" width="70" /><img 
+		      src="transp.gif" width="10" height="1" border="0" />
+		    </td>
+		    <td valign="top"><div class="largeregulartext">
+		      <b>Preventing the incidentalome and personalizing medicine through instrumentation of the healthcare enterprise</b><br>Isaac Kohane, Harvard Medical School, USA</div>
+		    </td>
+
+		  </tr>
+		</table>
+		<p class="msg_head"><b>&raquo; Abstract (click to toggle view)</b></p>
+		<div class="msg_body">The promise of genomic medicine includes personalizing diagnoses and therapies, if not to the level of the individual, then to a small population of individuals with shared pathophysiology. The availability of commodity-priced genome-scale assays has led to increased popular demand and expectation for the application of these assays to clinical care. Yet there are several structural impediments to the safe practice of genomic medicine, all of which fall within the domain of biomedical informatics. These include: 
+		<ol type="A">
+		  <li> the growth of the Incidentalome, the tsunami of false positives that inevitably result from application of massively parallel tests;
+		  <li> the lack of systematic interpretations of genomic tests and evaluation of their performance;
+		  <li> the absence of a mechanism to transfer the growing knowledge of genomics to the physician at the point of care.
+		</ol>
+		Fortunately there are several developments in biomedical informatics that address these impediments. These include:
+		<ol>
+		  <li> the industrialization of measurement of phenotype, sample acquisition and genotype across large populations seen in the course of clinical care as exemplified by the i2b2 infrastructure (see <a href="http://www.i2b2.org">www.i2b2.org</a>);
+		  <li> integration of knowledge from the bibliome into clinical care;
+		  <li> including patients as collaborators in the research enterprise.
+		</ol></div>
+
+		<p><b>Isaac Kohane</b> is the director of the Children's Hospital Informatics Program and is the Henderson Professor of Pediatrics and Health Sciences and Technology at Harvard Medical School (HMS). He is also co-director of the HMS Center for Biomedical Informatics and Director of the HMS Countway Library of Medicine. Dr. Kohane is a founder of the Center for Outcomes and Policy Research at the Dana-Farber Cancer Institute, founder and Associate Director for the Center for Genetic Epidemiology at Harvard Medical School. He is a Fellow of the American College of Medical Informatics and of the Society for Pediatric Research. Isaac Kohane received his MD from Boston University School of Medicine. He completed an internship, residency, and fellowship at Children's Hospital Boston.</p>
+	      </div></td>
+	    </tr>
+
+
+	    <tr>
+	      <td><div id="phil_kapranov" class="regulartext"><br>
+
+		<table border="0" cellpadding="0" cellspacing="0">
+		  <tr>
+		    <td>
+		      <img src="PhilKapranov_Pic_cropped.jpg" width="70" /><img 
+		      src="transp.gif" width="10" height="1" border="0" />
+		    </td>
+		    <td valign="top"><div class="largeregulartext">
+		      <b>Unraveling transcriptome complexities using single-molecule sequencing</b><br>Phil Kapranov, Helicos BioSciences Corporation, Cambridge, MA, USA</div>
+		    </td>
+
+		  </tr>
+		</table>
+		<p class="msg_head"><b>&raquo; Abstract (click to toggle view)</b></p>
+		<div class="msg_body"><p>Discovery of multiple classes of non-coding RNAs (ncRNAs), both long (>200 nt) and short (<200nt), in many biological systems has transformed our understanding of genome complexity in recent years and suggest new paradigms of genome regulation.  However, what fraction of all cellular RNA consists of ncRNAs  and what fraction of the genome is utilized to produce them remain controversial. Far more than a bookkeeping issue, the degree to which this so called “dark matter transcription” is present has important implications regarding its biologic function, and the general architecture of genome regulation. In particular, elucidation of how ncRNAs regulate genome function will be compromised if they are dismissed as ‘transcriptional noise’.</p>
+<p>Single-molecule sequencing (SMS) is an ideal tool to assess and accurately quantify transcriptome complexity of a cell. When applied to the human transcriptome, it revealed that the relative mass of non-coding RNAs as a proportion of all non-ribosomal non-mitochondrial human RNA can be greater than that of protein encoding transcripts and this complexity is lost in polyA-selected RNA. We further show the presence of a large number of very long abundantly-transcribed regions (e.g., 100’s of kb) in the genome’s intergenic space and show that these regions tend to associate with neoplastic transformation and their overlap with ncRNAs previously found in normal human embryonic tissues raises an interesting hypothesis as to function of the former in the early development and neoplastic transformation.  Also, SMS could reveal a class of novel small RNAs antisense to 3’ ends of mRNAs indicative of a massive RNA-copying occurring in human cells. The presentation will provide the details of these results and discuss their implications for our understanding of the biology of cell.</p>
+</div>
+
+		<p><b>Philipp Kapranov</b> is a principal Genomics Scientist at Helicos BioSciences. He has a BSc. in Microbial Biotechnology from The Kiev Institute of Food Industry, and a PhD in Genetics from Michigan State University, during which he was a recipient of the Anton Lang Research Excellence Award. After his research training he joined Affymetrix, first as a post-doctoral fellow and then as a staff scientist.</p>
+	      </div></td>
+	    </tr>
+
+
+	    <tr>
+	      <td><div id="nortbert_perrimon" class="regulartext"><br>
+
+		<table border="0" cellpadding="0" cellspacing="0">
+		  <tr>
+		    <td>
+		      <img src="perrimon_scaled.jpg" width="80" /><img 
+		      src="transp.gif" width="10" height="0" border="0" />
+		    </td>
+		    <td valign="top"><div class="largeregulartext">
+		      <b>Global analyses of signal transduction pathways</b><br>Norbert Perrimon, Harvard Medical School / Howard Hughes Medical Institute, USA</div>
+		    </td>
+
+		  </tr>
+		</table>
+		<p class="msg_head"><b>&raquo; Abstract (click to toggle view)</b></p>
+		<div class="msg_body">We are using high-throughput genome-wide RNA interference (RNAi) screens to assign phenotypic signatures, or phenoprints, to every gene in the fruit fly <i>Drosophila melanogaster</i>. These screens are based on a diverse set of cell-based assays, which rely on transcriptional analyses, protein modification, and high-content imaging to provide a wealth of phenotypic information. With these phenoprints, global correlations can be drawn to other large-scale datasets, such as transcriptional profiling and interactome data, in order to derive the network graphs critical for data mining. In addition, our group is taking a quantitative approach to elucidate the organization of signaling networks, using a combination of RNAi, gene expression profiling and Mass Spectrometry approaches.</div>
+
+		<p><b>Norbert Perrimon</b> is an HHMI investigator, Professor of Genetics at Harvard Medical School and Associate Member of the Broad Institute of Harvard University and the Massachusetts Institute of Technology. He received is Maîtrise in Biochemistry from the University of Paris, and his PhD in Developmental Genetics from the University of Paris. He is a member of the American Academy of Arts and Sciences and the American Association for the Advancement of Science. He is a Lucille P. Markey Scholar in Biomedical Sciences, and a recipient of the George W. Beadle Medal for the Genetics Society of America.</p>
+	      </div></td>
+	    </tr>
+
+
+
+	    <tr>
+	      <td><div id="mona_singh" class="regulartext"><br>
+
+		<table border="0" cellpadding="0" cellspacing="0">
+		  <tr>
+		    <td>
+		      <img src="ms.jpg" width="70"/><img 
+		      src="transp.gif" width="10" height="0" border="0" />
+		    </td>
+		    <td valign="top"><div class="largeregulartext">
+		      <b>Towards the dynamic interactome</b><br>Mona Singh, Princeton University, USA</div>
+		    </td>
+
+		  </tr>
+		</table>
+		<p class="msg_head"><b>&raquo; Abstract (click to toggle view)</b></p>
+		<div class="msg_body">Large-scale cellular networks have been determined for a wide range of organisms across the evolutionary spectrum. Computational analyses of these networks have proven to be an important means for uncovering insights into cellular organization and functioning. The next frontier in biological network analysis is the development of approaches for inferring the dynamics inherent within known  networks. Indeed, proper cellular functioning requires the precise coordination of a large number of events, and  dynamic molecular interactions play a central role in regulating the functioning of cells and organisms. Thus, identifying the temporal and contextual signals underlying proposed interactions is a crucial part of understanding cellular function.  In this talk, I will highlight recent computational efforts attempting to characterize dynamics from  large-scale biological networks, and suggest promising avenues for future work.</div>
+		<p><b>Mona Singh</b> is an Associate Professor at Princeton University, with appointments in the Computer Science Department and the Lewis-Sigler Institute for Integrative Genomics. She has a B.A. in Computer Science from Harvard University, and a PhD in Computer Science from MIT. She did postdoctoral training at the Whitehead Institute for Biomedical Research. </p>
+	      </div></td>
+	    </tr>
+
+
+	  </tbody></table></td>
+	  <td><img src="transp.gif" height="1" width="15"></td>
+	</tr>
+      </tbody></table></td>
+    </tr>
+  </tbody></table></td>
+</tr>
+<tr>
+  <td bgcolor="white"><img src="transp.gif" height="4" width="15">
+  </td>
+</tr>
+<tr>
+  <td bgcolor="black"><img src="transp.gif" height="2" width="15">
+  </td>
+</tr>
+</tbody></table>
+</body></html>

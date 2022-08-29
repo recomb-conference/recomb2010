@@ -1,0 +1,1349 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>RECOMB2010 - HOTEL & TOURS BOOKING FORM</title>
+    <link href="css/RECOMB 2010.css" rel="stylesheet" type="text/css" />
+    <link href="css/form.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/calendar-win2k-cold-1.css" title="win2k-cold-1" />
+    <script type="text/javascript" src="javascript/calendar.js"></script>
+    <script type="text/javascript" src="javascript/calendar-en.js"></script>
+    <script type="text/javascript" src="javascript/calendar-setup.js"></script>
+    <script type="text/javascript" src="javascript/doc-man.js"></script>    
+    <script type="text/javascript" src="javascript/form-val-en.js"></script>     
+</head>
+
+<body onload="disableInvalidRegistrationDates();">
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td><img src="logo.jpg" width="800" height="250" border="0" usemap="#Map" />
+      <map name="Map" id="Map"><area shape="rect" coords="133,215,248,234" href="index.html" />
+        <area shape="rect" coords="57,215,104,233" href="home.html" />
+      <area shape="rect" coords="276,215,310,237" href="map/map.html" />
+      <area shape="rect" coords="339,214,465,235" href="tours/sightseeingtours.html" />
+      <area shape="rect" coords="493,217,735,236" href="#" /></map></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><table width="800" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="img/spacer.gif" width="30" height="1" /></td>
+        <td valign="top">
+        
+<!-- Top Atlântico Content  -->
+
+<table border="0" cellpadding="5" cellspacing="5" style="width:700px" class="content">
+        <tr>
+            <td class="content">
+                Registration and accommodation are handled by Top Atl&acirc;ntico DMC. 
+                Complete one form for each participant and click "submit". Your registration form 
+                will be automatically sent by e-mail.<br />
+                <br />
+                You can, alternatively, download the printable version available here 
+                (<a  href="RECOMB2010-booking-form_GB.pdf" target="_blank">Registration & Hotel Booking Form</a>), 
+                fill it and send it by fax or mail. Questions or problems related with the registration or accommodation
+                should be directly sent to:<br />
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                <tbody>
+                    <tr>
+                        <td class="content">
+                            <b>Top Atl&acirc;ntico DMC<br />
+                            Congress Department</b><br />
+                            Att: Mr. Vitor Alves<br />
+                            Av. Dom Jo&atilde;o II, Lote 1.16.1 - 1990-083 Lisboa<br />
+                            Portugal<br />
+                            Tel: (+ 351) 218 925 405<br />
+                            Fax: (+ 351) 218 925 406<br />
+                            E-mail: <a  href="mailto:lisboa.congress@topatlantico.pt ">lisboa.congress@topatlantico.pt</a>
+                        </td>
+                        <td>
+                            <a href="http://www.topatlantico.pt" target="_blank">
+                                <img src="img/logo_ta.jpg" width="200" height="43" style="border:0; margin-left:30px" />
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
+            </td>
+        </tr>
+</table>   
+
+<form name="congform" action="formresp_GB.php" method="post" enctype="multipart/form-data" onsubmit="return validate_form();">
+    
+    <table border="0" cellpadding="5" cellspacing="0" style="width:700px" class="content">
+        <tr>
+            <td align="right" class="content">Fields with (<span style="color:Red">*</span>) are mandatory.</td>
+        </tr>
+        <tr>
+            <td class="sectionHeader">
+                <span class="sectionHeader">&nbsp;A - PERSONAL DATA - Please tick-off and fill in</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="content" cellpadding="2">
+                <tbody>
+                    <tr class="content">
+                        <td align="right">Title</td>
+                        <td>&nbsp;</td>
+                        <td>
+                            <select name="title">
+                                <option value="Mr." selected="selected">Mr.</option>
+                                <option value="Mrs.">Mrs.</option>
+                                <option value="Ms.">Ms.</option>
+                                <option value="Dr.">Dr.</option>
+                                <option value="Prof.">Prof.</option>
+                                <option value="Eng.">Eng.</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Last Name</td>
+                        <td><span style="color:Red">&nbsp;*</span></td>
+                        <td><input maxlength="30" size="45" id="surname_required" name="surname_required" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">First Name</td>
+                        <td><span style="color:Red">&nbsp;*</span></td>
+                        <td><input maxlength="30" size="45" id="firstname_required" name="firstname_required" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Institution</td>
+                        <td></td>
+                        <td><input maxlength="80" size="45" name="organization" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Address</td>
+                        <td><span style="color:Red">&nbsp;*</span></td>
+                        <td><input size="45" name="address_required" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">City</td>
+                        <td><span style="color:Red">&nbsp;*</span></td>
+                        <td><input maxlength="30" size="45" name="city_required" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Postal Code</td>
+                        <td><span style="color:Red">&nbsp;*</span></td>
+                        <td><input maxlength="30" size="45" name="postalcode_required" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Country</td>
+                        <td><span style="color:Red">&nbsp;*</span></td>
+                        <td>
+                            <select name="country_required">
+			        <option value="" selected="selected">Please select one</option>
+<option value="Afghanistan">Afghanistan</option> 
+<option value="Albania">Albania</option> 
+<option value="Algeria">Algeria</option> 
+<option value="American Samoa">American Samoa</option> 
+<option value="Andorra">Andorra</option> 
+<option value="Angola">Angola</option> 
+<option value="Anguilla">Anguilla</option> 
+<option value="Antarctica">Antarctica</option> 
+<option value="Antigua and Barbuda">Antigua and Barbuda</option> 
+<option value="Argentina">Argentina</option> 
+<option value="Armenia">Armenia</option> 
+<option value="Aruba">Aruba</option> 
+<option value="Australia">Australia</option> 
+<option value="Austria">Austria</option> 
+<option value="Azerbaijan">Azerbaijan</option> 
+<option value="Bahamas">Bahamas</option> 
+<option value="Bahrain">Bahrain</option> 
+<option value="Bangladesh">Bangladesh</option> 
+<option value="Barbados">Barbados</option> 
+<option value="Belarus">Belarus</option> 
+<option value="Belgium">Belgium</option> 
+<option value="Belize">Belize</option> 
+<option value="Benin">Benin</option> 
+<option value="Bermuda">Bermuda</option> 
+<option value="Bhutan">Bhutan</option> 
+<option value="Bolivia">Bolivia</option> 
+<option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option> 
+<option value="Botswana">Botswana</option> 
+<option value="Bouvet Island">Bouvet Island</option> 
+<option value="Brazil">Brazil</option> 
+<option value="British Indian Ocean Territory">British Indian Ocean Territory</option> 
+<option value="Brunei Darussalam">Brunei Darussalam</option> 
+<option value="Bulgaria">Bulgaria</option> 
+<option value="Burkina Faso">Burkina Faso</option> 
+<option value="Burundi">Burundi</option> 
+<option value="Cambodia">Cambodia</option> 
+<option value="Cameroon">Cameroon</option> 
+<option value="Canada">Canada</option> 
+<option value="Cape Verde">Cape Verde</option> 
+<option value="Cayman Islands">Cayman Islands</option> 
+<option value="Central African Republic">Central African Republic</option> 
+<option value="Chad">Chad</option> 
+<option value="Chile">Chile</option> 
+<option value="China">China</option> 
+<option value="Christmas Island">Christmas Island</option> 
+<option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option> 
+<option value="Colombia">Colombia</option> 
+<option value="Comoros">Comoros</option> 
+<option value="Congo">Congo</option> 
+<option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option> 
+<option value="Cook Islands">Cook Islands</option> 
+<option value="Costa Rica">Costa Rica</option> 
+<option value="Cote D'ivoire">Cote D'ivoire</option> 
+<option value="Croatia">Croatia</option> 
+<option value="Cuba">Cuba</option> 
+<option value="Cyprus">Cyprus</option> 
+<option value="Czech Republic">Czech Republic</option> 
+<option value="Denmark">Denmark</option> 
+<option value="Djibouti">Djibouti</option> 
+<option value="Dominica">Dominica</option> 
+<option value="Dominican Republic">Dominican Republic</option> 
+<option value="Ecuador">Ecuador</option> 
+<option value="Egypt">Egypt</option> 
+<option value="El Salvador">El Salvador</option> 
+<option value="Equatorial Guinea">Equatorial Guinea</option> 
+<option value="Eritrea">Eritrea</option> 
+<option value="Estonia">Estonia</option> 
+<option value="Ethiopia">Ethiopia</option> 
+<option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option> 
+<option value="Faroe Islands">Faroe Islands</option> 
+<option value="Fiji">Fiji</option> 
+<option value="Finland">Finland</option> 
+<option value="France">France</option> 
+<option value="French Guiana">French Guiana</option> 
+<option value="French Polynesia">French Polynesia</option> 
+<option value="French Southern Territories">French Southern Territories</option> 
+<option value="Gabon">Gabon</option> 
+<option value="Gambia">Gambia</option> 
+<option value="Georgia">Georgia</option> 
+<option value="Germany">Germany</option> 
+<option value="Ghana">Ghana</option> 
+<option value="Gibraltar">Gibraltar</option> 
+<option value="Greece">Greece</option> 
+<option value="Greenland">Greenland</option> 
+<option value="Grenada">Grenada</option> 
+<option value="Guadeloupe">Guadeloupe</option> 
+<option value="Guam">Guam</option> 
+<option value="Guatemala">Guatemala</option> 
+<option value="Guinea">Guinea</option> 
+<option value="Guinea-bissau">Guinea-bissau</option> 
+<option value="Guyana">Guyana</option> 
+<option value="Haiti">Haiti</option> 
+<option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option> 
+<option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option> 
+<option value="Honduras">Honduras</option> 
+<option value="Hong Kong">Hong Kong</option> 
+<option value="Hungary">Hungary</option> 
+<option value="Iceland">Iceland</option> 
+<option value="India">India</option> 
+<option value="Indonesia">Indonesia</option> 
+<option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option> 
+<option value="Iraq">Iraq</option> 
+<option value="Ireland">Ireland</option> 
+<option value="Israel">Israel</option> 
+<option value="Italy">Italy</option> 
+<option value="Jamaica">Jamaica</option> 
+<option value="Japan">Japan</option> 
+<option value="Jordan">Jordan</option> 
+<option value="Kazakhstan">Kazakhstan</option> 
+<option value="Kenya">Kenya</option> 
+<option value="Kiribati">Kiribati</option> 
+<option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option> 
+<option value="Korea, Republic of">Korea, Republic of</option> 
+<option value="Kuwait">Kuwait</option> 
+<option value="Kyrgyzstan">Kyrgyzstan</option> 
+<option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option> 
+<option value="Latvia">Latvia</option> 
+<option value="Lebanon">Lebanon</option> 
+<option value="Lesotho">Lesotho</option> 
+<option value="Liberia">Liberia</option> 
+<option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option> 
+<option value="Liechtenstein">Liechtenstein</option> 
+<option value="Lithuania">Lithuania</option> 
+<option value="Luxembourg">Luxembourg</option> 
+<option value="Macao">Macao</option> 
+<option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option> 
+<option value="Madagascar">Madagascar</option> 
+<option value="Malawi">Malawi</option> 
+<option value="Malaysia">Malaysia</option> 
+<option value="Maldives">Maldives</option> 
+<option value="Mali">Mali</option> 
+<option value="Malta">Malta</option> 
+<option value="Marshall Islands">Marshall Islands</option> 
+<option value="Martinique">Martinique</option> 
+<option value="Mauritania">Mauritania</option> 
+<option value="Mauritius">Mauritius</option> 
+<option value="Mayotte">Mayotte</option> 
+<option value="Mexico">Mexico</option> 
+<option value="Micronesia, Federated States of">Micronesia, Federated States of</option> 
+<option value="Moldova, Republic of">Moldova, Republic of</option> 
+<option value="Monaco">Monaco</option> 
+<option value="Mongolia">Mongolia</option> 
+<option value="Montserrat">Montserrat</option> 
+<option value="Morocco">Morocco</option> 
+<option value="Mozambique">Mozambique</option> 
+<option value="Myanmar">Myanmar</option> 
+<option value="Namibia">Namibia</option> 
+<option value="Nauru">Nauru</option> 
+<option value="Nepal">Nepal</option> 
+<option value="Netherlands">Netherlands</option> 
+<option value="Netherlands Antilles">Netherlands Antilles</option> 
+<option value="New Caledonia">New Caledonia</option> 
+<option value="New Zealand">New Zealand</option> 
+<option value="Nicaragua">Nicaragua</option> 
+<option value="Niger">Niger</option> 
+<option value="Nigeria">Nigeria</option> 
+<option value="Niue">Niue</option> 
+<option value="Norfolk Island">Norfolk Island</option> 
+<option value="Northern Mariana Islands">Northern Mariana Islands</option> 
+<option value="Norway">Norway</option> 
+<option value="Oman">Oman</option> 
+<option value="Pakistan">Pakistan</option> 
+<option value="Palau">Palau</option> 
+<option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option> 
+<option value="Panama">Panama</option> 
+<option value="Papua New Guinea">Papua New Guinea</option> 
+<option value="Paraguay">Paraguay</option> 
+<option value="Peru">Peru</option> 
+<option value="Philippines">Philippines</option> 
+<option value="Pitcairn">Pitcairn</option> 
+<option value="Poland">Poland</option> 
+<option value="Portugal">Portugal</option> 
+<option value="Puerto Rico">Puerto Rico</option> 
+<option value="Qatar">Qatar</option> 
+<option value="Reunion">Reunion</option> 
+<option value="Romania">Romania</option> 
+<option value="Russian Federation">Russian Federation</option> 
+<option value="Rwanda">Rwanda</option> 
+<option value="Saint Helena">Saint Helena</option> 
+<option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option> 
+<option value="Saint Lucia">Saint Lucia</option> 
+<option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option> 
+<option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option> 
+<option value="Samoa">Samoa</option> 
+<option value="San Marino">San Marino</option> 
+<option value="Sao Tome and Principe">Sao Tome and Principe</option> 
+<option value="Saudi Arabia">Saudi Arabia</option> 
+<option value="Senegal">Senegal</option> 
+<option value="Serbia and Montenegro">Serbia and Montenegro</option> 
+<option value="Seychelles">Seychelles</option> 
+<option value="Sierra Leone">Sierra Leone</option> 
+<option value="Singapore">Singapore</option> 
+<option value="Slovakia">Slovakia</option> 
+<option value="Slovenia">Slovenia</option> 
+<option value="Solomon Islands">Solomon Islands</option> 
+<option value="Somalia">Somalia</option> 
+<option value="South Africa">South Africa</option> 
+<option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option> 
+<option value="Spain">Spain</option> 
+<option value="Sri Lanka">Sri Lanka</option> 
+<option value="Sudan">Sudan</option> 
+<option value="Suriname">Suriname</option> 
+<option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option> 
+<option value="Swaziland">Swaziland</option> 
+<option value="Sweden">Sweden</option> 
+<option value="Switzerland">Switzerland</option> 
+<option value="Syrian Arab Republic">Syrian Arab Republic</option> 
+<option value="Taiwan, Province of China">Taiwan, Province of China</option> 
+<option value="Tajikistan">Tajikistan</option> 
+<option value="Tanzania, United Republic of">Tanzania, United Republic of</option> 
+<option value="Thailand">Thailand</option> 
+<option value="Timor-leste">Timor-leste</option> 
+<option value="Togo">Togo</option> 
+<option value="Tokelau">Tokelau</option> 
+<option value="Tonga">Tonga</option> 
+<option value="Trinidad and Tobago">Trinidad and Tobago</option> 
+<option value="Tunisia">Tunisia</option> 
+<option value="Turkey">Turkey</option> 
+<option value="Turkmenistan">Turkmenistan</option> 
+<option value="Turks and Caicos Islands">Turks and Caicos Islands</option> 
+<option value="Tuvalu">Tuvalu</option> 
+<option value="Uganda">Uganda</option> 
+<option value="Ukraine">Ukraine</option> 
+<option value="United Arab Emirates">United Arab Emirates</option> 
+<option value="United Kingdom">United Kingdom</option> 
+<option value="United States">United States</option> 
+<option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option> 
+<option value="Uruguay">Uruguay</option> 
+<option value="Uzbekistan">Uzbekistan</option> 
+<option value="Vanuatu">Vanuatu</option> 
+<option value="Venezuela">Venezuela</option> 
+<option value="Viet Nam">Viet Nam</option> 
+<option value="Virgin Islands, British">Virgin Islands, British</option> 
+<option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option> 
+<option value="Wallis and Futuna">Wallis and Futuna</option> 
+<option value="Western Sahara">Western Sahara</option> 
+<option value="Yemen">Yemen</option> 
+<option value="Zambia">Zambia</option> 
+<option value="Zimbabwe">Zimbabwe</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Phone</td>
+                        <td><span style="color:Red">&nbsp;*</span></td>
+                        <td><input maxlength="20" size="30" name="phone_required" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Fax</td>
+                        <td></td>
+                        <td><input type="text" maxlength="20" size="30" name="fax" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">E-mail</td>
+                        <td><span style="color:Red">&nbsp;*</span></td>
+                        <td><input maxlength="255" size="45" name="email_required" /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td><strong>ISCB Members:</strong><span style="color:#e4214b">&nbsp;Please use the e-mail address you have registered with ISCB to take advantage of member rates for conference registration!</span></td>
+                    </tr>
+                </tbody>
+                </table>
+                <br/>
+                
+             </td>
+        </tr> 
+        <tr>
+            <td class="sectionHeader">
+                <span  class="sectionHeader">&nbsp;B - INFORMATION TO ISSUE THE RECEIPT - Please fill in</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="content" cellpadding="2">
+                <tbody>
+                    <tr>
+                        <td colspan="2">
+                            <b>Information to issue the Receipt</b>&nbsp;
+                            <input type="button" class="buttonStyle" value="Paste Personal Data" onClick="copyToReceipt();" /><br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Receipt in the name of</td>
+                        <td><input type="text" id="name_receipt" name="name_receipt" size="45" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Address</td>
+                        <td><input type="text" name="address_receipt" size="45" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">City</td>
+                        <td><input maxlength="30" size="45" type="text" name="city_receipt"/></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Country</td>
+                        <td>
+                          <select name="country_receipt">
+			        <option value="" selected="selected">Please select one</option>
+<option value="Afghanistan">Afghanistan</option> 
+<option value="Albania">Albania</option> 
+<option value="Algeria">Algeria</option> 
+<option value="American Samoa">American Samoa</option> 
+<option value="Andorra">Andorra</option> 
+<option value="Angola">Angola</option> 
+<option value="Anguilla">Anguilla</option> 
+<option value="Antarctica">Antarctica</option> 
+<option value="Antigua and Barbuda">Antigua and Barbuda</option> 
+<option value="Argentina">Argentina</option> 
+<option value="Armenia">Armenia</option> 
+<option value="Aruba">Aruba</option> 
+<option value="Australia">Australia</option> 
+<option value="Austria">Austria</option> 
+<option value="Azerbaijan">Azerbaijan</option> 
+<option value="Bahamas">Bahamas</option> 
+<option value="Bahrain">Bahrain</option> 
+<option value="Bangladesh">Bangladesh</option> 
+<option value="Barbados">Barbados</option> 
+<option value="Belarus">Belarus</option> 
+<option value="Belgium">Belgium</option> 
+<option value="Belize">Belize</option> 
+<option value="Benin">Benin</option> 
+<option value="Bermuda">Bermuda</option> 
+<option value="Bhutan">Bhutan</option> 
+<option value="Bolivia">Bolivia</option> 
+<option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option> 
+<option value="Botswana">Botswana</option> 
+<option value="Bouvet Island">Bouvet Island</option> 
+<option value="Brazil">Brazil</option> 
+<option value="British Indian Ocean Territory">British Indian Ocean Territory</option> 
+<option value="Brunei Darussalam">Brunei Darussalam</option> 
+<option value="Bulgaria">Bulgaria</option> 
+<option value="Burkina Faso">Burkina Faso</option> 
+<option value="Burundi">Burundi</option> 
+<option value="Cambodia">Cambodia</option> 
+<option value="Cameroon">Cameroon</option> 
+<option value="Canada">Canada</option> 
+<option value="Cape Verde">Cape Verde</option> 
+<option value="Cayman Islands">Cayman Islands</option> 
+<option value="Central African Republic">Central African Republic</option> 
+<option value="Chad">Chad</option> 
+<option value="Chile">Chile</option> 
+<option value="China">China</option> 
+<option value="Christmas Island">Christmas Island</option> 
+<option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option> 
+<option value="Colombia">Colombia</option> 
+<option value="Comoros">Comoros</option> 
+<option value="Congo">Congo</option> 
+<option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option> 
+<option value="Cook Islands">Cook Islands</option> 
+<option value="Costa Rica">Costa Rica</option> 
+<option value="Cote D'ivoire">Cote D'ivoire</option> 
+<option value="Croatia">Croatia</option> 
+<option value="Cuba">Cuba</option> 
+<option value="Cyprus">Cyprus</option> 
+<option value="Czech Republic">Czech Republic</option> 
+<option value="Denmark">Denmark</option> 
+<option value="Djibouti">Djibouti</option> 
+<option value="Dominica">Dominica</option> 
+<option value="Dominican Republic">Dominican Republic</option> 
+<option value="Ecuador">Ecuador</option> 
+<option value="Egypt">Egypt</option> 
+<option value="El Salvador">El Salvador</option> 
+<option value="Equatorial Guinea">Equatorial Guinea</option> 
+<option value="Eritrea">Eritrea</option> 
+<option value="Estonia">Estonia</option> 
+<option value="Ethiopia">Ethiopia</option> 
+<option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option> 
+<option value="Faroe Islands">Faroe Islands</option> 
+<option value="Fiji">Fiji</option> 
+<option value="Finland">Finland</option> 
+<option value="France">France</option> 
+<option value="French Guiana">French Guiana</option> 
+<option value="French Polynesia">French Polynesia</option> 
+<option value="French Southern Territories">French Southern Territories</option> 
+<option value="Gabon">Gabon</option> 
+<option value="Gambia">Gambia</option> 
+<option value="Georgia">Georgia</option> 
+<option value="Germany">Germany</option> 
+<option value="Ghana">Ghana</option> 
+<option value="Gibraltar">Gibraltar</option> 
+<option value="Greece">Greece</option> 
+<option value="Greenland">Greenland</option> 
+<option value="Grenada">Grenada</option> 
+<option value="Guadeloupe">Guadeloupe</option> 
+<option value="Guam">Guam</option> 
+<option value="Guatemala">Guatemala</option> 
+<option value="Guinea">Guinea</option> 
+<option value="Guinea-bissau">Guinea-bissau</option> 
+<option value="Guyana">Guyana</option> 
+<option value="Haiti">Haiti</option> 
+<option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option> 
+<option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option> 
+<option value="Honduras">Honduras</option> 
+<option value="Hong Kong">Hong Kong</option> 
+<option value="Hungary">Hungary</option> 
+<option value="Iceland">Iceland</option> 
+<option value="India">India</option> 
+<option value="Indonesia">Indonesia</option> 
+<option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option> 
+<option value="Iraq">Iraq</option> 
+<option value="Ireland">Ireland</option> 
+<option value="Israel">Israel</option> 
+<option value="Italy">Italy</option> 
+<option value="Jamaica">Jamaica</option> 
+<option value="Japan">Japan</option> 
+<option value="Jordan">Jordan</option> 
+<option value="Kazakhstan">Kazakhstan</option> 
+<option value="Kenya">Kenya</option> 
+<option value="Kiribati">Kiribati</option> 
+<option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option> 
+<option value="Korea, Republic of">Korea, Republic of</option> 
+<option value="Kuwait">Kuwait</option> 
+<option value="Kyrgyzstan">Kyrgyzstan</option> 
+<option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option> 
+<option value="Latvia">Latvia</option> 
+<option value="Lebanon">Lebanon</option> 
+<option value="Lesotho">Lesotho</option> 
+<option value="Liberia">Liberia</option> 
+<option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option> 
+<option value="Liechtenstein">Liechtenstein</option> 
+<option value="Lithuania">Lithuania</option> 
+<option value="Luxembourg">Luxembourg</option> 
+<option value="Macao">Macao</option> 
+<option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option> 
+<option value="Madagascar">Madagascar</option> 
+<option value="Malawi">Malawi</option> 
+<option value="Malaysia">Malaysia</option> 
+<option value="Maldives">Maldives</option> 
+<option value="Mali">Mali</option> 
+<option value="Malta">Malta</option> 
+<option value="Marshall Islands">Marshall Islands</option> 
+<option value="Martinique">Martinique</option> 
+<option value="Mauritania">Mauritania</option> 
+<option value="Mauritius">Mauritius</option> 
+<option value="Mayotte">Mayotte</option> 
+<option value="Mexico">Mexico</option> 
+<option value="Micronesia, Federated States of">Micronesia, Federated States of</option> 
+<option value="Moldova, Republic of">Moldova, Republic of</option> 
+<option value="Monaco">Monaco</option> 
+<option value="Mongolia">Mongolia</option> 
+<option value="Montserrat">Montserrat</option> 
+<option value="Morocco">Morocco</option> 
+<option value="Mozambique">Mozambique</option> 
+<option value="Myanmar">Myanmar</option> 
+<option value="Namibia">Namibia</option> 
+<option value="Nauru">Nauru</option> 
+<option value="Nepal">Nepal</option> 
+<option value="Netherlands">Netherlands</option> 
+<option value="Netherlands Antilles">Netherlands Antilles</option> 
+<option value="New Caledonia">New Caledonia</option> 
+<option value="New Zealand">New Zealand</option> 
+<option value="Nicaragua">Nicaragua</option> 
+<option value="Niger">Niger</option> 
+<option value="Nigeria">Nigeria</option> 
+<option value="Niue">Niue</option> 
+<option value="Norfolk Island">Norfolk Island</option> 
+<option value="Northern Mariana Islands">Northern Mariana Islands</option> 
+<option value="Norway">Norway</option> 
+<option value="Oman">Oman</option> 
+<option value="Pakistan">Pakistan</option> 
+<option value="Palau">Palau</option> 
+<option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option> 
+<option value="Panama">Panama</option> 
+<option value="Papua New Guinea">Papua New Guinea</option> 
+<option value="Paraguay">Paraguay</option> 
+<option value="Peru">Peru</option> 
+<option value="Philippines">Philippines</option> 
+<option value="Pitcairn">Pitcairn</option> 
+<option value="Poland">Poland</option> 
+<option value="Portugal">Portugal</option> 
+<option value="Puerto Rico">Puerto Rico</option> 
+<option value="Qatar">Qatar</option> 
+<option value="Reunion">Reunion</option> 
+<option value="Romania">Romania</option> 
+<option value="Russian Federation">Russian Federation</option> 
+<option value="Rwanda">Rwanda</option> 
+<option value="Saint Helena">Saint Helena</option> 
+<option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option> 
+<option value="Saint Lucia">Saint Lucia</option> 
+<option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option> 
+<option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option> 
+<option value="Samoa">Samoa</option> 
+<option value="San Marino">San Marino</option> 
+<option value="Sao Tome and Principe">Sao Tome and Principe</option> 
+<option value="Saudi Arabia">Saudi Arabia</option> 
+<option value="Senegal">Senegal</option> 
+<option value="Serbia and Montenegro">Serbia and Montenegro</option> 
+<option value="Seychelles">Seychelles</option> 
+<option value="Sierra Leone">Sierra Leone</option> 
+<option value="Singapore">Singapore</option> 
+<option value="Slovakia">Slovakia</option> 
+<option value="Slovenia">Slovenia</option> 
+<option value="Solomon Islands">Solomon Islands</option> 
+<option value="Somalia">Somalia</option> 
+<option value="South Africa">South Africa</option> 
+<option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option> 
+<option value="Spain">Spain</option> 
+<option value="Sri Lanka">Sri Lanka</option> 
+<option value="Sudan">Sudan</option> 
+<option value="Suriname">Suriname</option> 
+<option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option> 
+<option value="Swaziland">Swaziland</option> 
+<option value="Sweden">Sweden</option> 
+<option value="Switzerland">Switzerland</option> 
+<option value="Syrian Arab Republic">Syrian Arab Republic</option> 
+<option value="Taiwan, Province of China">Taiwan, Province of China</option> 
+<option value="Tajikistan">Tajikistan</option> 
+<option value="Tanzania, United Republic of">Tanzania, United Republic of</option> 
+<option value="Thailand">Thailand</option> 
+<option value="Timor-leste">Timor-leste</option> 
+<option value="Togo">Togo</option> 
+<option value="Tokelau">Tokelau</option> 
+<option value="Tonga">Tonga</option> 
+<option value="Trinidad and Tobago">Trinidad and Tobago</option> 
+<option value="Tunisia">Tunisia</option> 
+<option value="Turkey">Turkey</option> 
+<option value="Turkmenistan">Turkmenistan</option> 
+<option value="Turks and Caicos Islands">Turks and Caicos Islands</option> 
+<option value="Tuvalu">Tuvalu</option> 
+<option value="Uganda">Uganda</option> 
+<option value="Ukraine">Ukraine</option> 
+<option value="United Arab Emirates">United Arab Emirates</option> 
+<option value="United Kingdom">United Kingdom</option> 
+<option value="United States">United States</option> 
+<option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option> 
+<option value="Uruguay">Uruguay</option> 
+<option value="Uzbekistan">Uzbekistan</option> 
+<option value="Vanuatu">Vanuatu</option> 
+<option value="Venezuela">Venezuela</option> 
+<option value="Viet Nam">Viet Nam</option> 
+<option value="Virgin Islands, British">Virgin Islands, British</option> 
+<option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option> 
+<option value="Wallis and Futuna">Wallis and Futuna</option> 
+<option value="Western Sahara">Western Sahara</option> 
+<option value="Yemen">Yemen</option> 
+<option value="Zambia">Zambia</option> 
+<option value="Zimbabwe">Zimbabwe</option>
+	               	     </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Postal Code</td>
+                        <td><input maxlength="30" size="30" type="text" name="postalcode_receipt" /></td>
+                    </tr>
+                    <tr>
+                        <td align="right">VAT Number</td>
+                        <td><input type="text" name="vatNumber" size="30" /></td>
+                    </tr>  
+                </tbody>
+                </table>
+            </td>
+        </tr>       
+        <tr>
+            <td class="sectionHeader">
+                <span class="sectionHeader">&nbsp;C - ACCOMPANYING PERSON - Please fill in</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="content" cellpadding="2">
+                <tbody>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Last Name</td>
+                        <td><input type="text" size="20" name="lastname_ap1" /></td>
+                        <td>&nbsp;</td>
+                        <td>First Name</td>
+                        <td><input type="text" size="20" name="firstname_ap1" /></td>
+                    </tr>                 
+                </tbody> 
+                </table>
+            </td>
+        </tr>
+        <div id="registration_div">
+        <tr>
+            <td class="sectionHeader">
+                <span class="sectionHeader">&nbsp;D - REGISTRATION FEES – Please tick-off</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br />
+        	    Conference Registration Fee for Corporate / Industry and Academic / Non-Profit / Government / Postdoc include: Opening reception, Scientific sessions, Lunches, Off-site dinner, Oceanário de Lisboa visit, Poster sessions, Exhibit hall entrance, Coffee-breaks, One copy of the proceedings, Poster book and Online access.<br />
+                <br/>
+                Conference Registration Fee for Students include: Opening reception, Scientific sessions, Lunches, Poster sessions, Exhibit hall entrance, Coffee-breaks, One copy of the proceedings, Poster book and Online access.<br />
+                <br/>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table cellpadding="3" cellspacing="0" width="100%" class="content1" border="0">
+                    <tr>
+                        <th></th>
+                        <th><strong>Until June 30th 2010</strong></th>
+                        <th><strong>After June 30th 2010 </strong></th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td style="font-weight:bold">Corporate / Industry</td>
+                        <td><input type="radio" name="regfee" value="Corporate / Industry (until June 30th 2010) € 530" onclick="calcRegistrationFee();" /> €530</td>
+                        <td><input type="radio" name="regfee" value="Corporate / Industry (after June 30th 2010) € 650" onclick="calcRegistrationFee();" /> €650</td>                       
+                    </tr>
+                    <tr>
+                        <td style="font-weight:bold">Academic / Non-Profit / Government / Postdoc *</td>
+                        <td><input type="radio" name="regfee" value="Academic / Non-Profit / Government / Postdoc (until June 30th 2010) € 480" onclick="calcRegistrationFee();" /> €480</td>
+                        <td><input type="radio" name="regfee" value="Academic / Non-Profit / Government / Postdoc (after June 30th 2010) € 600" onclick="calcRegistrationFee();" /> €600</td>                       
+                    </tr>
+                    <tr>
+                        <td style="font-weight:bold">Student</td>
+                        <td><input type="radio" name="regfee" value="Student (until June 30th 2010) € 250" onclick="calcRegistrationFee();" /> €250</td>
+                        <td><input type="radio" name="regfee" value="Student (after June 30th 2010) € 370" onclick="calcRegistrationFee();" /> €370</td>                       
+                    </tr>
+                    
+                </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+        	    * Postdoc includes individuals having completed PostDoctoral work with in the past year up until August 11, 2010.
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+        	    <br/>
+        	    <strong>ISCB Member</strong> &nbsp;<input type="hidden" name="is-iscb-member" value="No"><input type="checkbox" name="is-iscb-member" value="Yes" onclick="calcRegistrationFee();"><br/>
+        	    (ISCB Members get a € 50,00 discount on the registration)<br/>
+        	    <input type="button" class="buttonStyle" value="ISCB REGISTRATION" onClick="javascript:window.open('http://www.iscb.org/iscb-new-member-registration','ISCB_Registration','')" />
+        	    
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="content" style="width:100%">
+                    <tr>
+                        <td align="left"><input type="button" class="buttonStyle" value="Clear" onClick="clearRegFees();" /></td>
+                        <td align="right">
+                            <strong>Total amount for registration €</strong>
+                            <input type="text" name="totalRegistration" readonly="readonly" size="5" class="readOnly"  />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        </div>
+        <div id="accommodation_div">
+        <tr>
+            <td class="sectionHeader">
+                <span class="sectionHeader">&nbsp;E - ACCOMMODATION - Please tick-off</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br />
+        	    Rates are in Euros (€) per room (except Multiple beds in Youth hostel Lisbon Parque das Nações, where rates are per person), per night, including breakfast, VAT and taxes. These special rates are available only if booking is made and paid through Top Atlântico DMC. Reservation requests will be confirmed on a <em>first come, first served</em> basis. If your choice is no longer available a similar alternative accommodation will be offered.<br />
+                <br />
+            </td>
+        </tr> 
+        <tr>
+            <td>
+                <table class="content" cellpadding="2" width="100%">  
+                <tbody>
+                    <tr>
+                        <td align="right">Arrival Date</td>
+                        <td>
+                           <input type="text" name="f_date_arrival" id="f_date_arrival" readonly="1" value="August 1, 2010"/>
+                           <img src="img/img.gif" name="f_trigger_arrival" id="f_trigger_arrival" style="cursor: pointer; border: 1px solid red;" title="Date selector" onmouseover="this.style.background='red';" onmouseout="this.style.background=''" />
+                        </td>
+                        <td rowspan="2" align="right">
+                            Number of Nights&nbsp;
+                            <input type="text" size="3" name="f_nights" id="f_nights" readonly="1" class="readOnly" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">Departure Date</td>
+                        <td>
+                            <input type="text" name="f_date_departure" id="f_date_departure" readonly="1" value="August 1, 2010"/>
+                            <img src="img/img.gif" name="f_trigger_departure" id="f_trigger_departure" style="cursor: pointer; border: 1px solid red;" title="Date selector" onmouseover="this.style.background='red';" onmouseout="this.style.background=''" />
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table cellpadding="2" cellspacing="0" width="100%" class="content1" border="0">
+                    <tr>
+                        <th><strong>Hotel</strong></th>
+                        <th><strong>Category</strong></th>
+                        <th><strong>Single Room</strong></th>
+                        <th><strong>Double Room</strong></th>
+                    </tr>
+                 <tbody>
+                    <tr>
+                        <td><a href="hotel/hotel1.html">Olissippo Oriente</a></td>
+                        <td><img src="img/Estrela.gif" width="10" height="10" /><img src="img/Estrela.gif" width="10" height="10" /><img src="img/Estrela.gif" width="10" height="10" /><img src="img/Estrela.gif" width="10" height="10" /></td>
+                        <td><input type="radio" name="hotel" value="Olissippo Oriente **** - SINGLE Room € 95,00" onclick="calcAccommodationFee();" />&nbsp;€95</td>
+                        <td><input type="radio" name="hotel" value="Olissippo Oriente **** - DOUBLE Room € 106,00" onclick="calcAccommodationFee();" />&nbsp;€106</td>
+                    </tr>
+                    <tr>
+                        <td><a href="hotel/hotel2.html">Tivoli Oriente</a></td>
+                        <td><img src="img/Estrela.gif" width="10" height="10" /><img src="img/Estrela.gif" width="10" height="10" /><img src="img/Estrela.gif" width="10" height="10" /><img src="img/Estrela.gif" width="10" height="10" /></td>
+                        <td><input type="radio" name="hotel" value="Tivoli Oriente **** - SINGLE Room € 95,00" onclick="calcAccommodationFee();" />&nbsp;€95</td>
+                        <td><input type="radio" name="hotel" value="Tivoli Oriente **** - DOUBLE Room € 105,00" onclick="calcAccommodationFee();" />&nbsp;€105</td>
+                    </tr>
+                    <tr>
+                        <td><a href="hotel/hotel3.html">Vip Arts</a></td>
+                        <td><img src="img/Estrela.gif" width="10" height="10" /><img src="img/Estrela.gif" width="10" height="10" /><img src="img/Estrela.gif" width="10" height="10" /><img src="img/Estrela.gif" width="10" height="10" /></td>
+                        <td><input type="radio" name="hotel" value="Vip Arts **** - SINGLE Room € 82,00" onclick="calcAccommodationFee();" />&nbsp;€82</td>
+                        <td><input type="radio" name="hotel" value="Vip Arts **** - DOUBLE Room € 91,00" onclick="calcAccommodationFee();" />&nbsp;€91</td>
+                    </tr>
+                    <tr>
+                        <td><a href="hotel/hotel4.html">A. S. Lisboa</a></td>
+                        <td><img src="img/Estrela.gif" width="10" height="10" /><img src="img/Estrela.gif" width="10" height="10" /><img src="img/Estrela.gif" width="10" height="10" /></td>
+                        <td><input type="radio" name="hotel" value="A. S. Lisboa *** - SINGLE Room € 67,00" disabled="disabled" onclick="calcAccommodationFee();" />&nbsp;€67</td>
+                        <td><input type="radio" name="hotel" value="A. S. Lisboa *** - DOUBLE Room € 78,00" disabled="disabled" onclick="calcAccommodationFee();" />&nbsp;€78</td>
+                    </tr>
+                    <tr>
+                        <td><a href="hotel/hotel5.html">Fonte Luminosa</a></td>
+                        <td style="color:#FF6600;font-weight:bold">Guesthouse</td>
+                        <td><input type="radio" name="hotel" value="Fonte Luminosa (Guesthouse) - SINGLE Room € 47,00" onclick="calcAccommodationFee();" />&nbsp;€47</td>
+                        <td><input type="radio" name="hotel" value="Fonte Luminosa (Guesthouse) - DOUBLE Room € 75,00" onclick="calcAccommodationFee();" />&nbsp;€75</td>
+                    </tr>               
+                </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="content" style="width:100%">
+                    <tr>
+                        <td align="left"><input type="button" class="buttonStyle" value="Clear" onClick="clearChoices('hotel','totalAccommodation');document.getElementById('hostel_persons').selectedIndex = 0" /></td>
+                        <td align="right">
+                            <strong>Total amount for Accommodation €</strong>
+                            <input name="totalAccommodation" type="text" size="5" readonly="readonly" class="readOnly"  />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        </div>
+        <div id="socialevents_div">
+        <tr>
+            <td class="sectionHeader">
+               <span class="sectionHeader">&nbsp;F - SOCIAL EVENTS - Please tick-off</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br />
+        	    Please indicate the social events that you and your accompanying person(s) will attend. The social events are included for Corporate / Industry and Academic / Non-Profit / Government / Postdoc participants. The Opening reception is also included for Students.<br />
+        	    Accompanying persons may attend the Opening reception at the rate below and both Students and Accompanying persons may attend the Offsite dinner and the Oceanário de Lisboa visit at the rates below:
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table cellpadding="3" cellspacing="0" class="content1" border="0" style="text-align:left; width:100%">
+                <tbody>
+                    <tr>
+                        <th><strong>Social event</strong></th>
+                        <th><strong>Participant</strong></th>
+                        <th><strong>Student</strong><br/></th>
+                        <th><strong>Accompanying person</strong></th>
+                    </tr>
+                    <tr>
+                        <td>Opening Reception</td>
+                        <td><input type="checkbox" name="socialevents[]" onclick="calcSocialEvents();" value="Opening Reception: Participant (included)"/><input type="hidden" name="socialeventsfee[]" value="0"/>&nbsp;Included</td>
+                        <td><input type="checkbox" name="socialevents[]" onclick="calcSocialEvents();" value="Opening Reception: Student (included)" /><input type="hidden" name="socialeventsfee[]"  value="0"/>&nbsp;Included</td>
+                        <td><input type="checkbox" name="socialevents[]" onclick="calcSocialEvents();" value="Opening Reception: Accompanying person (€25)" /><input type="hidden" name="socialeventsfee[]" value="25"/>&nbsp;€25</td>                                                    
+                    </tr>
+                    <tr>
+                        <td>Off-site Dinner</td>
+                        <td><input type="checkbox" name="socialevents[]" onclick="calcSocialEvents();" value="Off-site Dinner: Participant (included)" /><input type="hidden" name="socialeventsfee[]" value="0"/>&nbsp;Included</td>
+                        <td><input type="checkbox" name="socialevents[]" onclick="calcSocialEvents();" value="Off-site Dinner: Student (€50)" /><input type="hidden" name="socialeventsfee[]" value="50"/>&nbsp;€50</td>
+                        <td><input type="checkbox" name="socialevents[]" onclick="calcSocialEvents();" value="Off-site Dinner: Accompanying person (€50)" /><input type="hidden" name="socialeventsfee[]" value="50"/>&nbsp;€50</td>                                                    
+                    </tr>
+                    <tr>
+                        <td>Oceanário de Lisboa Visit</td>
+                        <td><input type="checkbox" name="socialevents[]" onclick="calcSocialEvents();" value="Oceanário de Lisboa Visit: Participant (included)" /><input type="hidden" name="socialeventsfee[]" value="0"/>&nbsp;Included</td>
+                        <td><input type="checkbox" name="socialevents[]" onclick="calcSocialEvents();" value="Oceanário de Lisboa Visit: Student (€10)" /><input type="hidden" name="socialeventsfee[]" value="10"/>&nbsp;€10</td>
+                        <td><input type="checkbox" name="socialevents[]" onclick="calcSocialEvents();" value="Oceanário de Lisboa Visit: Accompanying person (€10)" /><input type="hidden" name="socialeventsfee[]" value="10"/>&nbsp;€10</td>                                                    
+                    </tr>                      
+                </tbody>                                                                                                                           
+                </table>
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="content" style="width:100%">
+                    <tr>
+                        <td align="left"></td>
+                        <td align="right">
+                            <strong>Total amount for social events €</strong>
+                            <input type="text" name="totalSocialEvents" readonly="readonly" size="5" class="readOnly"  />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        </div>
+        <div id="sightseeingtours_div">
+        <tr>
+            <td class="sectionHeader">
+               <span class="sectionHeader">&nbsp;G - OPTIONAL SIGHTSEEING TOURS - Please tick-off</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br />
+        	    No minimum number of persons required.<br />
+            </td>
+        </tr> 
+        <tr>
+            <td align="center">
+                <br />
+                <table cellpadding="3" cellspacing="0" width="100%" class="content1" border="0" style="text-align:left">
+                    <tr>
+                        <th><strong>Tour</strong></th>
+                        <th><strong>Date</strong><br/></th>
+                        <th><strong>Hour</strong></th>
+                        <th><strong>Tickets</strong></th>
+                        <th><strong>Price</strong></th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">
+                            <a href="tours/tour1.html">Lisbon city tour</a><br />
+                            <em>(Daily)</em><br/>
+                            <em>Half day (3 hours)</em>
+                            <input type="hidden" name="tour1name" value="Lisbon city tour - Half day (09h00)" />
+                        </td>
+                        <td rowspan="2">
+                            <input size="16" type="text" name="f_datetour1" id="f_datetour1" readonly="1" value="August 1, 2010"/>
+                            <img src="img/img.gif" name="f_trigger_datetour1" id="f_trigger_datetour1" style="cursor: pointer; border: 1px solid red;" title="Date selector" onmouseover="this.style.background='red';" onmouseout="this.style.background=''" />
+                        </td>
+                        <td>09h00</td>
+                        <td>
+                            <select name="tour1tickets" class="content" onchange="javascript:calcToursFee()">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                         </td>
+                         <td>
+                            €34
+                            <input type="hidden" name="tour1fee" value="34" />
+                        </td>
+                    </tr>
+                        <td>14h30</td>
+                        <td>
+                            <input type="hidden" name="tour1bname" value="Lisbon city tour - Half day (14h30)" />
+                            <select name="tour1btickets" class="content" onchange="javascript:calcToursFee()">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                        </td>
+                        <td>
+                            €34
+                            <input type="hidden" name="tour1bfee" value="34" />
+                        </td>
+                    <tr>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="tours/tour2.html">Sintra/Cascais/Estoril tour</a><br />
+                            <em>(Daily)</em><br/>
+                            <em>Half day (4 hours)</em>
+                            <input type="hidden" name="tour2name" value="Sintra/Cascais/Estoril tour - Half day (14h30)" />
+                        </td>
+                        <td>
+                            <input size="16" type="text" name="f_datetour2" id="f_datetour2" readonly="1" value="August 1, 2010"/>
+                            <img src="img/img.gif" name="f_trigger_datetour2" id="f_trigger_datetour2" style="cursor: pointer; border: 1px solid red;" title="Date selector" onmouseover="this.style.background='red';" onmouseout="this.style.background=''" />
+                        </td>
+                        <td>14h30</td>
+                        <td>
+                            <select name="tour2tickets" class="content" onchange="javascript:calcToursFee()">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                        </td>
+                        <td>
+                            €56
+                            <input type="hidden" name="tour2fee" value="56" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="tours/tour3.html">Óbidos/Nazaré/Fátima tour</a><br />
+                            <em>(lunch included) (Daily)</em><br/>
+                            <em>Full day (9 hours)</em>
+                            <input type="hidden" name="tour3name" value="Óbidos/Nazaré/Fátima tour - Full day with lunch (09h00)" />
+                        </td>
+                        <td>
+                            <input size="16" type="text" name="f_datetour3" id="f_datetour3" readonly="1" value="August 1, 2010"/>
+                            <img src="img/img.gif" name="f_trigger_datetour3" id="f_trigger_datetour3" style="cursor: pointer; border: 1px solid red;" title="Date selector" onmouseover="this.style.background='red';" onmouseout="this.style.background=''" />
+                        </td>
+                        <td>09h00</td>
+                        <td>
+                            <select name="tour3tickets" class="content" onchange="javascript:calcToursFee()">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                         </td>
+                         <td>
+                            €86
+                            <input type="hidden" name="tour3fee" value="86" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="tours/tour4.html">Évora</a><br />
+                            <em>lunch included (Tuesdays and Saturdays)</em><br/>
+                            <em>Full day (9 hours)</em>
+                            <input type="hidden" name="tour4name" value="Évora tour - Full day (9 hours, lunch included) (09h00)" />
+                        </td>
+                        <td>
+                            <input size="16" type="text" name="f_datetour4" id="f_datetour4" readonly="1" value="August 1, 2010"/>
+                            <img src="img/img.gif" name="f_trigger_datetour4" id="f_trigger_datetour4" style="cursor: pointer; border: 1px solid red;" title="Date selector" onmouseover="this.style.background='red';" onmouseout="this.style.background=''" />
+                        </td>
+                        <td>09h00</td>
+                        <td>
+                            <select name="tour4tickets" class="content" onchange="javascript:calcToursFee()">
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                            </select>
+                         </td>
+                         <td>
+                            €81
+                            <input type="hidden" name="tour4fee" value="81" />
+                        </td>
+                    </tr>
+                </tbody>                                                                                                                           
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                <strong>Total amount for sightseeing tours €</strong>
+                <input type="text" name="totalTours" size="4" readonly="readonly" class="readOnly" />
+            </td>
+        </tr>
+        </div>      
+        <tr>
+            <td class="sectionHeader">
+                <span class="sectionHeader">&nbsp;H - CANCELLATION POLICY</span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p><strong>Registration:</strong><br/>Any cancellation must be made before July 09th 2010, and full refund will be made. There will be no refunds after this date.</p>
+                <p><strong>Accommodation and Tours:</strong><br/>All bookings must be fully prepaid. Requests received without payment will not be considered. Upon payment an official confirmation letter will be sent. Cancellations received before June 25th 2010 will be refunded after the congress, minus € 25,00 administrative fees. After this date no refunds will be made. All refunds will be processed until 60 days after the Congress.</p>
+                <p>&nbsp;</p>
+            </td>
+        </tr>
+        <tr>
+            <td class="sectionHeader">
+                <span class="sectionHeader">&nbsp;I- FORM OF PAYMENT - Please tick-off and fill in</span>
+            </td>
+        </tr>
+       <tr>
+            <td align="right">
+                <strong>Total of sections D + E + F + G = €
+                <input type="text" name="grandTotal" id="grandTotal" size="5" readonly="readonly" value="0" class="readOnly" /></strong>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Full pre-payment is required in order to confirm the booking. Upon payment a confirmation letter will be sent.<br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br />
+                <input type="radio" name="paymentform" value="Certified Bank Cheque" onclick="changePaymentOption();"/>
+                Certified Bank Cheque<br/>
+                <blockquote id="cheque" style="display:none;">
+                    Made payable to Top Atl&acirc;ntico DMC (please fax copy of the certified bank cheque)<br />
+                    <em>(Personal cheques are not accepted)</em><br />
+                    <table cellpadding="2" class="content">
+                    <tbody>
+                        <tr>
+                            <td align="right">Certified Bank Cheque No</td>
+                            <td><input maxlength="100" size="18" name="bankdraftnum" /></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Bank</td>
+                            <td><input maxlength="100" size="18" name="bank" /></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Amount €</td>
+                            <td><input name="chequeamount" id="chequeamount" size="5" readonly="readonly" class="readOnly" /></td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </blockquote>
+                <input type="radio" name="paymentform" value="Swift Bank Transfer" onclick="changePaymentOption();"/>
+                Swift Bank Transfer
+                <blockquote id='transfer' style="display:none;">
+                    (Please fax copy of the bank order) to:<br />
+                    Top Atl&acirc;ntico DMC<br />
+                    Int. Bank Account Number: PT50 0033 0000 0000 8770 6440 5<br />
+                    Swift Code: BCOMPTPL<br />
+                    Bank: Banco Comercial Portugu&ecirc;s<br />
+                    address: Av.José Malhoa, Lote 1682, Piso 3, 1099-007 Lisboa, Portugal<br />
+                    <br />
+                    <table cellpadding="2" class="content">
+                    <tbody>
+                        <tr>
+                            <td align="right">Bank</td>
+                            <td><input maxlength="100" size="18" name="bankname" /></td>
+                        </tr>
+                        <tr>
+                            <td align="right">City</td>
+                            <td><input maxlength="100" size="18" name="bankcity" /></td>
+                        </tr>
+                        <tr>
+                            <td align="right">Amount €</td>
+                            <td><input name="swiftamount" id="swiftamount" size="5" readonly="readonly" class="readOnly" /></td>
+                        </tr>
+                    </tbody>
+                    </table>
+                    <br />
+                    <em>(All bank expenses must be borne by the participant)</em>
+                </blockquote>
+                <br />
+                <input type="radio" name="paymentform" value="Credit Card" onclick="changePaymentOption();"/>
+                Credit Card<br />  
+                <blockquote id='credit' style="display:none;">After submit you will proceed to a secure web site to enter your credit card information</blockquote>          
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="content" cellpadding="5" cellspacing="5">
+                <tbody>
+                    <tr>
+                        <td class="sectionHeader"><span class="sectionHeader"><strong>Liability</strong></span></td>
+                    </tr>
+                    <tr>
+                        <td style="background:#E2F0F1">                           
+                            <span class="content">
+                            Personal travel insurance is strongly recommended, as the Organising 
+                            Committee and Top Atl&acirc;ntico DMC act as agents only in securing 
+                            hotels, transport and travel services and in no event shall be liable for acts or 
+                            defaults in case of injury, damage, loss, accident, delay or irregularity of any 
+                            kind whatsoever during arrangements organised through contractors or the employees 
+                            of such contractors in carrying out services. Hotel and transportation services are 
+                            subject to the terms and conditions under which they are offered to the public in 
+                            general.<br />
+                            The Organising Committee reserves the right to make changes where deemed necessary, 
+                            without prior notice to parties concerned. All disputes are subject to the 
+                            Portuguese law.
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <br />
+                We suggest you print a copy for your records.<br />
+                If you have chosen payment by credit card, after you click "SUBMIT" you will proceed to a secure 
+                web site to enter your credit card information.<br />
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td align="center">            
+                <input name="Button" type="button" onclick="javascript:print()" value="Print Form" class="buttonStyle"/>
+                <input type="submit" value="Submit" class="buttonStyle"/>
+            </td>
+        </tr>
+    </table>
+</form>	
+
+<!-- // Top Atlântico Content -->         
+        
+        </td>
+        <td><img src="img/spacer.gif" width="30" height="1" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td bgcolor="#000000">&nbsp;</td>
+  </tr>
+</table>
+
+<!-- Calendars Setup -->
+<script type="text/javascript">
+<!--
+    function calcDays (cal) {
+    	//Set 1 day in milliseconds
+	var one_day = 1000*60*60*24;
+	var tmp = 0;
+	
+        var f_arrival = document.getElementById("f_date_arrival");
+        var f_departure = document.getElementById("f_date_departure");
+        var nights = document.getElementById("f_nights");  
+              
+        if ((f_arrival.value != null) && (f_departure.value != null)) {
+          var date_arrival = new Date(f_arrival.value); 
+          var date_departure = new Date(f_departure.value);  
+          tmp = Math.ceil((date_departure.getTime()-date_arrival.getTime())/one_day); 
+        }
+        if (tmp > 0)
+           nights.value = tmp
+        else 
+           nights.value = 0; 
+        calcAccommodationFee();     
+    }
+
+    Calendar.setup({
+        inputField     :    "f_date_arrival",     // id of the input field
+        ifFormat       :    "%B %e, %Y",      // format of the input field
+        button         :    "f_trigger_arrival",  // trigger for the calendar (button ID)
+        align          :    "Tr",           // alignment (defaults to "Bl")
+        singleClick    :    true,
+        onUpdate       :    calcDays
+    });
+   Calendar.setup({
+        inputField     :    "f_date_departure",
+        ifFormat       :    "%B %e, %Y",
+        button         :    "f_trigger_departure",
+        align          :    "Tr",
+        singleClick    :    true,
+        onUpdate       :    calcDays
+    });
+        Calendar.setup({
+        inputField     :    "f_datetour1",
+        ifFormat       :    "%B %e, %Y",
+        button         :    "f_trigger_datetour1",
+        align          :    "Tr",
+        singleClick    :    true
+    });
+    Calendar.setup({
+        inputField     :    "f_datetour2",
+        ifFormat       :    "%B %e, %Y",
+        button         :    "f_trigger_datetour2",
+        align          :    "Tr",
+        singleClick    :    true
+    });
+    Calendar.setup({
+        inputField     :    "f_datetour3",
+        ifFormat       :    "%B %e, %Y",
+        button         :    "f_trigger_datetour3",
+        align          :    "Tr",
+        singleClick    :    true
+    });
+    Calendar.setup({
+        inputField     :    "f_datetour4",
+        ifFormat       :    "%B %e, %Y",
+        button         :    "f_trigger_datetour4",
+        align          :    "Tr",
+        singleClick    :    true
+    });
+-->
+</script>
+</body>
+</html>

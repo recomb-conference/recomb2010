@@ -1,0 +1,252 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+   <title>RECOMB 2010</title>
+   <script src="http://www.google.com/jsapi?key=ABQIAAAA3Mb3buLF_NHBWQzevVJV2BTOd5Vsqkfq_MPuRWBSq1vAwZeVhRQoD_OUGVfFOSCPn_UHK5J91clW1w" type="text/javascript"></script>
+   <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+   
+   <script language="javascript" src="jquery.tweet.js" type="text/javascript"></script> 
+   <script type='text/javascript'>
+
+		$(document).ready(function(){
+		
+    		$("#dim").css("height", $(document).height());
+    		
+    		$(".close").click(function(){
+    			$("#dim").fadeOut();
+    			return false;
+			});
+			
+		
+		});
+		
+		$(window).bind("resize", function(){
+		 	$("#dim").css("height", $(window).height());
+		});
+
+		$(window).load(function () {
+		var isloaded=0
+		if (document.cookie.indexOf("isloaded")==-1){
+		// run code
+		$("#dim").fadeIn();
+		document.cookie="isloaded=1"
+		return false;
+		}
+		});
+
+     
+   $(document).ready(function(){
+       $(".tweet").tweet({
+	 username: "recomb2010",
+	     join_text: "auto",
+	     avatar_size: 32,
+	     count: 2,
+	     loading_text: "loading tweets..."
+	     });
+     });
+</script> 
+
+<script type = "text/javascript" src = "jquery.cyclic-fade.js"></script>
+<script type = "text/javascript" >
+	
+
+	$(document).ready(function() {
+
+		// default behavior
+		<!-- $(".blink").cyclicFade(); -->
+		$(".blink").cyclicFade({
+			repeat: 0,
+			params: [
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:2000, opin:1.0},
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:300, opin:0.75},
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:300, opin:1.0}
+			]
+		});
+	});
+	
+	</script>
+
+<link href="jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
+   <link rel="stylesheet" type="text/css" href="style.css" media="all">
+   </head>
+   <body leftmargin="0" topmargin="0" bgcolor="#bbbbbb" marginheight="0" marginwidth="0">
+   <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="800">
+   <tbody>
+   <tr>
+   <td width="600"><a name="top" id="top"><img src="logo.jpg" usemap="#logomap" alt="RECOMB 2010 Logo" border="0" height="250" width="800"></a></td>
+   <map id="logomap" name="logomap">
+
+   <area shape="rect" 
+   coords="79,219,119,229" 
+   alt="Home"
+   href="home.html">
+   <area shape="rect" 
+   coords="139,219,197,229" 
+   alt="Program"
+   href="program.html">
+
+   <area shape="rect" 
+   coords="218,219,261,229" 
+   alt="Travel"
+   href="travel_information.html">
+   <area shape="rect" 
+   coords="280,219,332,229" 
+   alt="Authors"
+   href="authors.html">
+   <area shape="rect" 
+   coords="352,219,433,229" 
+   alt="Registration"
+   href="http://www.esviagens.com/dmc/cong/recomb2010/registration-form_GB.html">
+   <area shape="rect" 
+   coords="453,219,534,229" 
+   alt="Committees"
+   href="committees.html">
+   <area shape="rect" 
+   coords="554,219,606,229" 
+   alt="Contact"
+   href="contact.html">
+   <area shape="rect" 
+   coords="627,219,736,229" 
+   alt="Accommodation"
+   href="http://www.esviagens.com/dmc/cong/recomb2010/index.html">
+   </map>
+   </tr>
+
+
+   <!-- <div id="dim"> -->
+   <!--   <div class="msgbox"> -->
+   <!--     <a class="close" href="#" ><img src="close.jpg"/></a> -->
+   <!--     <div class="regulartext">	     -->
+   <!-- 	 <h3>Conference rescheduling notice</h3> -->
+   <!-- 	 <p>Tuesday, April 20<span class="super">th</span>, 11:59PM</p>				     -->
+   <!-- 	 <p>The date of the RECOMB-2010 conference was moved to <b>August 12-15<span class="super">th</span></b>.</p> -->
+   <!-- 	 <p>Even though Lisbon airport remains open, many people will be facing significant difficulties -->
+   <!-- 	 to travel here, because of connections in central Europe. Many more will probably -->
+   <!-- 	 decide to cancel the trip, independently of the airport situation, because of all the -->
+   <!-- 	 uncertainty this phenomenon is causing. We do firmly believe that the conditions to -->
+   <!-- 	 organize a successful RECOMB meeting are not in place.</p> -->
+   <!-- 	 <p>The organizing committees have therefore decided that the RECOMB-2010 conference -->
+   <!-- 	 will be rescheduled to the dates of August 12-15<span class="super">th</span>, in Lisbon. All the invited -->
+   <!-- 	 speakers and panelists have agreed to the change, and we expect that all attendees -->
+   <!-- 	 will be able to make the necessary changes in travel arrangements. -->
+   <!-- 	 </p> -->
+   <!-- 	 <p>Your registration fee will, off course, be valid to the changed venue. -->
+   <!-- 	 The organizing committee will take all steps to minimize the inconvenience that -->
+   <!-- 	 results from this change, including the re-booking of the hotels and other reservations -->
+   <!-- 	 you may have made with us.  As you will understand, these are difficult times, and this -->
+   <!-- 	 was a very difficult decision. -->
+   <!-- 	 </p> -->
+   <!-- 	 <p>All requests for cancellation of registration and rebooking or cancellation -->
+   <!-- 	 of the hotels should be sent directly to <a href="mailto:lisboa.congress@topatlantico.pt">lisboa.congress@topatlantico.pt</a>. -->
+   <!-- 	 </p> -->
+	 
+   <!--     </div> -->
+   <!--   </div> -->
+   <!-- </div> --><tr height="600" valign="top">
+  <?php include("./travel_menu.php"); ?>
+  <td height="100%" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr>
+      <td width="100%"><table border="0" cellpadding="5" cellspacing="0" width="100%">
+	<tbody><tr>
+	  <td><img src="transp.gif" height="5" width="1"></td>
+	</tr>
+	<tr>
+	                  <td class="menusubtopicheaderfont"><img src="transp.gif" border="0" height="1" width="7"></a>Fly with TAP Portugal</td>
+	</tr>
+	              <tr>
+	                <td class="regulartext">
+	                   <p><a href="http://www.flytap.com/" target="_top"><img src="TAP_logo.jpg" border="0"></a></p>
+			   <p>TAP Portugal has agreed with the organizing committee for the conference
+			   <b>RECOMB 2010</b>, to be held in Lisbon, from the 25<span class="super">th</span> to the 28<span class="super">th</span> of April 2010, to
+			   offer a discount to the participants who make their flight <b>booking</b> and buy
+			   their <b>ticket</b> exclusively through TAP Portugal’s <a href="http://www.flytap.com/Portugal/en/TAP/Homepage/">website</a>.
+			   </p>
+			   <p>The discounts offered are the following:</p>
+			   <ul>
+			     <li>10% in economy class</li>
+			     <li>20% in business class</li>
+			   </ul>
+			   <p>The code <b><span style="background-color:yellow;">IT10TPCG10</span></b> has been given to this event and must be mentioned
+			   when making the booking in order to benefit from the discount.
+			   </p>
+			   <p>To make the booking, the participant should follow these steps:</p>
+			   <ol>
+			     <li>enter the website and choose Advanced Search</li>
+			     <li>select flights and dates</li>
+			     <li>insert the event code in the Congress Code Box, located in the
+			     grey area, on the right side of the webpage</li>
+			   </ol>
+			   <p><b>Example:</b></p>
+			   <img src="promotion_code.jpg" width="580" />
+			   <p>In case of questions, please contact TAP Portugal by the following email: <a href="mailto:congressos@tap.pt">congressos@tap.pt</a>.<p>
+			   <h3><em><u>Important Information</u></em></h3>
+			   <ul>
+			     <em>
+			       <li>The discount applicable to this event is only valid for online bookings made
+			       through TAP Portugal’s <b>website</b> <a href="http://www.flytap.com/Portugal/en/TAP/Homepage/">www.flytap.com</a> and with payment by <b>credit card</b>.
+			       The ticket will always be an electronic ticket.</li>
+			       <li>Bookings made previously by travel agencies or at our desks are not eligible for
+			       this discount.</li>
+			       <li>The final price shown at the end of the booking is the final fare, including the
+			       discount and all related taxes. The discount is applicable only over the fare,
+			       excluding all taxes related to the voyage.</li>
+			       <li><b>The discount only applies to TAP operated flights</b>. Bookings on code-share
+			       flights operated by other airlines or on other airlines do not benefit from the discount.
+			       Code-share flights are identified on online bookings with the message “OAL” or <img style="position: relative;bottom: -0.2em;" src="arrow_star_only.png" width="16" />. <br/>Example: <img style="position: relative;bottom: -0.6em;" src="oal.png" height="20" width="60" /><img src="transp.gif" border="0" height="1" width="7"><img style="position: relative;bottom: -0.6em;" src="arrow_star.png" height="20" width="60" /></li><br/>
+			       <li>The discount is not accumulative with fares for resident / student / child / infant
+			       /senior, etc.</li>
+			       <li>The discount applies only for travel to the event. It is valid for round trip journeys
+			       from any TAP destination to Lisbon.</li>
+			       <li>The booking can be made at any time. The travel dates must be comprehended
+			       in the period of 10 days before / 10 days after the event dates (from April 15<span class="super">th</span> to
+			       May 08<span class="super">th</span> 2010). The dates of the event must be comprehended in the period of
+			       travel.</li>
+			       <li>The discount is also extended to the participant's accompanying persons.</li>
+			       <li>The conditions and restrictions regarding changes and refunds are those of the
+			       applicable fare. <b>Please check the fare details before ending your booking</b>.</li>
+			     </em>
+			   </ul>
+			   <p>This information is available <a href="RECOMB_Annex.pdf">here</a> in PDF format.</p>
+			     
+	<!--                    <p>TAP Portugal, as the <i>official carrier</i> of -->
+	<!-- PATMOS 2008, is offering a discount to the workshop -->
+	<!-- participants that make their flight booking and buy their ticket -->
+	<!-- exclusively through the website of TAP Portugal.</p> -->
+	<!--                    <p>TAP Portugal is making the following discounts: -->
+	<!--                      </p><ul> -->
+	<!--                        <li>10% in economy class;</li> -->
+	<!--                        <li>20% in business class.</li> -->
+	<!--                      </ul> -->
+	
+	<!--                    <p>The event code <b>IT8TPCG50</b> has been given to the PATMOS workshop and must be mentioned when making the booking in order to benefit from the discount.</p> -->
+	<!--                    <p>To make the booking, the participant should follow -->
+	<!-- these steps:</p> -->
+	<!--                      <ol> -->
+	<!--                        <li>enter the website <a href="http://www.flytap.com/" target="_top">www.flytap.com</a> and choose <i>Advanced Search</i>;</li> -->
+	<!--                        <li>select flights and dates;</li> -->
+	<!--                        <li>insert the event code in the <i>Congress Code</i> box.</li> -->
+	<!--                      </ol> -->
+	
+	<!--                    <p>Further information is available <a href="http://algos.inesc-id.pt/patmos/PATMOS_annex.pdf">here</a>.</p> -->
+	                </td>
+	              </tr>
+
+      </tbody></table></td>
+      <td><img src="transp.gif" height="1" width="15"></td>
+    </tr>
+  </tbody></table></td>
+</tr>
+</tbody></table></td>
+</tr>
+<tr>
+  <td bgcolor="white"><img src="transp.gif" height="4" width="15">
+  </td>
+</tr>
+<tr>
+  <td bgcolor="black"><img src="transp.gif" height="2" width="15">
+  </td>
+</tr>
+</tbody></table>
+</body></html>

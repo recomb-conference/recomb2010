@@ -1,0 +1,1511 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+   <title>RECOMB 2010</title>
+   <script src="http://www.google.com/jsapi?key=ABQIAAAA3Mb3buLF_NHBWQzevVJV2BTOd5Vsqkfq_MPuRWBSq1vAwZeVhRQoD_OUGVfFOSCPn_UHK5J91clW1w" type="text/javascript"></script>
+   <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+   
+   <script language="javascript" src="jquery.tweet.js" type="text/javascript"></script> 
+   <script type='text/javascript'>
+
+		$(document).ready(function(){
+		
+    		$("#dim").css("height", $(document).height());
+    		
+    		$(".close").click(function(){
+    			$("#dim").fadeOut();
+    			return false;
+			});
+			
+		
+		});
+		
+		$(window).bind("resize", function(){
+		 	$("#dim").css("height", $(window).height());
+		});
+
+		$(window).load(function () {
+		var isloaded=0
+		if (document.cookie.indexOf("isloaded")==-1){
+		// run code
+		$("#dim").fadeIn();
+		document.cookie="isloaded=1"
+		return false;
+		}
+		});
+
+     
+   $(document).ready(function(){
+       $(".tweet").tweet({
+	 username: "recomb2010",
+	     join_text: "auto",
+	     avatar_size: 32,
+	     count: 2,
+	     loading_text: "loading tweets..."
+	     });
+     });
+</script> 
+
+<script type = "text/javascript" src = "jquery.cyclic-fade.js"></script>
+<script type = "text/javascript" >
+	
+
+	$(document).ready(function() {
+
+		// default behavior
+		<!-- $(".blink").cyclicFade(); -->
+		$(".blink").cyclicFade({
+			repeat: 0,
+			params: [
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:2000, opin:1.0},
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:300, opin:0.75},
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:300, opin:1.0}
+			]
+		});
+	});
+	
+	</script>
+
+<link href="jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
+   <link rel="stylesheet" type="text/css" href="style.css" media="all">
+   </head>
+   <body leftmargin="0" topmargin="0" bgcolor="#bbbbbb" marginheight="0" marginwidth="0">
+   <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="800">
+   <tbody>
+   <tr>
+   <td width="600"><a name="top" id="top"><img src="logo.jpg" usemap="#logomap" alt="RECOMB 2010 Logo" border="0" height="250" width="800"></a></td>
+   <map id="logomap" name="logomap">
+
+   <area shape="rect" 
+   coords="79,219,119,229" 
+   alt="Home"
+   href="home.html">
+   <area shape="rect" 
+   coords="139,219,197,229" 
+   alt="Program"
+   href="program.html">
+
+   <area shape="rect" 
+   coords="218,219,261,229" 
+   alt="Travel"
+   href="travel_information.html">
+   <area shape="rect" 
+   coords="280,219,332,229" 
+   alt="Authors"
+   href="authors.html">
+   <area shape="rect" 
+   coords="352,219,433,229" 
+   alt="Registration"
+   href="http://www.esviagens.com/dmc/cong/recomb2010/registration-form_GB.html">
+   <area shape="rect" 
+   coords="453,219,534,229" 
+   alt="Committees"
+   href="committees.html">
+   <area shape="rect" 
+   coords="554,219,606,229" 
+   alt="Contact"
+   href="contact.html">
+   <area shape="rect" 
+   coords="627,219,736,229" 
+   alt="Accommodation"
+   href="http://www.esviagens.com/dmc/cong/recomb2010/index.html">
+   </map>
+   </tr>
+
+
+   <!-- <div id="dim"> -->
+   <!--   <div class="msgbox"> -->
+   <!--     <a class="close" href="#" ><img src="close.jpg"/></a> -->
+   <!--     <div class="regulartext">	     -->
+   <!-- 	 <h3>Conference rescheduling notice</h3> -->
+   <!-- 	 <p>Tuesday, April 20<span class="super">th</span>, 11:59PM</p>				     -->
+   <!-- 	 <p>The date of the RECOMB-2010 conference was moved to <b>August 12-15<span class="super">th</span></b>.</p> -->
+   <!-- 	 <p>Even though Lisbon airport remains open, many people will be facing significant difficulties -->
+   <!-- 	 to travel here, because of connections in central Europe. Many more will probably -->
+   <!-- 	 decide to cancel the trip, independently of the airport situation, because of all the -->
+   <!-- 	 uncertainty this phenomenon is causing. We do firmly believe that the conditions to -->
+   <!-- 	 organize a successful RECOMB meeting are not in place.</p> -->
+   <!-- 	 <p>The organizing committees have therefore decided that the RECOMB-2010 conference -->
+   <!-- 	 will be rescheduled to the dates of August 12-15<span class="super">th</span>, in Lisbon. All the invited -->
+   <!-- 	 speakers and panelists have agreed to the change, and we expect that all attendees -->
+   <!-- 	 will be able to make the necessary changes in travel arrangements. -->
+   <!-- 	 </p> -->
+   <!-- 	 <p>Your registration fee will, off course, be valid to the changed venue. -->
+   <!-- 	 The organizing committee will take all steps to minimize the inconvenience that -->
+   <!-- 	 results from this change, including the re-booking of the hotels and other reservations -->
+   <!-- 	 you may have made with us.  As you will understand, these are difficult times, and this -->
+   <!-- 	 was a very difficult decision. -->
+   <!-- 	 </p> -->
+   <!-- 	 <p>All requests for cancellation of registration and rebooking or cancellation -->
+   <!-- 	 of the hotels should be sent directly to <a href="mailto:lisboa.congress@topatlantico.pt">lisboa.congress@topatlantico.pt</a>. -->
+   <!-- 	 </p> -->
+	 
+   <!--     </div> -->
+   <!--   </div> -->
+   <!-- </div> --><tr height="600" valign="top">
+  <?php include("./program_sidebar.php"); ?>
+  <td height="100%" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr>
+      <td width="100%"><table border="0" cellpadding="5" cellspacing="0">
+	<tbody><tr>
+	  <td><img src="transp.gif" height="5" width="1"></td>
+	</tr>
+	<tr>
+	  <td class="menusubtopicheaderfont">RECOMB 2010 Accepted Posters</td>
+	</tr>
+
+	<tr>
+	  <td><div class="regulartext">
+	    <br/>
+	    <a class="headerfont" id="sessionA">Session A</a>
+	    <table align="center" width="500" border="0" cellspacing="0" cellpadding="0">
+	      <tr>
+		<td align="center"><table width="440" border="0" cellpadding="0" cellspacing="0">
+		  <tr>
+		    <td>&nbsp;</td>
+		  </tr>
+		  <tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center"><b>#</b></div></td>
+			<td width="400"><div align="center"><b>Authors, Title</b></div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+
+		  <tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A1</div></td>
+			<td width="400"><div align="center">Sarah Aerni, Xiao Liu, Fuhui Long, Hanchuan Peng, Eugene Myers, Stuart Kim and Serafim Batzoglou. Gene Expression Analysis at the Single-Cell Resolution in C. elegans </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A2</div></td>
+			<td width="400"><div align="center">Payal Agarwal, Ruchi Tiwari, Anshita Goel, Shehwaj Anwar, Anil Kumar and Gohar Taj. Comparative in-silico docking analysis of MAPK3 of Arabidopsis thaliana and Brassica juncea with available defense protein in TAIR database </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A3</div></td>
+			<td width="400"><div align="center">Renato J. Alves, Ana Abecasis, Mónica Serrano, Catarina Fernandes, Anabela L. Isidro, Adriano O. Henriques and Jose B. Pereira-Leal. SporeDB   an evolutionary systems biology platform for functional and evolutionary studies of bacterial sporulation </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A4</div></td>
+			<td width="400"><div align="center">Nadia Anwar, Gary Bader, Emek Demir, Igor Rodchenkov and Chris Sander. Sharing biological pathway information using the BioPAX exchange language </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A5</div></td>
+			<td width="400"><div align="center">Mehmet Serkan Apaydin, Bulent Catay, Nicholas Patrick and Bruce Randall Donald. NVR-BIP: Nuclear Vector Replacement using Binary Integer Programming for NMR Structure-Based Assignments </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A6</div></td>
+			<td width="400"><div align="center">Helen Andrade Arcuri, Jorge Kalil, Mario Sergio Palma and Fabio Fernandes Morato Castro. The web server AllergenNet: database and analysis resource for allergenic proteins </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A7</div></td>
+			<td width="400"><div align="center">Ugur Ayan and Galip Cansever. Drug/NonDrug Clustering Using Semi-Supervised Learning Approaches </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A8</div></td>
+			<td width="400"><div align="center">Ricardo Antunes Azevedo, Bertha Dévore Agurto Berdejo, Salete Aparecida Gaziola and Leonardo Oliveira Medici. Temporal Expression of Genes Involved in Threonine Metabolism in Developing Quality Protein Maize Seeds </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A9</div></td>
+			<td width="400"><div align="center">Michael Baitaluk and Julia Ponomarenko. IntegromeDB: semantic integration of Transcriptional Regulation Data </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A10</div></td>
+			<td width="400"><div align="center">Nuno Barbosa-Morais, Mark Dunning, Shamith Samarajiwa, Christina Curtis, Andy Lynch and Simon Tavaré. Re-annotation of microarray probes improves the interpretation of cancer gene expression data </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A11</div></td>
+			<td width="400"><div align="center">Christian Baudet and Zanoni Dias. Partial enumeration of traces of solutions for the problem of sorting by signed reversals </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A12</div></td>
+			<td width="400"><div align="center">Clara Bermudez-Santana, David Langenberger, Steve Hoffmann and Peter F. Stadler. Searching tRNA processing patterns in transcriptome sequencing data </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A13</div></td>
+			<td width="400"><div align="center">Lucy Stead, Ian Wood and David Westhead. Learning from Voltage-Gated Potassium Channel Variants </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A14</div></td>
+			<td width="400"><div align="center">Andrea Bisognin, Emilia Maria Cristina Mazza, Francesco Ferrari, Mattia Forcato, Silvia Pizzini, Claudia Gemelli, Stefania Bortoluzzi and Silvio Bicciato. The Virtual Chip: a new approach for the integration of different oligonucleotide arrays </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A15</div></td>
+			<td width="400"><div align="center">Valentina Boeva, Isabelle Janoueix-Lerosey, Bruno Zeitouni, Stéphanie Jouannet, Alex Cazes, Gudrun Schleiermacher, Emmanuel Barillot and Olivier Delattre. Characterization of genomic structural variations in a neuroblastoma cell line using mate-pair sequencing </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A16</div></td>
+			<td width="400"><div align="center">Regina Bohnert, Jonas Behr, Andre Kahles, Geraldine Jean and Gunnar Rätsch. Online Quantitative Transcriptome Analysis </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A17</div></td>
+			<td width="400"><div align="center">Jeremie Bourdon, Solenne Carat and Mireille Regnier. Computing the p-values of selections in genome-wide studies </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A18</div></td>
+			<td width="400"><div align="center">Andrzej Brodzik. Combinatorial model of DNA sequence </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A19</div></td>
+			<td width="400"><div align="center">Jan Budczies, Daniel Kosztyla and Carsten Denkert. Cancerclass   an R package for construction and validation of tumor classifiers from high-dimensional molecular data </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A20</div></td>
+			<td width="400"><div align="center">Dulce Calçada, Susana Vinga and Arlindo Oliveira. An S-System Model of the Saccharomyces cerevisiae FLR1 Regulatory Network </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<!-- <tr> -->
+<!-- 		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" > -->
+<!-- 		      <tr> -->
+<!-- 			<td><div align="center">A21</div></td> -->
+<!-- 			<td width="400"><div align="center">Yonit Halperin, Chaim Linhart, Igor Ulitsky and Ron Shamir. Discovering transcriptional modules by combined analysis of expression profiles and regulatory sequences </div></td> -->
+<!-- 		      </tr> -->
+<!-- 		    </table></td> -->
+<!-- 		  </tr> -->
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A22</div></td>
+			<td width="400"><div align="center">Pedro Chan and Jim Warwicker. Evidence for the adaptation of protein pH-dependence to subcellular pH </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A23</div></td>
+			<td width="400"><div align="center">Jadwiga Bienkowska, Gul Dalgin, Franak Batliwalla, Norm Allaire, Ronenn Roubenoff, Peter Gregersen and John Carulli. Convergent Random Forest predictor: methodology for predicting drug response from genome-scale data applied to anti-TNF response </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A24</div></td>
+			<td width="400"><div align="center">Rui Chang. A Novel Knowledge-driven Systems Biology Approach for Phenotype Prediction Upon Genetic Intervention </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A25</div></td>
+			<td width="400"><div align="center">Wenling Chang, Keri Sarver, Brandon Higgs, Timothy Read, Nichole Nolan, Kimberly Bishop-Lilly and Shanmuga Sozhamannan. PhenoDB: A web-based database management system for storage, retrieval, visualization, and analysis of OmniLog phenotypic microarray data </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A26</div></td>
+			<td width="400"><div align="center">Mario Fasold, Hans Binder and Peter Stadler. The 'GGG'-bias of Microarray Data - Analysis and Correction </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A27</div></td>
+			<td width="400"><div align="center">Tiffany J. Chen, Matthew R. Clutter, Garry P. Nolan and Serafim Batzoglou. A semi-supervised approach to profiling the effect of cancer drugs on leukemic cells </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A28</div></td>
+			<td width="400"><div align="center">Doris Chen, Frederike von Pelchrzim, Jennifer Boots, Bob Zimmermann, Katarzyna Matylla and Renée Schroeder. Finding protein-binding RNA sequences by Genomic Selex and subsequent deep sequencing </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A29</div></td>
+			<td width="400"><div align="center">Warren Cheung, BF Francis Ouellette and Wyeth W. Wasserman. Predicting Gene-Disease Relationships via Gene Characteristic Profiles Constructed from Text Analysis </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A30</div></td>
+			<td width="400"><div align="center">Mario Fasold and Hans Binder. The 3'-bias of expression values and RNA degradation - quality control and correction in microarray analysis </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A31</div></td>
+			<td width="400"><div align="center">Muriel Cocaign-Bousquet. Lactococcus lactis adaptation: a multi level regulation system </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A32</div></td>
+			<td width="400"><div align="center">Barak Raveh, Nir London and Ora Schueler-Furman. Peptides: from Sub-angstrom Modeling to Specific Inhibition </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A33</div></td>
+			<td width="400"><div align="center">Tali Raveh-Sadka, Michal Levo, Uri Shabi, Leeat Keren, Maya Lotan-Pompan, Boaz Shany, Danny Zeevi, Eilon Sharon, Adina Weinberger and Eran Segal. Transcriptional Lego-Tuning Expression Levels in a Predictable Manner by Manipulating Promoter Building Blocks </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A34</div></td>
+			<td width="400"><div align="center">Helena Deus, Michelle Payton, Cintia Palu, Miria Coelho and Jonas Almeida. Experimentation and Discovery using Semantic Web and JavaScript </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A35</div></td>
+			<td width="400"><div align="center">Piroska Devay, Brigitte Wiedmann, Alex Gaither, Teresa Compton and Steven Projan. Host factors involved in HCV replication and coordinated metabolic changes </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A36</div></td>
+			<td width="400"><div align="center">Hugo Devillers, Meriem El Karoui and Sophie Schbath. Evaluating the length of significant word matches in biological sequences </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A37</div></td>
+			<td width="400"><div align="center">João ML Dias, Ana P Teixeira and Rui Oliveira. Projection to Latent Pathways (PLP): a hybrid method for metabolic network reconstruction </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A38</div></td>
+			<td width="400"><div align="center">Yoan Diekmann, Marc Gouw, Filipe Tavares-Cadete, Luisa Rodrigues and José B. Pereira-Leal. Extensive resource of Rab repertoires reveals trends in evolution of cellular trafficking </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A39</div></td>
+			<td width="400"><div align="center">Norbert Dojer, Przemyslaw Biecek and Jerzy Tiuryn. Identification of cis-regulatory modules in Drosophila melanogaster </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A40</div></td>
+			<td width="400"><div align="center">Guénola Drillon, Alessandra Carbone and Gilles Fischer. Reconstruction of rearrangement history and ancestral genomes in yeast based on synteny packs </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A41</div></td>
+			<td width="400"><div align="center">Steven Essinger and Gail Rosen. Benchmarking BLAST Accuracy of Genus/Phyla Classification of Metagenomic Reads under a Query Sequence Error Model and an Incomplete Training Database </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A42</div></td>
+			<td width="400"><div align="center">Tanima Dubey, Mark Girolami and Karin Oien. Identification of Representative Genes Underlying Gene Signatures </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A43</div></td>
+			<td width="400"><div align="center">Francisco Fernandes, Luísa Pereira and Ana T. Freitas. CIRCALIGN: An efficient algorithm to align multiple circular genomes </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A44</div></td>
+			<td width="400"><div align="center">Pedro Fernandes. GTPB - deploying bioinformatics skills through hands-on training </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A45</div></td>
+			<td width="400"><div align="center">Alexandre P. Francisco, Joana P. Gonçalves and Sara C. Madeira. TFRank: A framework to unravel relevant regulations in regulatory networks using diffusion ranking </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A46</div></td>
+			<td width="400"><div align="center">Alexandre P. Francisco, Cátia Vaz, José Melo-Cristino, Mario Ramirez and João Carriço. Phyloviz: Visualizing epidemiological information on phylogenetic relationships inferred by goeBURST algorithm </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A47</div></td>
+			<td width="400"><div align="center">Alexandre P. Francisco, Arlindo L. Oliveira and Ana T. Freitas. A graph based approach to motif clustering </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A48</div></td>
+			<td width="400"><div align="center">Alberto de la Fuente, Andrea Pinna, Nicola Soranzo and Ina Hoeschele. SysGenSIM: simulating large Systems Genetics datasets for the evaluation of analysis methods </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A49</div></td>
+			<td width="400"><div align="center">Francesco Gandolfi, Cristina Valensisi, Francesco Ferrari, Cristina Benatti, Enrica Roncaglia, Nicoletta Brunello, Fabio Tascedda and Silvio Bicciato. A combined approach for analyzing exon-profiling data from functionally relevant areas of the central nervous system </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A50</div></td>
+			<td width="400"><div align="center">Sara Garcia, Armando Pinho, João Rodrigues, Carlos Bastos and Paulo Ferreira. Minimal absent words in genomic sequences </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A51</div></td>
+			<td width="400"><div align="center">Paulo Gaspar, José Luís Oliveira, Jörg Frommlet, Gabriela Moura and Manuel A. S. Santos. A gene multi-optimization tool as novel approach to heterologous expression </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A52</div></td>
+			<td width="400"><div align="center">Piotr Gawron, Jacek Błażewicz, Marta Kasprzak, Micha  Kierzynka and Wojciech Frohmberg. GPU computation in DNA assembly algorithm </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A53</div></td>
+			<td width="400"><div align="center">Joana P. Gonçalves, Sara C. Madeira and Yves Moreau. Network-based disease gene prioritization: Are functional associations a promising alternative to protein-protein interactions? </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A54</div></td>
+			<td width="400"><div align="center">Marc Gouw, Zita Carvalho-Santos, Filipe Tavares-Cadete, Joana Pinto, Neuza Matias, Juliette Azimzadeh, Keith Gull, Michel Bornens, Mónica Bettencourt-Dias and José B. Pereira-Leal. CentrioleDB: a community resource for studying centriolar evolution </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A55</div></td>
+			<td width="400"><div align="center">Ana Graça, Inês Lynce, João Marques-Silva and Arlindo Oliveira. On the Accuracy of Haplotype Inference Methods </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A56</div></td>
+			<td width="400"><div align="center">Marcel Grunert, Markus Schueler, Anne-Katrin Emde, Ilona Dunkel and Silke R. Sperling. Analysis and prediction of microRNAs in the human heart based on next-generation sequencing data </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A57</div></td>
+			<td width="400"><div align="center">Young Soo Song, Ju Han Kim, Chan Hee Park and Hee Joon Chung. Design and Application of Statistically Supported Semantic Tissue Microarray Database </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A58</div></td>
+			<td width="400"><div align="center">Andras Hartmann, Susana Vinga and Joao Miranda Lemos. System identification of metabolic networks using Nonlinear Bayesian filtering </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A59</div></td>
+			<td width="400"><div align="center">Ernesto Iacucci and Yves Moreau. Multiple Kernel Learning on Imbalanced Data: Creating a Receptor - Ligand Classifier </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A60</div></td>
+			<td width="400"><div align="center">Sorin Istrail, Bjarni Halldorsson, Derek Aguiar and Ryan Tarpine. The Clark Phase-able Sample Size Problem: Long-range Phasing and Loss of Heterozygosity in GWAS </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A61</div></td>
+			<td width="400"><div align="center">Masahiro Ito and Yusuke Ishido. Prediction of transcriptional regulatory region using using independent component analysis and support vector machine </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A62</div></td>
+			<td width="400"><div align="center">Aleksander Jankowski, Wenjie Sun, Shyam Prabhakar and Jerzy Tiuryn. Predicting TF binding sites in mouse ES cells in the presence of nucleosomes </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A63</div></td>
+			<td width="400"><div align="center">Sibel Kalyoncu, Ozlem Keskin and Attila Gursoy. A Machine Learning Approach for Prediction of PDZ Domain Interactions </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A64</div></td>
+			<td width="400"><div align="center">Krishnakumar Kandaswamy, Pugalenthi Ganesan, Enno Hartmann, Steffen Möller, Prasanna Kolatkar, Ponnuthurai Nagaratnam Suganthan and Thomas Martinetz. Prediction of subcellular localization of apoptotic protein with Genetic Algorithms and Support-Vector-Machines </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A65</div></td>
+			<td width="400"><div align="center">Wei-Chun Kao and Yun Song. An Error Correction Algorithm for High-throughput Short-read Sequencing Technologies </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A66</div></td>
+			<td width="400"><div align="center">Amit Kaushal, Weijun Qian, Hong Gao, Yuping Zhang, David Camp, Wenzhong Xiao, Richard Smith and Ronald Davis. Quantifying Protein Abundance in Clinical Mass Spectrometry Experiments </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A67</div></td>
+			<td width="400"><div align="center">David Kelley and Steven Salzberg. Clustering metagenomic sequences with interpolated Markov models </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A68</div></td>
+			<td width="400"><div align="center">Mariann Micsinai, Fabio Parisi and Yuval Kluger. QESEQ: a Novel Non-Parametric Approach to Analyze CHIP-SEQ Data </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A69</div></td>
+			<td width="400"><div align="center">Michael Schnall-levin, Yong Zhao, Norbert Perrimon and Bonnie Berger. Evidence for Widespread microRNA Targeting in Drosophila Coding Regions </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A70</div></td>
+			<td width="400"><div align="center">Patrick Schmid, Nathan Palmer, Isaac Kohane and Bonnie Berger. Mining GEO using UMLS </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A71</div></td>
+			<td width="400"><div align="center">Brandi Cantarel, Emmanuel Mongodin and Claire Fraser-Liggett. Exploration of Stategies for Metagenomic Analysis </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A72</div></td>
+			<td width="400"><div align="center" >Sorabh Singhal and Suneet Dashora. In silico structural analysis of Lamin protein</div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A73</div></td>
+			<td width="400"><div align="center">Florian Schatz and Manfred Schimmler. A priori estimation of contig length distribution of short-read sequencing </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A74</div></td>
+			<td width="400"><div align="center">Michael Baym, Elleard Heffern, Norbert Perrimon, Bonnie Berger and Chris Bakal. Modeling and Inference of the Rho Signaling Network </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A75</div></td>
+			<td width="400"><div align="center">Rohit Singh, Daniel Park, Jinbo Xu, Raghavendra Hosur and Bonnie Berger. Struct2Net: a Web-Service to Predict Protein-Protein Interactions Using a Structure-based Approach </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A76</div></td>
+			<td width="400"><div align="center">Rachael Hageman, Maglie Leduc, Beverly Paigen, Ron Korstanje and Gary Churchill. Bayesian Inference of the Genotype-Phenotype Network Topology </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A77</div></td>
+			<td width="400"><div align="center">An Berges, Yiming Cheng, Christelle Haziza, Julia Hoeng, Stefan Lebrun, Rosemarie Lichtner, Michael Lietz, Walter Schlage and Manuel Peitsch. Application of a Dynamic Model of Apoe-/- Mouse Atherosclerosis to Assess the Impact of Cigarette Smoke Exposure on Endothelial Cell Function </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A78</div></td>
+			<td width="400"><div align="center">Katsuhiko Murakami, Makoto Ogawa, Takashi Gojobori and Tadashi Imanishi. PubMedScan: a web-based recommender of PubMed articles </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A79</div></td>
+			<td width="400"><div align="center">Myungguen Chung, Hwajung Seo and Kiejung Park. An Integrated Program for the Analysis of Protein-Protein Interaction with Cellular Localization </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">A80</div></td>
+			<td width="400"><div align="center">Pawel P. Labaj, Peter Sykacek and David P. Kreil. Advanced models help identify conserved repeats </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>		  
+
+
+		  <tr>
+		    <td>&nbsp;</td>
+		  </tr>
+		</table>
+		</td>
+	      </tr>
+	    </table>
+
+
+	    <br/>
+	    <a class="headerfont" id="sessionB">Session B</a>
+	    <table align="center" width="500" border="0" cellspacing="0" cellpadding="0">
+	      <tr>
+		<td align="center"><table width="440" border="0" cellpadding="0" cellspacing="0">
+		  <tr>
+		    <td>&nbsp;</td>
+		  </tr>
+		  <tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center"><b>#</b></div></td>
+			<td width="400"><div align="center"><b>Authors, Title</b></div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B1</div></td>
+			<td width="400"><div align="center">Nurul Bahiyah Ahmad Khairudin, Habibah Wahab, Mohd Razip Samian and Nazalan Najimudin. The Effects of Gas Phase on the Protein Conformation: A Structure Prediction Study on Eotaxin-3 Cytokine </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B2</div></td>
+			<td width="400"><div align="center">Ki-Yeol Kim and In-Ho Cha. Use of public microarray database for identifying significant genes associated with Oral Squamous Cell Carcinoma </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B3</div></td>
+			<td width="400"><div align="center">Luke A. D. Hutchison, Bonnie A. Berger and Isaac S. Kohane. Whole-organism integrative expressome for C. elegans enables in silico study of developmental regulation </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B4</div></td>
+			<td width="400"><div align="center">Po-Ru Loh, Michael Baym and Bonnie Berger. CaBLAST: Accelerated local alignment and search via compression </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B5</div></td>
+			<td width="400"><div align="center">Geoffrey Koh, Ariana Low, Daren Poh, Say Kong Ng, Victor Vai Tak Wong and Dong Yup Lee. Integrated framework for Sequence and Functional Classification of C-type Lectins </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B6</div></td>
+			<td width="400"><div align="center">Pavel Kuksa and Vladimir Pavlovic. Efficient motif finding algorithms for large-alphabet inputs </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B7</div></td>
+			<td width="400"><div align="center">Abdoulaye Diallo, Lawrence David, Mattew D Rasmussen, Manolis Kellis and Eric J Alm. Maximum Likelihood method for gene tree reconstruction and reconciliation to a known species tree in the presence of duplication, loss and Horizontal gene transfer </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B8</div></td>
+			<td width="400"><div align="center">Glenn Lawyer, Andre Altmann, Alexander Thielen and Thomas Lengauer. Mutational pathways to reverse transcriptase inhibitor resistance in HIV </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B9</div></td>
+			<td width="400"><div align="center">Byungwook Lee. Identification of protein homology using domain architecture comparison </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B10</div></td>
+			<td width="400"><div align="center">Shiao-Wen Li, Sung-Jiang Chen and Chuan-Hsiung Chang. BGEdb: A Multiscale Bacterial Gene Expression Database for Integrative Dynamics </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B11</div></td>
+			<td width="400"><div align="center">Katharina Jahn and Jens Stoye. A practical approach to approximate gene cluster detection </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B12</div></td>
+			<td width="400"><div align="center">Pedro Lopes and José Luís Oliveira. An Integrated View for Human Variome Information </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B13</div></td>
+			<td width="400"><div align="center">Tobias Mann and Christopher Saunders. Binomial Confidence Intervals Improve Sequencing Quality Scores </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B14</div></td>
+			<td width="400"><div align="center">Vinicius Maracaja-Coutinho, João C. Setubal and Sergio Verjovski-Almeida. Genome-wide in silico identification of human long non-coding RNAs and expression analysis of these transcripts in liver </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B15</div></td>
+			<td width="400"><div align="center">Abdoulaye Diallo. A Generalized Hidden Markov Model for Ancestral Sequence Estimation and Multiple sequence alignment Refinement </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B16</div></td>
+			<td width="400"><div align="center">Loredana Martignetti, Karine Laud-Duval, Franck Tirode, Olivier Delattre, Emmanuel Barillot and Andrei Zinovyev. Independent component analysis to investigate microRNA role in Ewing's sarcoma. </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B17</div></td>
+			<td width="400"><div align="center">Jeane Melo, George Cavalcanti and Geórgia Barros. New Directions To The Protein Secondary Structure Prediction Problem </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B18</div></td>
+			<td width="400"><div align="center">Vesna Memisevic, Tijana Milenkovic and Natasa Przulj. Complementarity of network and sequence information in homologous proteins </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B19</div></td>
+			<td width="400"><div align="center">Nuno Mendes, Ana Freitas, Ana Vasconcelos and Marie-France Sagot. CRAVELA: a framework to identify and evaluate miRNA regulatory modules </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B20</div></td>
+			<td width="400"><div align="center">Wieslawa Mentzen. Quest for epigenetic determinants of local coexpression clusters in plants </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B21</div></td>
+			<td width="400"><div align="center">Caroline C. Friedel, Lars Dölken, Zsolt Ruzsics, Ulrich H. Koszinowski and Ralf Zimmer. Conserved regulatory processes revealed by RNA half-life </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B22</div></td>
+			<td width="400"><div align="center">Utkur Mirsaidov, Jeff Comer, Deqiang Wang, Winston Timp, Greg Timp and Aleksei Aksimentiev. Toward Rapid Sequencing of Double-Stranded DNA Using a Nanopore Trap </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B23</div></td>
+			<td width="400"><div align="center">Arne Müller, Philippe Marc, Virgile Richard and David Heard. Tools and methods to create ontologies and curate vocabularies for pre-clinical safety: Towards an industry standard pathology findings ontology? </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B24</div></td>
+			<td width="400"><div align="center">Kristen M Naegle, Roy E. Welsch, Michael B. Yaffe, Forest M. White, Douglas A. Lauffenburger, Bruce Tidor and Bracken King. High-throughput quantitative phosphoproteomic dataset analysis using combinatorial parametric unsupervised learning </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B25</div></td>
+			<td width="400"><div align="center">Mariam Nersisyan and Deendayal Dinakarpandian. Ethnic Polymorphism Evaluation Tool (E-Pet) </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B26</div></td>
+			<td width="400"><div align="center">Daniela Nitsch, Joana P. Goncalves, Fabian Ojeda and Yves Moreau. Prioritizing Candidate Genes by Network Analysis of Differential Expression using Machine Learning Approaches </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B27</div></td>
+			<td width="400"><div align="center">Daniela Nitsch, Léon-Charles Tranchevent, Francisco Bonachela Capdevila, Bart de Moor, Patrick De Causmaecker and Yves Moreau. A guide to web tools to prioritize candidate genes </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B28</div></td>
+			<td width="400"><div align="center">Tae-kyung Kim, Jeong-Su Oh, BoKyeng Hou and SangHyuk Lee. A web-based retrieval system using a multi-dimensional analysis technique for discovering gene-disease-drug relationships in PubMed literature </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B29</div></td>
+			<td width="400"><div align="center">Leonor Palmeira, Simon Penel, Vincent Lotteau, Chantal Rabourdin-Combe and Christian Gautier. PhEVER: a database for the global exploration of virus-host evolutionary relationships </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B30</div></td>
+			<td width="400"><div align="center">Joshua Paul and Yun Song. A Principled Approach to Deriving Approximate Conditional Sampling Distributions in Population Genetics Models with Recombination </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B31</div></td>
+			<td width="400"><div align="center">José Pedro Pinto, Miguel Rocha and Isabel Rocha. A Software Tool for the Topological Analysis of Metabolic Networks under a Metabolic Engineering Perspective </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B32</div></td>
+			<td width="400"><div align="center">Snehit Prabhu and Itsik Pe'er. A Monte Carlo Sampling Algorithm To Discover Complex Interactions In Disease Association Studies </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B33</div></td>
+			<td width="400"><div align="center">Natasa Przulj, Oleksii Kuchaiev, Tijana Milenkovic, Vesna Memisevic and Wayne Hayes. Topological network alignment uncovers biological function and phylogeny </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B34</div></td>
+			<td width="400"><div align="center">Natasa Przulj, Oleksii Kuchaiev, Aleksandar Stevanovic, Marija Rasajski, Wayne Hayes and Desmond Higham. Geometric evolutionary dynamics and de-noising of protein-protein interaction networks </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B35</div></td>
+			<td width="400"><div align="center">Filipe J. Ribeiro, Joshua Burton, Iain A. MacCallum, Sante Gnerre, Dariusz Przybylski, Bruce Walker, Ted Sharpe, Giles Hall, Carsten Russ, Chad Nusbaum and David Jaffe. A general method for assembling genomes from Illumina data </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B36</div></td>
+			<td width="400"><div align="center">Tiago Rito, Zi Wang, Charlotte Deane and Gesine Reinert. How threshold behaviour affects the use of subgraphs for network comparison </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B37</div></td>
+			<td width="400"><div align="center">Jesse M. Rodriguez, Sofia Kyriazopoulou - Panagiotopoulou, Stephen D. Guo, Daniel E. Newburger and Serafim Batzoglou. GEDI: A sensitive method for detecting insertions and deletions with paired-end sequencing </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B38</div></td>
+			<td width="400"><div align="center">Gail Rosen, Steve Essinger and Diamantino Caseiro. Detecting Novel Species and Genera from Short Next-Gen Reads </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B39</div></td>
+			<td width="400"><div align="center">Agnieszka Rybarczyk, Marta Kasprzak, Marek Figlerowicz and Jacek Błażewicz. Branch and cut algorithm for the RNA Partial Degradation Problem (RNA PDP) </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B40</div></td>
+			<td width="400"><div align="center">M.D. Santos, J.A.P. Paiva, A. Gomes, P.G.S. da Fonseca, J.A. Carriço and A.T. Freitas. GEDI   KDBIO Genomic Data Information System </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B41</div></td>
+			<td width="400"><div align="center">Ravi Vijaya Satya, Kamal Kumar, Nela Zavaljevski and Jaques Reifman. Bioinformatics Software System for Design of Pathogen Diagnostic Assays </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B42</div></td>
+			<td width="400"><div align="center">Martin Schaefer and Miguel A. Andrade-Navarro. Evolution and function of CAG/glutamine-repeats </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B43</div></td>
+			<td width="400"><div align="center">Marc A. Schaub, Irene Kaplow, Marina Sirota, Chuong B. Do, Atul J. Butte and Serafim Batzoglou. A Classifier-based approach to identify genetic similarities between diseases </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B44</div></td>
+			<td width="400"><div align="center">Markus Schueler, Marcel Grunert, Jenny Schlesinger, Jenny J. Fischer, Qin Zhang, Ilona Dunkel and Silke R. Sperling. Analyzing the Cardiac Transcription Network Driven by the Interplay of Transcription Factors, Histone Modifications and microRNAs </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B45</div></td>
+			<td width="400"><div align="center">Marcel Schulz, Daniel Zerbino, Ewan Birney and Martin Vingron. De novo reconstruction of transcriptomes with Oases </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B46</div></td>
+			<td width="400"><div align="center">Ron Shamir, Yonit Halperin, Chaim Linhart and Igor Ulitsky. Allegro: Analyzing expression and sequence in concert to discover regulatory programs </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B47</div></td>
+			<td width="400"><div align="center">Dr Lukeman Adelaja Joseph Shittu, Remilekun Keji Shittu and Prof Pius Igbigbi. Computational Molecular Docking Studies Of Sesame Lignans Derivatives as Selective Endothelial Nitric Oxide Synthetase Modulators (SeNOSM). </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B48</div></td>
+			<td width="400"><div align="center">Suzanne Sindi, Selim Önal, Luke Peng, Anna Ritz, Hsin-Ta Wu and Benjamin Raphael. INTEGRATING MULTIPLE SIGNALS TO IDENTIFY STRUCTURAL VARIANTS IN THE HUMAN GENOME </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B49</div></td>
+			<td width="400"><div align="center">Marina Sirota, Marc A. Schaub, Serafim Batzoglou, William H. Robinson and Atul J. Butte. Autoimmune Disease Classification by Inverse Association with SNP Alleles </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B50</div></td>
+			<td width="400"><div align="center">Armando Solis. Information-Optimized Query-Specific Contact Potentials for Protein Structure Prediction </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B51</div></td>
+			<td width="400"><div align="center">Lucy Stead, Ian Wood and David Westhead. KvSNP: Learning from Voltage-Gated Potassium Channel Variants </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B52</div></td>
+			<td width="400"><div align="center">Raghavendra Hosur, Jinbo Xu, Jadwiga Bienkowska and Bonnie Berger. iWRAP: An interface threading approach with application to prediction of cancer related protein-protein interactions </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B53</div></td>
+			<td width="400"><div align="center">Marta Szachniuk, Mariusz Popenda, Marek Blazewicz, Szymon Wasik, Edmund K. Burke, Jacek Błażewicz and Ryszard W. Adamiak. RNA FRABASE 2.0. An intelligent tool for the exploration of RNA structure parameter space. </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B54</div></td>
+			<td width="400"><div align="center">Ewa Szczurek, Florian Markowetz, Irit Gat-Viks, Przemyslaw Biecek, Jerzy Tiuryn and Martin Vingron. Gene regulation re-wired upon DNA damage. </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B55</div></td>
+			<td width="400"><div align="center">Hung x. Ta, Liisa Holm and Seung Kee Han.  Functional dynamics versus physical connectivity of complex networks </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B56</div></td>
+			<td width="400"><div align="center">Avraam Tapinos and Pedro Mendes. Clustering Systems Biology Models Through Time Series </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B57</div></td>
+			<td width="400"><div align="center">Alessandra Tiengo, Nicola Barbarini, Caterina Temporini, Gabriella Massolini and Paolo Magni. Phosphopeptides Identification: An Automated Perl Procedure </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B58</div></td>
+			<td width="400"><div align="center">Anders Wallqvist, Xin Fang and Jaques Reifman. A systems biology approach to study drug-induced growth inhibition of Mycobacterium tuberculosis </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B59</div></td>
+			<td width="400"><div align="center">Alessandro Dal Palù, Mathias Möhl, Sebastian Will and Bonnie Berger. CARNA: Alignment of RNA with Structures of Unlimited Complexity </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B60</div></td>
+			<td width="400"><div align="center">Uri Weingart, Yair Lavi and David Horn. Data Mining of Enzymes using Specific Peptides </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B61</div></td>
+			<td width="400"><div align="center">Christian Widmer, Jose Miguel Leiva-Murillo, Yasemin Altun and Gunnar Rätsch. Leveraging Sequence Classification by Taxonomy-based Multitask Learning </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B62</div></td>
+			<td width="400"><div align="center">Michał Woźniak, Jerzy Tiuryn and Limsoon Wong. Comparison of eight M. tuberculosis strains in the presence of drug resistance data </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B63</div></td>
+			<td width="400"><div align="center">Takuji Yamada, Ivica Letunic, Shujiro Okuda and Peer Bork. iPath: Interactive Pathways Explorer </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B64</div></td>
+			<td width="400"><div align="center">Jung Tay Yee and Christopher Workman. High throughput protein interaction screens uncover distinct aspects of the budding yeast interactome </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B65</div></td>
+			<td width="400"><div align="center">Xiaoqing You, Annie Titus, Fawn Wang, Kelly Li and Yu Wang. Developing TaqMan® real time PCR based assays for mouse copy number variation detection </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B66</div></td>
+			<td width="400"><div align="center">Jianyang Zeng, Jeffrey Boyles, Chittaranjan Tripathy, Lincong Wang, Anthony Yan, Pei Zhou and Bruce Donald. RDC-PANDA: a High-Resolution NMR Structure Determination Algorithm Starting with a Global Fold Calculated from Exact Solutions to the RDC Equations </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B67</div></td>
+			<td width="400"><div align="center">Zhizhuo Zhang, ChengWei Chang, Edwin Cheung and Wing-Kin Sung. Peak Oriented Motif Discovery Algorithm </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B68</div></td>
+			<td width="400"><div align="center">Yun Zheng. SeqTar: A Method for Predicting Small RNA Guided Cleavages Based on Deep Sequencing of Degradome of Polyadenylated Transcripts </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B69</div></td>
+			<td width="400"><div align="center">Shruthi Prabhakara and R. Acharya. Fuzzy Clustering of Metagenome Reads </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B70</div></td>
+			<td width="400"><div align="center">Chih-Hsien Yang and Chuan-Hsiung Chang. Bioinformatics discovery of inducible promoters from large-scale time series experiments for genetic circuit design </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B71</div></td>
+			<td width="400"><div align="center">Charles O'Donnell, Jerome Waldispuhl, Mieszko Lis, Srinivas Devadas, Susan Lindquist and Bonnie Berger. A method for probing the mutational landscape of amyloid structure </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B72</div></td>
+			<td width="400"><div align="center">Sylvia Melzer, Clemens Gröpl, Jan Muntel and Dörte Becher. Improving peptide identification in proteome analysis by retention time and secondary structure filtering approaches </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B73</div></td>
+			<td width="400"><div align="center">Valery Kirzhner, Svetlana Margulis and Abraham Korol. Large-scale comparisons of primate genomes on the above-gene level </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B74</div></td>
+			<td width="400"><div align="center">Satish Kumar, Chandan K. Singh and Rajib Bandopadhayay. 1, 3-Dihydroxy 9, 10 anthraquinone, an inhibitory drug molecule for Staphylococcus aureus infection, by targeting the HtsA receptor </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B75</div></td>
+			<td width="400"><div align="center">Nurcan Tuncbag, Attila Gursoy, Ruth Nussinov and Ozlem Keskin. Large scale construction of three-dimensional protein-protein complex structures </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B76</div></td>
+			<td width="400"><div align="center">Nurcan Tuncbag, Ozlem Keskin and Attila Gursoy. HotPOINT: Hot Spot Prediction Server for Protein Interfaces </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B77</div></td>
+			<td width="400"><div align="center">Sheng-Yu Chuang, Hsiao-Wen Wang and Yao-Ting Huang. A New Framework for Finding Translocations with Next Generation Sequencing </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B78</div></td>
+			<td width="400"><div align="center">Jonathan Goeke, Marcel Schulz and Martin Vingron. Pairwise Comparison of Regulatory Sequences </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+<tr>
+		    <td><table width="440" border="1" cellpadding="3" cellspacing="0" >
+		      <tr>
+			<td><div align="center">B79</div></td>
+			<td width="400"><div align="center">Pinar Kanlikilicer, Berna Sariyar Akbulut and Elif Ozkirimli. Beta-lactamase ligand recognition - a comparative study </div></td>
+		      </tr>
+		    </table></td>
+		  </tr>
+
+
+
+		  <tr>
+		    <td>&nbsp;</td>
+		  </tr>
+		</table>
+		</td>
+	      </tr>
+	    </table>
+
+
+	  </div></td>
+	</tr>
+
+
+      </tbody></table></td>
+      <td><img src="transp.gif" height="1" width="15"></td>
+    </tr>
+  </tbody></table></td>
+</tr>
+</tbody></table></td>
+</tr>
+<tr>
+  <td bgcolor="white"><img src="transp.gif" height="4" width="15">
+  </td>
+</tr>
+<tr>
+  <td bgcolor="black"><img src="transp.gif" height="2" width="15">
+  </td>
+</tr>
+</tbody></table>
+</body></html>

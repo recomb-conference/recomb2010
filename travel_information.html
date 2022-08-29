@@ -1,0 +1,605 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+   <title>RECOMB 2010</title>
+   <script src="http://www.google.com/jsapi?key=ABQIAAAA3Mb3buLF_NHBWQzevVJV2BTOd5Vsqkfq_MPuRWBSq1vAwZeVhRQoD_OUGVfFOSCPn_UHK5J91clW1w" type="text/javascript"></script>
+   <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+   
+   <script language="javascript" src="jquery.tweet.js" type="text/javascript"></script> 
+   <script type='text/javascript'>
+
+		$(document).ready(function(){
+		
+    		$("#dim").css("height", $(document).height());
+    		
+    		$(".close").click(function(){
+    			$("#dim").fadeOut();
+    			return false;
+			});
+			
+		
+		});
+		
+		$(window).bind("resize", function(){
+		 	$("#dim").css("height", $(window).height());
+		});
+
+		$(window).load(function () {
+		var isloaded=0
+		if (document.cookie.indexOf("isloaded")==-1){
+		// run code
+		$("#dim").fadeIn();
+		document.cookie="isloaded=1"
+		return false;
+		}
+		});
+
+     
+   $(document).ready(function(){
+       $(".tweet").tweet({
+	 username: "recomb2010",
+	     join_text: "auto",
+	     avatar_size: 32,
+	     count: 2,
+	     loading_text: "loading tweets..."
+	     });
+     });
+</script> 
+
+<script type = "text/javascript" src = "jquery.cyclic-fade.js"></script>
+<script type = "text/javascript" >
+	
+
+	$(document).ready(function() {
+
+		// default behavior
+		<!-- $(".blink").cyclicFade(); -->
+		$(".blink").cyclicFade({
+			repeat: 0,
+			params: [
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:2000, opin:1.0},
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:300, opin:0.75},
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:300, opin:1.0}
+			]
+		});
+	});
+	
+	</script>
+
+<link href="jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
+   <link rel="stylesheet" type="text/css" href="style.css" media="all">
+   </head>
+   <body leftmargin="0" topmargin="0" bgcolor="#bbbbbb" marginheight="0" marginwidth="0">
+   <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="800">
+   <tbody>
+   <tr>
+   <td width="600"><a name="top" id="top"><img src="logo.jpg" usemap="#logomap" alt="RECOMB 2010 Logo" border="0" height="250" width="800"></a></td>
+   <map id="logomap" name="logomap">
+
+   <area shape="rect" 
+   coords="79,219,119,229" 
+   alt="Home"
+   href="home.html">
+   <area shape="rect" 
+   coords="139,219,197,229" 
+   alt="Program"
+   href="program.html">
+
+   <area shape="rect" 
+   coords="218,219,261,229" 
+   alt="Travel"
+   href="travel_information.html">
+   <area shape="rect" 
+   coords="280,219,332,229" 
+   alt="Authors"
+   href="authors.html">
+   <area shape="rect" 
+   coords="352,219,433,229" 
+   alt="Registration"
+   href="http://www.esviagens.com/dmc/cong/recomb2010/registration-form_GB.html">
+   <area shape="rect" 
+   coords="453,219,534,229" 
+   alt="Committees"
+   href="committees.html">
+   <area shape="rect" 
+   coords="554,219,606,229" 
+   alt="Contact"
+   href="contact.html">
+   <area shape="rect" 
+   coords="627,219,736,229" 
+   alt="Accommodation"
+   href="http://www.esviagens.com/dmc/cong/recomb2010/index.html">
+   </map>
+   </tr>
+
+
+   <!-- <div id="dim"> -->
+   <!--   <div class="msgbox"> -->
+   <!--     <a class="close" href="#" ><img src="close.jpg"/></a> -->
+   <!--     <div class="regulartext">	     -->
+   <!-- 	 <h3>Conference rescheduling notice</h3> -->
+   <!-- 	 <p>Tuesday, April 20<span class="super">th</span>, 11:59PM</p>				     -->
+   <!-- 	 <p>The date of the RECOMB-2010 conference was moved to <b>August 12-15<span class="super">th</span></b>.</p> -->
+   <!-- 	 <p>Even though Lisbon airport remains open, many people will be facing significant difficulties -->
+   <!-- 	 to travel here, because of connections in central Europe. Many more will probably -->
+   <!-- 	 decide to cancel the trip, independently of the airport situation, because of all the -->
+   <!-- 	 uncertainty this phenomenon is causing. We do firmly believe that the conditions to -->
+   <!-- 	 organize a successful RECOMB meeting are not in place.</p> -->
+   <!-- 	 <p>The organizing committees have therefore decided that the RECOMB-2010 conference -->
+   <!-- 	 will be rescheduled to the dates of August 12-15<span class="super">th</span>, in Lisbon. All the invited -->
+   <!-- 	 speakers and panelists have agreed to the change, and we expect that all attendees -->
+   <!-- 	 will be able to make the necessary changes in travel arrangements. -->
+   <!-- 	 </p> -->
+   <!-- 	 <p>Your registration fee will, off course, be valid to the changed venue. -->
+   <!-- 	 The organizing committee will take all steps to minimize the inconvenience that -->
+   <!-- 	 results from this change, including the re-booking of the hotels and other reservations -->
+   <!-- 	 you may have made with us.  As you will understand, these are difficult times, and this -->
+   <!-- 	 was a very difficult decision. -->
+   <!-- 	 </p> -->
+   <!-- 	 <p>All requests for cancellation of registration and rebooking or cancellation -->
+   <!-- 	 of the hotels should be sent directly to <a href="mailto:lisboa.congress@topatlantico.pt">lisboa.congress@topatlantico.pt</a>. -->
+   <!-- 	 </p> -->
+	 
+   <!--     </div> -->
+   <!--   </div> -->
+   <!-- </div> --><tr height="600" valign="top">
+  <?php include("./travel_menu.php"); ?>  
+  <td height="100%" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr>
+      <td width="100%"><table border="0" cellpadding="5" cellspacing="0" width="100%">
+	<tbody><tr>
+	  <td><img src="transp.gif" height="5" width="1"></td>
+	</tr>
+	<tr>
+	  <td colspan="2" class="menusubtopicheaderfont"><img src="transp.gif" border="0" height="1" width="7">Information</td>
+	</tr>
+	<tr>
+	  <td colspan="2"><img src="transp.gif" height="1" width="1"></td>
+	</tr>
+	<tr>
+	  <td colspan="2" class="regulartext"><img src="transp.gif" height="1" width="1"></td>
+	</tr>
+	<tr>
+	  <td colspan="2" class="regulartext"><span class="regulartextBOLD">Passport and Visas  </span><br>
+	  A valid passport (or identity card for European Community nationals) is
+	  required. Visas are not necessary for citizens of European Union
+	  countries, the U.S.A., Canada and most countries. Please contact
+	  your local Portuguese Embassy, Consulate or your Travel Agency for
+	  further information. <br>
+	  <br>
+	    <span class="regulartextBOLD">Health Requirements</span>  <br>
+	    With the exception of vaccination certificates for persons coming from
+	    areas where yellow fever is endemic presently there are no special
+	    health requirements. <br>
+	    <br>
+	      <span class="regulartextBOLD">How to reach Lisboa by air  </span><br>
+	      Lisboa is just a few hours flying away - 6/8 hours from North America
+	      and 2/3 hours from most European cities. TAP Air Portugal, with more
+	      than 60 offices around the world and daily flights to and from major
+	      cities, covering almost 50 destinations in four continents, as official
+	      carrier will grant special discounts to all participants and
+	      accompanying persons. <br>
+	      <br>
+		<span class="regulartextBOLD">Lisboa Airport welcome desk  </span><br>
+		Top Atlântico Operated by Top Tours own office, located right at the
+		arrivals hall of Lisboa airport, provides personalized assistance to
+		the incoming participants. <br>
+		<br>
+		  <span class="regulartextBOLD">Car rental</span>  <br>
+		  Special arrangements are made with the main reliable rent-a-car outlets
+		  to grant special discounts to delegates and companions. <br>
+		  <br>
+		    <span class="regulartextBOLD">Accommodation</span>  <br>
+		    The Portuguese Hotel Industry has established a good reputation abroad
+		    basically due to the high standard of services rendered. Also good
+		    professional teams together with ryhe Portuguese natural warmth and
+		    friendliness make a powerful combination that will certainly help you
+		    feel welcome. <br>
+		    <br>
+		      <span class="regulartextBOLD">Language</span>  <br>
+		      The official language is Portuguese. English and French are widely spoken. <br>
+		      <br>
+			<span class="regulartextBOLD">Local time</span>  <br>
+			Mainland Portugal is 1 hour behind European Standard Time. <br>
+			<br>
+			  <span class="regulartextBOLD">Currency  </span><br>
+			  As a member of the European Monetary System the € [euro] is the
+			  Portuguese monetary unit. At present, the bills in circulation are: €
+			  5.00 ; € 10.00 ; € 20.00 ; € 50.00 ; € 100.00 ; € 200.00 ; and €
+			  500.00. The coins are as follows: 1 cent ; 2 cents ; 5 cents ; 10 cents
+			  ; 20 cents ; 50 cents ; € 1.00 and € 2.00 . <br>
+			  <br>
+			    <span class="regulartextBOLD">Tipping  </span><br>
+			    Tipping is optional, but normally 10% is customary in taxis, restaurants and bars. <br>
+			    <br>
+			      <span class="regulartextBOLD">Exchange  </span><br>
+			      Major credit cards are accepted in most hotels, shops and restaurants.
+			      Travellers cheques and currency can be changed at hotels or at a bank -
+			      these are open Monday to Friday from 08h30 to 15h00. Automatic changing
+			      and cash dispensing machines linked to international networks are also
+			      widely available. <br>
+			      <br>
+				<span class="regulartextBOLD">Post and Telecommunications  </span><br>
+				Automatic direct dial telephone service is available to and from most
+				countries in the world. Public phones accept either a pre-paid card, or
+				coins (see signs on the booth). Credit systems such as AT&amp;T are
+				also available. Post offices are open Monday to Friday from 08h30 to
+				12h00 and 14h00 to 18h00. <br>
+				<br>
+				  <span class="regulartextBOLD">Medical Care</span>  <br>
+				  Clinics and hospitals provide round the clock emergency service. The
+				  national emergency phone number is 112. Hotels have a doctor on call
+				  through the reception. Reciprocal European Union cover is available at
+				  out-patient departments, otherwise private consultation fees are
+				  charged. <br>
+				  <br>
+				    <span class="regulartextBOLD">Electrical Current</span><br>
+				    European type 2 pin sockets with 220 volts AC at 50 cycles are used.
+				    The phase 380 volt current is normally available in meeting and
+				    exhibition rooms. <br>
+				    <br>
+				      <span class="regulartextBOLD">Smoking</span>  <br>
+				      Smoking is forbidden by law in public transportation, and in closed public areas. <br>
+				      <br>
+					<span class="regulartextBOLD">Shops  </span><br>
+					Shops are open from 09h00 to 13h00 and 15h00 to 19h00 Monday to Friday,
+					and 09h00 to 13h00 on Saturdays. In major town centres and in many
+					shopping malls, they stay open during lunch hours, and close later at
+					night, including weekend. <br>
+					<br>
+					  <span class="regulartextBOLD">Main Shopping Areas  </span><br>
+					  The Pombaline section at downtown, bordered by the magnificent Praça do
+					  Comércio [Black Horse Square] facing the river Tejo, the Rua do Ouro,
+					  Rua Augusta and Rua da Prata finishing at Rossio Square, Avenida da
+					  Liberdade, and the "Chiado" leading to Bairro Alto. The new areas of
+					  Av. de Roma, Praça de Londres and Av. Guerra Junqueiro. Some of the
+					  main Shopping Centres are Dolce Vita Tejo [the largest in Europe], Colombo, Vasco
+					  da Gama, Amoreiras, Imaviz, Monumental, Atrium Saldanha, Alvalade, Via
+					  Veneto, El Corte Inglês, etc... <br>
+					  <br>
+					    <span class="regulartextBOLD">Shopping  </span><br>
+					    Fine leather goods, lead crystal ware, porcelain, vintage wines, golden
+					    and silver filigree, pottery and specialist textiles are considered
+					    excellent buys in Portugal. <br>
+					    <br>
+					      <span class="regulartextBOLD">Sales Tax</span>  <br>
+					      Sales tax [VAT] is included in prices quoted. For non European Union
+					      residents, tax free shopping schemes are available in many shops, which
+					      gives substantial savings to visitors. <br>
+					      <br>
+						<span class="regulartextBOLD">Driving  </span><br>
+						Vehicles drive on the right side of the road. The use of safety belts
+						is compulsory, and children under 12 must ride in the back seats.
+						Portugal has actually a large freeway network crossing the whole
+						country from the North to the South in Algarve, and from the Ocean
+						front to the border with Spain. Valid driving licenses from European
+						Union countries, the USA, Canada and other major countries are
+						acceptable for use in Portugal up to 6 months stay. <br>
+						<br>
+						  <span class="regulartextBOLD">Public transportation</span>  <br>
+						  There is a wide inexpensive network in all towns and cities. In Lisboa,
+						  city of the seven hills, you can choose between bus, underground metro,
+						  elevators, electric trams or railway, within the city or to the
+						  suburbs. Trains and express bus service also links the main towns of
+						  the country. <br>
+						  <br>
+						    <span class="regulartextBOLD">Meals</span>  <br>
+						    Breakfast is normally served between 07.30 and 10.00 hrs., lunch from
+						    12.30 to 15.00 hrs., and dinner from 19.30 to 22.00 hrs. <br>
+						    <br>
+						      <span class="regulartextBOLD">Dinning</span>  <br>
+						      There are a wide variety of restaurants and cafés in Lisboa ranging
+						      through the elegant and sophisticated to the casual and inexpensive.
+						      Take-away and fast food is also available from many outlets.
+						      Restaurants, bars, some with living shows, and discos along the river
+						      Tagus, at Rocha Pier and at the Expo 98 site, become very popular,
+						      specially at weekend nights. <br>
+						      <br>
+							<span class="regulartextBOLD">Entertainment</span><br>
+							Lisboa has a variety of theatres and venues catering for most tastes.
+							Opera, ballet, plays, concerts, etc. take place on a regular basis all
+							year round. Portuguese Fado and Folklore shows are popular, and an
+							international show at Casino Estoril [the largest in Europe], with
+							glittering cabaret complements the many discos and other night spots. <br>
+							<br>
+							  <span class="regulartextBOLD">Recreation</span><br>
+							  Excellent golf courses, tennis and squash courts, water sports and
+							  horse riding tempt the energetic delegates. The more relaxed might
+							  choose from many noteworthy museums and monuments, sunny beaches and
+							  interesting cities to explore. <br>
+							  <br>
+							    <span class="regulartextBOLD">Religious Services  </span><br>
+							    Portugal is predominantly Catholic, but a wide number of other faiths
+							    [Protestant, Christian, Moslem, Jewish, and Hindu, among others] are
+							    also followed. Please inquire at hotel reception for times and places
+							    of services. <br>
+							    <br>
+							      <span class="regulartextBOLD">Security  </span><br>
+							      Crime rates in Portugal are among the lowest in the world. Hotels have
+							      their own security staff, which is sufficient for most events.
+							      Specialist firms are also available if necessary, and the police
+							      provide special protection for visiting dignitaries and high risk
+							      individuals. <br>
+							      <br>
+								<span class="regulartextBOLD">Check in / out policy</span>  <br>
+								Should hotel rooms be required for guaranteed occupancy before 14.00
+								hrs, the previous night should be reserved. Check out time is 12.00 hrs.
+								noon. <br>
+								<br>
+								  <span class="regulartextBOLD">Accessibility</span><br>
+								  Lisboa International Airport located 6 km from the city centre, and
+								  about 20 minutes driving time from Estoril, is served by all major
+								  international airlines from all over the world. <br>
+								  <br>
+								    <span class="regulartextBOLD">Climate</span>  <br>
+								    The climate in Lisboa is temperate, offering the best of both Atlantic
+								    and Mediterranean sea breezes all year round. <br>
+								    <br>
+								      <span class="regulartextBOLD">V.A.T. </span><br>
+								      Value added tax (I.V.A. in Portuguese) is included in prices quoted.
+								      For non EU residents, tax free shopping schemes are available at many
+								      shops. <br>
+								      <br>
+									<span class="regulartextBOLD">Water </span><br>
+									Tap water is safe to drink. Portuguese and imported bottled mineral water is also readily available. <br>
+									<br>
+									  <span class="regulartextBOLD">Public Hospital </span>(Closest to Conference Venue) <br>
+									  Hospital de Santa Maria <br>
+									  Avenida Professor Egas Moniz 1649-035 Lisboa <br>
+									  Tel: (+351) 217 805 000  </td>
+									</tr>
+									<tr>
+									  <td colspan="2"><img src="transp.gif" height="1" width="1"></td>
+									</tr>
+									<tr>
+									  <td colspan="2"><a href="#top" class="regulartextBOLDBlue">Back to top </a></td>
+									</tr>
+									<tr>
+									  <td colspan="2" class="regulartext"><img src="transp.gif" height="1" width="1"></td>
+									</tr>
+									<tr>
+									  <td colspan="2" class="regulartext" bgcolor="#2250a2"><span class="regulartextBOLDWhite">Museums</span> <br>
+									  <span class="regulartextWhite">Most
+									  of the Museums are closed on public holidays and open Tuesdays to
+									  Sundays, from 10h00 to 17h00. Please check with the Secretariat of the
+									  Conference for further information. Some of the most important museums in
+									  Lisboa are: </span></td>
+									</tr>
+									<tr>
+									  <td class="regulartext" bgcolor="#e2f0f1" 
+									      valign="top" width="50%"><span class="regulartextBOLD">Museu Nacional de Arte Antiga</span>  <br>
+									  Ancient Art. <br>
+									  <span class="regulartextBOLD"><br>
+									    Museu Arqueológico Convento do Carmo </span>Archaeology. <br>
+									    <span class="regulartextBOLD"><br>
+									      Museu Nacional dos Coches  </span><br>
+									      The world's best collection of this type, ranging from the 17th century coach of King Philip II to 19th century carriages. <br>
+									      <br>
+										<span class="regulartextBOLD">Museu Calouste Gulbenkian</span>  <br>
+										It houses the 17th and 18th century oil-billionaire Gulbenkian's
+										remarkable collection containing Egyptian, Graeco-Roman, Oriental and
+										European art, and a fine selection of works by René Lalique. <br>
+										<br>
+										  <span class="regulartextBOLD">Museu de Arte Moderna  </span><br>
+										  As part of the Calouste Gulbenkian Foundation Museum, it houses the best collection of 20th century Portuguese art. <br>
+										  <br>
+										    <span class="regulartextBOLD">Museu Militar</span>  <br>
+										    Collection of military weapons, armour, paintings and uniforms. <br>
+										    <br>
+										      <span class="regulartextBOLD">Museu de Marinha  </span><br>
+										      Collection of vessels, paintings and ships rigging. Also the royal barges and sea planes. <br>
+										      <br>
+											<span class="regulartextBOLD">Museu Nacional do Azulejo </span><br>
+											Collection of decorative tiles (azulejos). <br>
+											<span class="regulartextBOLD"><br>
+											  Museu de Arte Sacra </span><br>
+											  Religious art at São Roque Church. <br></td>
+											  <td class="regulartext" bgcolor="#e2f0f1"
+											      valign="top" width="50%"><span class="regulartextBOLD">Museu do Chiado  </span><br>
+											  Painting and sculpture collection from the romantic period. <br>
+											  <br>
+											    <span class="regulartextBOLD">Olissipona</span> (at St. George Castle)  <br>
+											    Lisboa's Interpretation Centre. <br>
+											    <br>
+											      <span class="regulartextBOLD">Ajuda Royal Palace</span>  <br>
+											      Furniture, tapestry and painting collection. <br>
+											      <br>
+												<span class="regulartextBOLD">City Museum</span>  <br>
+												It houses a large collection, including paintings, drawings,
+												engravings, glazed tiles and sculpture, showing the evolution of Lisboa
+												from prehistory until the beginning of the 19th century. <br>
+												<br>
+												  <span class="regulartextBOLD">Museu Ricardo Espirito Santo</span><br>  
+												  Important decorative art collection in the ambience of an old Portuguese manor house. <br>
+												  <br>
+												    <span class="regulartextBOLD">Museu do Teatro</span>  <br>
+												    Collection of costumes and stage props, stage models and costume
+												    designs, photographs, posters, programmes, manuscripts, scores,
+												    portraits and cartoons. Next to Museu do Traje, amid a beautiful common
+												    park. <br>
+												    <br>
+												      <span class="regulartextBOLD">Museu do Traje</span>  <br>
+												      Its collection illustrates the history of court and folk clothing
+												      throughout the ages. The museum also mounts temporary exhibitions of
+												      fashion design, accessories and jewellery. <br>
+												      <br>
+													<span class="regulartextBOLD">Vieira da Silva &amp; Arpad Szenes </span><br>
+													Painting Collection. </td>
+												      </tr>
+												      <tr>
+													<!--                       <td colspan="2" bgcolor="#333333"><img src="transp.gif" height="1" width="1"></td> -->
+												      </tr>
+												      <tr>
+													<td colspan="2"><img src="transp.gif" height="1" width="1"></td>
+												      </tr>
+												      <tr>
+													<td colspan="2"><a href="#top" class="regulartextBOLDBlue">Back to top </a></td>
+												      </tr>
+												      <tr>
+													<td colspan="2"><img src="transp.gif" height="1" width="1"></td>
+												      </tr>
+												      <!--                     <tr> -->
+												      <!--                       <td colspan="2" bgcolor="#2250a2"><table border="0" cellpadding="0" cellspacing="0" width="100%"> -->
+												      <!--                         <tbody> -->
+
+
+
+												      <tr>
+													<td colspan="2" class="regulartextBOLDWhite" bgcolor="#2250a2">Lisboa Oceanarium</td>
+												      </tr>
+												      <tr>
+													<td colspan="2" class="regulartext" bgcolor="#e2f0f1">Located 
+													at “Parque das Nações”, the former Expo 98 site, is the largest in
+													Europe and the second one in the world. Is a vast aquarium recreating
+													four different ocean habitats [the Atlantic, the Pacific, the Indian
+													and the Antarctic], with more than 16,000 living species from all over
+													the world, offers the visitor a spectacular display of light and
+													colour.</td>
+												      </tr>
+
+
+												      <!-- 			  <tr> -->
+												      <!-- 			  <td valign="top" width="78%"><span class="regulartextBOLDWhite">Lisboa Oceanarium </span><br> -->
+												      <!--                             <span class="regulartextWhite">Located -->
+												      <!-- at “Parque das Nações”, the former Expo 98 site, is the largest in -->
+												      <!-- Europe and the second one in the world. Is a vast aquarium recreating -->
+												      <!-- four different ocean habitats [the Atlantic, the Pacific, the Indian -->
+												      <!-- and the Antarctic], withmore than 16,000 living species from all over -->
+												      <!-- the world, offers the visitor a spectacular display of light and -->
+												      <!-- colour. </span></td> -->
+												      <!--                           <td width="1%"><img src="transp.gif" height="1" width="5"></td> -->
+												      <!--                           <td width="21%"><img src="oceanario1.jpg" height="100" width="126"></td> -->
+												      <!--                         </tr> -->
+												      <!--                       </tbody></table> -->
+												      <!-- </td> -->
+												      <!--                     </tr> -->
+												      <tr>
+													<td colspan="2"><img src="transp.gif" height="1" width="1"></td>
+												      </tr>
+												      <tr>
+													<td colspan="2"><a href="#top" class="regulartextBOLDBlue">Back to top </a></td>
+												      </tr>
+												      <tr>
+													<td colspan="2"><img src="transp.gif" height="1" width="1"></td>
+												      </tr>
+												      <tr>
+													<td colspan="2" class="regulartextBOLDWhite" bgcolor="#2250a2">Parks and Gardens      </td>
+												      </tr>
+												      <tr>
+													<td class="regulartext" bgcolor="#e2f0f1" valign="top"><span class="regulartextBOLD">Jardim Botânico </span><br>
+													Alongside the Academy of Sciences, one of the most beautiful in Europe
+													has an usual display of more than 20,000 exotic plant species. <br>
+													<br>
+													  <span class="regulartextBOLD">Zoo  </span><br>
+													  Set in the lovely Laranjeiras Park, one of the richest zoos with more
+													  than 2,000 animals and the best dolphinarium in Europe, is definitively
+													  one of the nicest in the world, also the Animatrix playground for
+													  children. <br></td>
+													  <td bgcolor="#e2f0f1" valign="top"><span class="regulartextBOLD">Parque Ecológico de Monsanto</span><span class="regulartext"><br>
+													  Ecological park covering an area of 300,00 square metres, provides the
+													  perfect interplay between man and nature and offers visitors a close
+													  contact with wild animals and vegetal species. <br>
+													  <br>
+													    </span><span class="regulartextBOLD">Parque Eduardo VII</span><span class="regulartext"><br>
+													    With its fascinating "Estufa Fria", a magnificent glass plant hot house with magnificent subtropical flora. </span></td>
+													  </tr>
+													  <tr>
+													    <!--                       <td colspan="2" bgcolor="#333333"><img src="transp.gif" height="1" width="1"></td> -->
+													  </tr>
+													  <tr>
+													    <td colspan="2"><img src="transp.gif" height="1" width="1"></td>
+													  </tr>
+													  <tr>
+													    <td colspan="2"><a href="#top" class="regulartextBOLDBlue">Back to top </a></td>
+													  </tr>
+													  <tr>
+													    <td colspan="2"><img src="transp.gif" height="1" width="1"></td>
+													  </tr>
+													  <tr>
+													    <td colspan="2" class="regulartextBOLDWhite" bgcolor="#2250a2">Remarkable Churches and Palaces      </td>
+													  </tr>
+													  <tr>
+													    <td class="regulartext" bgcolor="#e2f0f1" valign="top"><span class="regulartextBOLD">Sé Patriarcal</span> (Cathedral)  <br>
+													    Build in 1150, blends today a variety of succeeding architectural styles.  <br>
+													    <br>
+													      <span class="regulartextBOLD">São Vicente de Fora</span> (Alfama)  <br>
+													      St. Vincent. Italianate, rebuilt in the XVI century. <br>
+													      <br>
+														<span class="regulartextBOLD">Santa Engrácia</span> (Alfama) <br>
+														<br>
+														  <span class="regulartextBOLD">The National Pantheon</span>, with its high dome. <br>
+														  <br>
+														    <span class="regulartextBOLD">São Miguel</span> (Alfama)  <br>
+														    Built in the 17th century, and restored in the18th. <br>
+														    <br>
+														      <span class="regulartextBOLD">São Roque</span> (Bairro Alto)  <br>
+														      Featuring the most lavishly decorated chapel (baroque) and holding a remarkable Sacred Art Collection. <br></td>
+														      <td bgcolor="#e2f0f1" valign="top"><span class="regulartext"><span class="regulartextBOLD">Palácio da Ajuda</span> <br>
+														      The largest in the city, brimming with art works and curiosities. <br>
+														      <span class="regulartextBOLD"><br>
+															Palácio Marquês de Fronteira </span><br>
+															Private estate with elegant gardens with remarkable tiles. <br>
+															<br>
+															  </span><span class="regulartextBOLD">Palácio dos Condes de Óbidos</span><span class="regulartext"> <br>
+															  XVIII Palace rich in marble and fine tiles, housing the headquarters of the Portuguese Red Cross. <br>
+															  <br>
+															    </span><span class="regulartextBOLD">Palácio Nacional de Queluz</span><span class="regulartext"> <br>
+															    A “rococo” Royal Palace with beautiful gardens, just outside Lisboa.</span></td>
+															  </tr>
+															  <tr>
+															    <!--                       <td colspan="2" bgcolor="#333333"><img src="transp.gif" height="1" width="1"></td> -->
+															  </tr>
+															  <tr>
+															    <td colspan="2"><img src="transp.gif" height="1" width="1"></td>
+															  </tr>
+															  <tr>
+															    <td colspan="2"><a href="#top" class="regulartextBOLDBlue">Back to top </a></td>
+															  </tr>
+															  <tr>
+															    <td colspan="2"><img src="transp.gif" height="1" width="1"></td>
+															  </tr>
+															  <tr>
+															    <td colspan="2" class="regulartextBOLDWhite" bgcolor="#2250a2">Lisboa Card  </td>
+															  </tr>
+															  <tr>
+															    <td colspan="2" class="regulartext" bgcolor="#e2f0f1">The
+															    visiting card for Lisboa - is the easiest, most convenient and
+															    independent way to see Lisboa. Available for 1, 2 or 3 days entitles
+															    the holders to: - Free and unlimited travel on the city's tramway, bus,
+															    elevator and underground transportation networks [except for non
+															    regular services] Free entrance in most municipal and national museums
+															    and monuments. - 10 to 50 % discount in other places and services of
+															    interest to visitors. </td>
+															  </tr>
+															  <tr>
+															    <!--                       <td colspan="2" bgcolor="#333333"><img src="transp.gif" height="1" width="1"></td> -->
+															  </tr>
+															  <tr>
+															    <td colspan="2"><img src="transp.gif" height="1" width="1"></td>
+															  </tr>
+															  <tr>
+															    <td colspan="2"><a href="#top" class="regulartextBOLDBlue">Back to top </a></td>
+															  </tr>
+															  <tr>
+															    <td colspan="2"><img src="transp.gif" height="1" width="1"></td>
+															  </tr>
+
+															</tbody></table></td>
+															<td><img src="transp.gif" height="1" width="15"></td>
+														      </tr>
+														    </tbody></table></td>
+														  </tr>
+														</tbody></table></td>
+													      </tr>
+													      <tr>
+														<td bgcolor="white"><img src="transp.gif" height="4" width="15">
+														</td>
+													      </tr>
+													      <tr>
+														<td bgcolor="black"><img src="transp.gif" height="2" width="15">
+														</td>
+													      </tr>
+													    </tbody></table>
+													  </body></html>

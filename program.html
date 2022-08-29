@@ -1,0 +1,898 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+   <title>RECOMB 2010</title>
+   <script src="http://www.google.com/jsapi?key=ABQIAAAA3Mb3buLF_NHBWQzevVJV2BTOd5Vsqkfq_MPuRWBSq1vAwZeVhRQoD_OUGVfFOSCPn_UHK5J91clW1w" type="text/javascript"></script>
+   <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+   
+   <script language="javascript" src="jquery.tweet.js" type="text/javascript"></script> 
+   <script type='text/javascript'>
+
+		$(document).ready(function(){
+		
+    		$("#dim").css("height", $(document).height());
+    		
+    		$(".close").click(function(){
+    			$("#dim").fadeOut();
+    			return false;
+			});
+			
+		
+		});
+		
+		$(window).bind("resize", function(){
+		 	$("#dim").css("height", $(window).height());
+		});
+
+		$(window).load(function () {
+		var isloaded=0
+		if (document.cookie.indexOf("isloaded")==-1){
+		// run code
+		$("#dim").fadeIn();
+		document.cookie="isloaded=1"
+		return false;
+		}
+		});
+
+     
+   $(document).ready(function(){
+       $(".tweet").tweet({
+	 username: "recomb2010",
+	     join_text: "auto",
+	     avatar_size: 32,
+	     count: 2,
+	     loading_text: "loading tweets..."
+	     });
+     });
+</script> 
+
+<script type = "text/javascript" src = "jquery.cyclic-fade.js"></script>
+<script type = "text/javascript" >
+	
+
+	$(document).ready(function() {
+
+		// default behavior
+		<!-- $(".blink").cyclicFade(); -->
+		$(".blink").cyclicFade({
+			repeat: 0,
+			params: [
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:2000, opin:1.0},
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:300, opin:0.75},
+				{fadeout:100, stayout:300, opout:0, fadein:100, stayin:300, opin:1.0}
+			]
+		});
+	});
+	
+	</script>
+
+<link href="jquery.tweet.css" media="all" rel="stylesheet" type="text/css"/>
+   <link rel="stylesheet" type="text/css" href="style.css" media="all">
+   </head>
+   <body leftmargin="0" topmargin="0" bgcolor="#bbbbbb" marginheight="0" marginwidth="0">
+   <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" width="800">
+   <tbody>
+   <tr>
+   <td width="600"><a name="top" id="top"><img src="logo.jpg" usemap="#logomap" alt="RECOMB 2010 Logo" border="0" height="250" width="800"></a></td>
+   <map id="logomap" name="logomap">
+
+   <area shape="rect" 
+   coords="79,219,119,229" 
+   alt="Home"
+   href="home.html">
+   <area shape="rect" 
+   coords="139,219,197,229" 
+   alt="Program"
+   href="program.html">
+
+   <area shape="rect" 
+   coords="218,219,261,229" 
+   alt="Travel"
+   href="travel_information.html">
+   <area shape="rect" 
+   coords="280,219,332,229" 
+   alt="Authors"
+   href="authors.html">
+   <area shape="rect" 
+   coords="352,219,433,229" 
+   alt="Registration"
+   href="http://www.esviagens.com/dmc/cong/recomb2010/registration-form_GB.html">
+   <area shape="rect" 
+   coords="453,219,534,229" 
+   alt="Committees"
+   href="committees.html">
+   <area shape="rect" 
+   coords="554,219,606,229" 
+   alt="Contact"
+   href="contact.html">
+   <area shape="rect" 
+   coords="627,219,736,229" 
+   alt="Accommodation"
+   href="http://www.esviagens.com/dmc/cong/recomb2010/index.html">
+   </map>
+   </tr>
+
+
+   <!-- <div id="dim"> -->
+   <!--   <div class="msgbox"> -->
+   <!--     <a class="close" href="#" ><img src="close.jpg"/></a> -->
+   <!--     <div class="regulartext">	     -->
+   <!-- 	 <h3>Conference rescheduling notice</h3> -->
+   <!-- 	 <p>Tuesday, April 20<span class="super">th</span>, 11:59PM</p>				     -->
+   <!-- 	 <p>The date of the RECOMB-2010 conference was moved to <b>August 12-15<span class="super">th</span></b>.</p> -->
+   <!-- 	 <p>Even though Lisbon airport remains open, many people will be facing significant difficulties -->
+   <!-- 	 to travel here, because of connections in central Europe. Many more will probably -->
+   <!-- 	 decide to cancel the trip, independently of the airport situation, because of all the -->
+   <!-- 	 uncertainty this phenomenon is causing. We do firmly believe that the conditions to -->
+   <!-- 	 organize a successful RECOMB meeting are not in place.</p> -->
+   <!-- 	 <p>The organizing committees have therefore decided that the RECOMB-2010 conference -->
+   <!-- 	 will be rescheduled to the dates of August 12-15<span class="super">th</span>, in Lisbon. All the invited -->
+   <!-- 	 speakers and panelists have agreed to the change, and we expect that all attendees -->
+   <!-- 	 will be able to make the necessary changes in travel arrangements. -->
+   <!-- 	 </p> -->
+   <!-- 	 <p>Your registration fee will, off course, be valid to the changed venue. -->
+   <!-- 	 The organizing committee will take all steps to minimize the inconvenience that -->
+   <!-- 	 results from this change, including the re-booking of the hotels and other reservations -->
+   <!-- 	 you may have made with us.  As you will understand, these are difficult times, and this -->
+   <!-- 	 was a very difficult decision. -->
+   <!-- 	 </p> -->
+   <!-- 	 <p>All requests for cancellation of registration and rebooking or cancellation -->
+   <!-- 	 of the hotels should be sent directly to <a href="mailto:lisboa.congress@topatlantico.pt">lisboa.congress@topatlantico.pt</a>. -->
+   <!-- 	 </p> -->
+	 
+   <!--     </div> -->
+   <!--   </div> -->
+   <!-- </div> --><tr height="600" valign="top">
+  <?php include("./program_sidebar.php"); ?>
+  <td height="100%" valign="top" width="100%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+    <tbody><tr>
+      <td width="100%"><table border="0" cellpadding="5" cellspacing="0">
+	<tbody><tr>
+	  <td><img src="transp.gif" height="5" width="1"></td>
+	</tr>
+	<table cellpadding="3" border="0">
+	  <tr>
+	    <td valign="top" colspan="3" class="menusubtopicheaderfont"><img src="transp.gif" border="0" height="1" width="7">Program</td>
+	  </tr>
+	  <tr>
+	    <td><img src="transp.gif" height="5" width="1"></td>
+	  </tr>
+	   <tr> 
+	     <td colspan="3" class="headerfont"><a name="saturday">Wednesday, August 11, 2010</a></td>
+	   </tr>
+	   <tr> 
+	     <td><img src="transp.gif" height="5" width="1"></td> 
+	   </tr> 
+	   <tr> 
+	     <td width="10%" valign="top">17:00-19:00</td> 
+	     <td width="50%" valign="top"><b>Registration</b></td> 
+	     <td nowrap valign="top"><span class="location">Reception desks - Floor 0</span></td> 
+	   </tr> 
+	   <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 
+	  <tr> 
+	    <td colspan="3" class="headerfont"><a name="thursday">Thursday, August 12, 2010</a></td>
+	  </tr>
+	   <tr> 
+	     <td><img src="transp.gif" height="5" width="1"></td> 
+	   </tr> 
+	   <tr> 
+	     <td width="10%" valign="top">8:00-18:00</td> 
+	     <td width="50%" valign="top"><b>Registration</b></td> 
+	     <td valign="top"><span class="location">Reception desks - Floor 0</span></td> 
+	   </tr> 
+	   <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+	  <tr>
+	    <td width="30%" valign="top">8:45-9:00</td>
+	    <td valign="top"><b>Conference Welcome</b></td>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">9:00-10:40</td>
+	    <td><b>Session Chair:</b> <em>Simon Kasif</em><br/>
+	    </td>
+	  </tr>	  
+	  <tr>
+	    <td width="30%" valign="top">9:00-10:00</td>
+	    <td><a href="keynote#isaac_kohane"><b>KEYNOTE:</b> Isaac Kohane<br/>
+	    <em>Preventing the incidentalome and personalizing medicine through instrumentation of the healthcare enterprise</em>
+	    </a></td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">10:00-10:20</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>HLA type inference via haplotypes identical by descent</em><br/>
+	    Manu Setty, Alexander Gusev and Itsik Pe'er</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">10:20-10:40</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>The Clark Phase-able Sample Size Problem: Long-range Phasing and Loss of Heterozygosity in GWAS</em><br/>
+	    Bjarni Halldorsson, Derek Aguiar, Ryan Tarpine and Sorin Istrail
+	    </td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+	  <tr>
+	    <td width="30%" valign="top">10:40-11:00</td>
+	    <td valign="top"><b>Break</b></td>
+	    <td valign="top"><span class="location">Main Hall - Floor 1</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+	  <tr>
+	    <td width="30%" valign="top">11:00-12:00</td>
+	    <td valign="top"><b>Session Chair:</b> <em> Roded Sharan</em><br/>
+	    </td>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	  </tr>	  
+	  <tr>
+	    <td width="30%" valign="top">11:00-11:20</td>
+	    <td><b>Highlights Presentation</b><br/>
+	    <em>Deciphering the Swine-flu pandemics of 1918 and 2009</em><br/>
+	    <u>Richard Goldstein</u>, Mario dos Reis, Asif Tamuri and Alan Hay
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">11:20-11:40</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Admixture Aberration Analysis: Application to mapping in admixed population using pooled DNA</em><br/>
+	    Sivan Bercovici and Dan Geiger</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">11:40-12:00</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Subnetwork State Functions Define Dysregulated Subnetworks in Cancer</em><br/>
+	    Salim A. Chowdhury, Rod K. Nibbe, Mark R. Chance and Mehmet Koyuturk</td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+	  <tr>
+	    <td width="30%" valign="top">12:00-13:30</td>
+	    <td valign="top"><b>Lunch</b></td>
+	    <td valign="top"><span class="location">Espaço Tejo Restaurant</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+	  <tr>
+	    <td width="30%" valign="top">13:30-15:30</td>
+	    <td valign="top"><b>Session Chair:</b> <em> Sorin Istrail</em><br/>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	    </td>
+	  </tr>	  
+	  <tr>
+	    <td width="30%" valign="top">13:30-14:30</td>
+	    <td><a href="keynote#mona_singh"><b>KEYNOTE:</b> Mona Singh<br/>
+	    <em>Towards the dynamic interactome</em></a></td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">14:30-14:50</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>An Algorithmic Framework for Predicting Side-Effects of Drugs</em><br/>
+	    Nir Atias and Roded Sharan
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">14:50-15:10</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Algorithms for Detecting Significantly Mutated Pathways in Cancer</em><br/>
+	    Fabio Vandin, Eli Upfal and Benjamin Raphael</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">15:10-15:30</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Extracting between-pathway models from E-MAP interactions using expected graph compression</em><br/>
+	    David Kelley and Carl Kingsford
+	    </td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+	  <tr>
+	    <td width="30%" valign="top">15:30-15:50</td>
+	    <td valign="top"><b>Break</b></td>
+	    <td valign="top"><span class="location">Main Hall - Floor 1</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+	  <tr>
+	    <td width="30%" valign="top">15:50-18:30</td>
+	    <td valign="top"><b>Session Chair:</b> <em> Serafim Batzoglou</em><br/>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	    </td>
+	  </tr>	  
+	  <tr>
+	    <td width="30%" valign="top">15:50-16:10</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Incremental Signaling Pathway Modeling by Data Integration</em><br/>
+	    Geoffrey Koh, David Hsu and P. S. Thiagarajan</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">16:10-16:30</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Simultaneous Identification of Causal Genes and Dys-regulated Pathways in Complex Diseases</em><br/>
+	    Yoo-Ah Kim, Stefan Wuchty and Teresa Przytycka</td>
+	  </tr>
+	  <tr id="special_panel_genomics">
+	    <td width="30%" valign="top">16:35-18:30</td>
+	    <td><b>SPECIAL PANEL</b><br/>
+	    <em>Genomics in Medicine</em> (Isaac Kohane - Moderator)<br/>
+	    Confirmed participants: Chris Bakal, Simon Kasif, David Gifford, Doron Lancet, Klaus Lindpainter and Eitan Rubin</td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+	  <tr>
+	    <td width="30%" valign="top">18:30-20:00</td>
+	    <td valign="top"><b>Reception</b></td>
+	    <td valign="top"><span class="location">Main Hall - Floor 1</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+	  <tr>
+	    <td width="30%" valign="top">19:00-20:30</td>
+	    <td valign="top"><b><a href="accepted_posters#sessionA">Poster Session A</a></b></td>
+	    <td nowrap valign="top"><span class="location">Poster Area - Floors 0 and 1</span></td> 
+	  </tr>
+	    <td><img src="transp.gif" height="5" width="1"></td>
+	  </tr>
+	  <tr>
+	    <td><a href="#top" class="regulartextBOLDBlue">Top</a></td>
+	  </tr>	  
+	  <tr>
+	    <td colspan="3"><HR/></td>
+	  </tr>
+	  <tr> 
+	    <td colspan="3" class="headerfont"><a name="friday">Friday, August 13, 2010</a></td>
+	  </tr>
+	  <tr>
+	    <td><img src="transp.gif" height="5" width="1"></td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">9:00-10:00</td>
+	    <td valign="top"><b>Session Chair:</b> <em>Michael Brudno</em><br/>
+	    </td>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	  </tr>	  
+	  <tr>
+	    <td width="30%" valign="top">9:00-9:20</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Gapped Spectral Dictionaries and Their Applications for Databases Searches of Tandem Mass Spectra</em><br/>
+	    Kyowon Jeong, Sangtae Kim, Nuno Bandeira and Pavel Pevzner</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">9:20-9:40</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Proteome Coverage Prediction for Integrated Proteomics Datasets</em><br/>
+	    Manfred Claassen, Ruedi Aebersold and Joachim M. Buhmann</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">9:40-10:00</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Hierarchical Generative Biclustering for MicroRNA Expression Analysis</em><br/>
+	    José Caldas and Samuel Kaski</td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+	  <tr>
+	    <td width="30%" valign="top">10:00-10:20</td>
+	    <td valign="top"><b>Break</b></td>
+	    <td valign="top"><span class="location">Main Hall - Floor 1</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+	  <tr>
+	    <td width="30%" valign="top">10:20-12:00</td>
+	    <td valign="top"><b>Session Chair:</b> <em> Martin Vingron</em><br/>	    
+	    </td>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	  </tr>	  
+	  <tr>
+	    <td width="30%" valign="top">10:20-11:20</td>
+	    <td><a href="keynote#david_bartel"><b>KEYNOTE:</b> David Bartel<br/>
+	    <em>MicroRNAs and other small regulatory RNAs</em></a></td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">11:20-11:40</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Discovering Regulatory Overlapping RNA Transcripts</em><br/>
+	    Timothy Danford, Robin Dowell and David Gifford
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">11:40-12:00</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Time and space efficient RNA-RNA interaction prediction via sparse folding</em><br/>
+	    Raheleh Salari, Mathias Mohl, Sebastian Will, S. Cenk Sahinalp and Rolf Backofen</td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">12:00-13:30</td>
+	    <td valign="top"><b>Lunch</b></td>
+	    <td valign="top"><span class="location">Espaço Tejo Restaurant</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">13:30-15:30</td>
+	    <td valign="top"><b>Session Chair:</b> <em>David Gifford</em><br/>
+	    </td>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	  </tr>	  
+	  <tr>
+	    <td width="30%" valign="top">13:30-14:30</td>
+	    <td><a href="keynote#nortbert_perrimon"><b>KEYNOTE:</b> Norbert Perrimon<br/>
+	    <em>Global analyses of signal transduction pathways</em></a></td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">14:30-14:50</td>
+	    <td><b>Highlights Presentation</b><br/>
+	    <em>Allegro: Analyzing expression and sequence in concert to discover regulatory programs</em><br/>
+	    <u>Ron Shamir</u>, Yonit Halperin, Chaim Linhart and Igor Ulitsky
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">14:50-15:10</td>
+	    <td><b>Highlights Presentation</b><br/>
+	    <em>A Self-Regulatory System of Interlinked Signaling Feedback Loops Controls Mouse Limb Patterning</em><br/>
+	    <u>Felix Naef</u>, Rolf Zeller, Jean-Denis Benazet and Mirko Bischofberger
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">15:10-15:30</td>
+	    <td><b>Highlights Presentation</b><br/>
+	    <em>Automated High-Dimensional Flow Cytometric Data Analysis</em><br/>
+	    Saumyadipta Pyne, Xinli Hu, Kui Wang, Elizabeth Rossin, Tsung-I Lin, Lisa Maier, Clare Baecher-Allan, <u>Geoffrey McLachlan</u>, Pablo Tamayo, David Hafler, Philip De Jager and Jill Mesirov
+	    </td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">15:30-15:50</td>
+	    <td valign="top"><b>Break</b></td>
+	    <td valign="top"><span class="location">Main Hall - Floor 1</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">15:50-18:00</td>
+	    <td valign="top"><b>Session Chair:</b> <em> Bonnie Berger</em><br/>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	    </td>
+	  </tr>	  
+	  <tr>
+	    <td width="30%" valign="top">15:50-16:10</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Predicting nucleosome positioning using multiple evidence tracks</em><br/>
+	    Sheila Reynolds, Zhiping Weng, Jeff Bilmes and William Stafford Noble
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">16:10-16:30</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>SubMAP: Aligning metabolic pathways with subnetwork mappings</em><br/>
+	    Ferhat Ay and Tamer Kahveci
+	    </td>
+	  </tr>
+	  <tr id="special_panel_regulatory">
+	    <td width="30%" valign="top">16:35-18:00</td>
+	    <td><b>SPECIAL PANEL</b><br/>
+	    <em>Regulatory RNAs</em>  (David Bartel - Moderator)<br/>
+	    Confirmed Participants: Cecília Arraiano, Jan Gorodkin, Philipp Kapranov and Norbert Perrimon</td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">18:00-19:00</td>
+	    <td valign="top"><b>Business Meeting</b></td>
+	    <td valign="top"><span class="location">Room 1 - Floor 0</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">18:30-20:00</td>
+	    <td valign="top"><b><a href="accepted_posters#sessionB">Poster Session B</a></b></td>
+	    <td nowrap valign="top"><span class="location">Poster Area - Floors 0 and 1</span></td> 
+	  </tr>
+	  <tr>
+	    <td><img src="transp.gif" height="5" width="1"></td>
+	  </tr>
+	  <tr>
+	    <td><a href="#top" class="regulartextBOLDBlue">Top</a></td>
+	  </tr>	  
+	  <tr>
+	    <td colspan="3"><HR/></td>
+	  </tr>
+	  <tr> 
+	    <td colspan="3" class="headerfont"><a name="saturday">Saturday, August 14, 2010</a></td>
+	  </tr>
+	  <tr>
+	    <td><img src="transp.gif" height="5" width="1"></td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">9:00-10:40</td>
+	    <td valign="top"><b>Session Chair:</b> <em> Michal Linial</em><br/>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">9:00-10:00</td>
+	    <td><a href="keynote#phil_kapranov"><b>KEYNOTE:</b> Philipp Kapranov<br/>
+	    <em>Direct sequencing of DNA and RNA using Helicos Single Molecule Sequencing to unravel biological questions</em></a></td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">10:00-10:20</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>naiveBayesCall: An efficient model-based base-calling algorithm for high-throughput sequencing</em><br/>
+	    Wei-Chun Kao and Yun S. Song</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">10:20-10:40</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Poisson Margin Test for Normalisation Free Significance Analysis of NGS Data</em><br/>
+	    Adam Kowalczyk, Justin Bedo, Thomas Conway and Bryan Beresford-Smith</td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">10:40-11:00</td>
+	    <td valign="top"><b>Break</b></td>
+	    <td valign="top"><span class="location">Main Hall - Floor 1</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">11:00-12:00</td>
+	    <td valign="top"><b>Session Chair:</b> <em> Vineet Bafna</em><br/>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">11:00-11:20</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>A novel abundance-based algorithm for binning metagenomic sequences using l-tuples</em><br/>
+	    Yu-Wei Wu and Yuzhen Ye</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">11:20-11:40</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Genovo: De Novo Assembly For Metagenomics</em><br/>
+	    Jonathan Laserson, Vladimir Jojic and Daphne Koller</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">11:40-12:00</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Pathway-Based Functional Analysis of Metagenomes</em><br/>
+	    Sivan Bercovici, Itai Sharon, Ron Pinter and Tomer Shlomi</td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">12:00-13:30</td>
+	    <td valign="top"><b>Lunch</b></td>
+	    <td valign="top"><span class="location">Espaço Tejo Restaurant</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">13:30-15:30</td>
+	    <td valign="top"><b>Session Chair:</b> <em> Russell Schwartz</em><br/>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">13:30-13:50</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Accurate estimation of expression levels of homologous genes in RNA-seq experiments</em><br/>
+	    Bogdan Pasaniuc, Noah Zaitlen and Eran Halperin
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">13:50-14:10</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Inference of Isoforms from Short Sequence Reads</em><br/>
+	    Jianxing Feng, Wei Li and Tao Jiang
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">14:10-14:30</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>IDBA - A Practical Iterative de Bruijn Graph De Novo Assembler</em><br/>
+	    Yu Peng, Henry C.M. Leung, SM Yiu and Francis Chin</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">14:30-14:50</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Seed design framework for mapping AB SOLiD reads</em><br/>
+	    Laurent Noé, Marta Gîrdea and Gregory Kucherov</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">14:50-15:10</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Compressing genomic sequence fragments using SlimGene</em><br/>
+	    Christos Kozanitis, Chris Saunders, Semyon Kruglyak, Vineet Bafna and George Varghese</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">15:10-15:30</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>MoGUL: Detecting Common Insertions and Deletions in a Population</em><br/>
+	    Seunghak Lee, Eric Xing and Michael Brudno
+	    </td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">15:30-15:50</td>
+	    <td valign="top"><b>Break</b></td>
+	    <td valign="top"><span class="location">Main Hall - Floor 1</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">15:50-16:50</td>
+	    <td valign="top"><b>Session Chairs:</b> <em> Arlindo Oliveira</em> and <em>Jadwiga Bienkowska</em><br/>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	    </td>
+	  </tr>
+	  <tr id="selected_poster_presentations">
+	    <td width="30%" valign="top">15:50-16:50</td>
+	    <td><b>Selected Poster Presentations</b><br/>
+	    <em>Prioritizing Candidate Genes by Network Analysis of
+Differential Expression using Machine Learning Approaches</em><br/>
+	    Daniela Nitsch, Joana P. Gonçalves, Fabian Ojeda and Yves
+Moreau<br/><br/>
+<em>Autoimmune Disease Classification by
+Inverse Association with SNP Alleles</em><br/>
+Marina Sirota, Marc A. Schaub, Serafim Batzoglou, William H.
+Robinson and Atul J. Butte<br/><br/>
+<em>Gene regulation re-wired upon DNA damage</em><br/>
+Ewa Szczurek, Florian Markowetz, Irit Gat-Viks, Przemyslaw Biecek, Jerzy Tiuryn and Martin Vingron<br/><br/>
+<em>Evidence for Widespread microRNA Targeting in Drosophila Coding Regions</em><br/>
+Michael Schnall-levin, Yong Zhao, Norbert Perrimon and Bonnie Berger<br/><br/>
+<em>CRAVELA: a framework to identify and evaluate miRNA regulatory modules</em><br/>
+Nuno Mendes, Ana Freitas, Ana Vasconcelos, Marie-France Sagot<br/><br/>
+<em>Mutational pathways to reverse transcriptase inhibitor resistance in HIV</em><br/>
+Glenn Lawyer, Andre Altmann, Alexander Thielen and Thomas Lengauer<br/><br/>
+	    </td>
+
+	    </td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">16:50-17:00</td>
+	    <td><b>Leave for Activities and Banquet (Oceanarium)</b></td>
+	  </tr>
+	  <tr>
+	    <td><img src="transp.gif" height="5" width="1"></td>
+	  </tr>
+	  <tr>
+	    <td><a href="#top" class="regulartextBOLDBlue">Top</a></td>
+	  </tr>	  
+	  <tr>
+	    <td colspan="3"><HR/></td>
+	  </tr>
+	  <tr> 
+	    <td colspan="3" class="headerfont"><a name="sunday">Sunday, August 15, 2010</a></td>
+	  </tr>
+	  <tr>
+	    <td><img src="transp.gif" height="5" width="1"></td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">9:00-10:40</td>
+	    <td valign="top"><b>Session Chair:</b> <em> Ana Teresa Freitas</em><br/>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">9:00-10:00</td>	    
+	    <td><a href="keynote#cecilia_arraiano"><b>KEYNOTE:</b> Cecília Arraiano<br/>
+	    <em>Post-transcriptional control of gene expression: RNA dictates the rules!</em></a></td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">10:00-10:20</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>On the Genealogy of Asexual Diploids</em><br/>
+	    Fumei Lam, Charles H. Langley and Yun S. Song
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">10:20-10:40</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Generalized Buneman pruning for inferring the most parsimonious multi-state phylogeny</em><br/>
+	    Navodit Misra, Guy Blelloch, R Ravi and Russell Schwartz</td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">10:40-11:00</td>
+	    <td valign="top"><b>Break</b></td>
+	    <td valign="top"><span class="location">Main Hall - Floor 1</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">11:00-12:00</td>
+	    <td valign="top"><b>Session Chair:</b> <em> Cenk Sahinalp</em><br/>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">11:00-11:20</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Alignment-Free Phylogenetic Reconstruction</em><br/>
+	    Constantinos Daskalakis and Sebastien Roch
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">11:20-11:40</td>
+	    <td><b>Highlights Presentation</b><br/>
+	    <em>Genomic DNA k-mer spectra: Models and modalities</em><br/>
+	    <u>Benny Chor</u>, David Horn, Yaron Levy, Nick Goldman and Tim Massingham
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">11:40-12:00</td>
+	    <td><b>Highlights Presentation</b><br/>
+	    <em>Distinguishing direct versus indirect transcription factor-DNA interactions</em><br/>
+	    <u>Raluca Gordan</u>, Alexander Hartemink and Martha Bulyk
+	    </td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">12:00-13:30</td>
+	    <td valign="top"><b>Lunch</b></td>
+	    <td valign="top"><span class="location">Free choice</span><a href="venue#restaurants"> (click for some suggestions)</a></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">13:30-14:30</td>
+	    <td valign="top"><b>Session Chair:</b> <em> Teresa Przytycka</em><br/>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">13:30-13:50</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>A new algorithm for improving the resolution of cryo-EM density maps</em><br/>
+	    Michael Hirsch, Bernhard Schoelkopf and Michael Habeck</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">13:50-14:10</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Towards Automated Structure-based NMR Assignment</em><br/>
+	    Richard Jang, Xin Gao and Ming Li
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">14:10-14:30</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>A Markov Random Field Framework for Protein Side-Chain Resonance Assignment</em><br/>
+	    Jianyang Zeng, Pei Zhou and Bruce Donald</td>
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">14:30-14:50</td>
+	    <td valign="top"><b>Break</b></td>
+	    <td valign="top"><span class="location">Main Hall - Floor 1</span></td> 
+	  </tr>
+	  <tr> 
+	     <td colspan="3"><HR/></td> 
+	   </tr> 	   
+
+	  <tr>
+	    <td width="30%" valign="top">14:50-16:20</td>
+	    <td valign="top"><b>Session Chairs:</b> <em> Serafim Batzoglou</em> and <em>Sorin Istrail</em><br/>
+	    <td valign="top"><span class="location">Auditorium I - Floor 0</span></td> 
+	    </td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">14:50-15:10</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Cactus Graphs for Genome Comparisons</em><br/>
+	    Benedict Paten, Mark Diekhans, Jian Ma, Bernard Suh and David Haussler</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">15:10-15:30</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Leveraging Sequence Classification by Taxonomy-based Multitask Learning</em><br/>
+	    Christian Widmer, Jose Miguel Leiva-Murillo, Yasemin Altun and Gunnar Rätsch</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">15:30-15:50</td>
+	    <td><b>Paper Presentation</b><br/>
+	    <em>Dense Subgraphs with Restrictions and Applications to Gene Annotation Graphs</em><br/>
+	    Barna Saha, Allison Hoch, Samir Khuller, Louiqa Raschid and Xiao-Ning Zhang</td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">15:50-16:20</td>
+	    <td><b>Awards Ceremony</b></td>
+	  </tr>
+	  <tr>
+	    <td width="30%" valign="top">16:20</td>
+	    <td><b>Conference Adjourns</b></td>
+	  </tr>
+	  <tr>
+	    <td><img src="transp.gif" height="5" width="1"></td>
+	  </tr>
+	  <tr>
+	    <td><a href="#top" class="regulartextBOLDBlue">Top</a></td>
+	  </tr>	  
+
+	</table>
+	<HR/>
+	<p>Sponsor:</p>
+	   <p><a href="http://bc.igc.gulbenkian.pt/collaboratorium/" target="_top"><img src="flad.gif" border="0" width="300"></a></p>
+
+
+	
+      </tbody></table></td>
+      <td><img src="transp.gif" height="1" width="15"></td>
+    </tr>
+  </tbody></table></td>
+</tr>
+</tbody></table></td>
+</tr>
+<tr>
+  <td bgcolor="white"><img src="transp.gif" height="4" width="15">
+  </td>
+</tr>
+<tr>
+  <td bgcolor="black"><img src="transp.gif" height="2" width="15">
+  </td>
+</tr>
+</tbody></table>
+</body></html>
